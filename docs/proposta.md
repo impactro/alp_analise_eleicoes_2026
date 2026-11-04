@@ -71,6 +71,24 @@ CTA final: experimentar uma pergunta, abrir as fontes e propor uma reprodução.
 Mentoria pode ser citada como caminho para aprender a aplicar o método ao
 próprio trabalho, sem preço ou oferta no roteiro inicial.
 
+### Fechamento dirigido por Fábio — 04/11/2026
+
+Depois dos resultados, apresentar um prompt curto para reproduzir a análise e
+o endereço `github.com/impactro/alp_analise_eleicoes_2026`. O
+[prompt integral](prompt-reproducao.md) fica disponível no repositório e é
+referenciado na descrição. Depois, agradecer Gabriel Carvalho pela ideia,
+estudo e narrativa, com pequenas cenas creditadas do vídeo original. O plano
+do roteiro propõe três excertos de cerca de dois segundos; os cortes reais
+dependem da inspeção do material na produção.
+
+Encerrar com a direção autoral: “Juntos, com inteligência natural, podemos
+vencer a burrice artificial implantada na humanidade. Porque só o conhecimento
+liberta. Compartilhe e siga para muito mais!”
+
+Meta ajustada do roteiro estrutural: cerca de 8min35s, sujeita à narração
+medida e ao teto de nove minutos. Créditos e links aparecem com tempo de leitura;
+nenhum trecho ou áudio foi renderizado por esta atualização editorial.
+
 Referências editoriais, reutilizadas por pedido explícito de Fábio:
 
 - Conhecimento-Liberta, `2026-10-07-A-panorama-pergunte-ai`: ponte entre dados

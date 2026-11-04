@@ -25,6 +25,8 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
   diretamente do ZIP oficial, sem depender do código ou banco do autor do vídeo.
 - [Roteiro preliminar](docs/roteiro-preliminar.md), ainda sem conclusão sobre
   as hipóteses pendentes.
+- [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
+  encerramento junto do endereço do GitHub.
 
 ## Reproduzir o primeiro controle
 

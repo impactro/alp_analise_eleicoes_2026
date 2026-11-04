@@ -2,7 +2,7 @@
 
 Estado: estrutura editorial para revisão, não pacote pronto para TTS/render.
 Canal: Crania-ia. Extra solicitado em 04/11/2026, fora da agenda regular.
-Meta: aproximadamente 8min; duração real ainda não medida. Créditos ao vídeo e
+Meta: aproximadamente 8min35s; duração real ainda não medida. Créditos ao vídeo e
 projeto de Gabriel Carvalho no início da descrição e na referência visual.
 
 ## 1. A pergunta — CrânIA, 0:00–0:35
@@ -83,14 +83,61 @@ supervisão humana continuam fazendo parte do trabalho.
 **Visual:** demonstração real e sanitizada do Pergunte Aí; usar gravação/captura
 somente após consulta de teste concluída. Sem resposta fictícia ou promessa comercial.
 
-## 8. Resultado e desafio — CrânIA, 6:50–8:10
+## 8. Resultado e desafio — CrânIA, 6:50–7:20
 
 **Entrega prevista:** resumir três resultados reais, cada um com seu limite.
 Escolher título definitivo e conclusão somente depois da revisão analítica.
 
-**Fechamento proposto:** Você não precisa confiar na personagem para conferir
+**Fala proposta:** Você não precisa confiar na personagem para conferir
 uma soma. A fonte, o programa e a explicação estão abertos. Escolha uma das
 contas, tente reproduzir e conte o que encontrou. Se houver erro, a correção
 também fica registrada. Esse é o compromisso desta série: a conta está aberta.
 
-**Visual:** URL real do repositório, revisão usada no vídeo e link do Pergunte Aí.
+**Visual:** os três resultados revisados, com seus limites e referência ao commit
+usado no vídeo. O endereço completo será apresentado no bloco seguinte.
+
+## 9. Faça a mesma análise — AIstein, 7:20–7:55
+
+**Fala proposta:** Quer fazer a mesma análise? Peça à sua inteligência artificial:
+“Reproduza esta análise eleitoral com fontes oficiais, Python e cálculos
+independentes. Mostre o que confere, o que diverge e o que os dados não permitem
+concluir.” O prompt completo, as fontes e os programas estão no GitHub da CrânIA,
+no projeto alp análise eleições dois mil e vinte e seis. O link está na descrição.
+Você também pode estudar as perguntas no Pergunte Aí.
+
+**Texto de tela:**
+
+> Reproduza a análise com fontes oficiais e Python.
+> Confira versões, filtros, unidades e denominadores.
+> Separe cálculo, hipótese e conclusão.
+> Publique método e código; mantenha brutos fora do Git.
+
+**Visual:** revelar as quatro linhas por blocos, depois manter legível
+`github.com/impactro/alp_analise_eleicoes_2026`. Na descrição e no comentário
+fixado proposto, linkar também `docs/prompt-reproducao.md`. Registrar o commit
+efetivamente usado no vídeo; prompt sozinho não garante igualdade entre fontes
+de edições diferentes. Não apresentar o texto integral em fonte minúscula.
+
+## 10. Agradecimento e convite — CrânIA, 7:55–8:35
+
+**Fala aprovada como direção de Fábio em 04/11/2026:** Gabriel Carvalho,
+obrigado pela ideia, pelo estudo e pela narrativa que inspiraram esta
+investigação. Seu vídeo e seu projeto original estão na descrição. Juntos,
+com inteligência natural, podemos vencer a burrice artificial implantada na
+humanidade. Porque só o conhecimento liberta. Compartilhe e siga para muito mais!
+
+**Visual:** pequenas cenas do vídeo original durante o agradecimento,
+intercaladas com a apresentação da CrânIA. Propor três excertos de cerca de
+dois segundos cada, com áudio original silenciado sob a fala de agradecimento.
+Janelas candidatas, identificadas pela transcrição: 1:19–1:21 (reprodução da
+conta), 2:16–2:18 (referência ao relatório) e 8:04–8:06 (uso da IA e contexto).
+Confirmar conteúdo visual e cortes reais antes de materializar; esta seleção
+não afirma que os pixels desses trechos já foram inspecionados.
+
+Crédito legível enquanto o trecho aparece: “Gabriel Carvalho — vídeo original:
+Eleitores mortos votaram no 2º turno? — 30/10/2026”. Preservar a atribuição,
+o contexto e a distinção entre o estudo original e a nossa replicação. Na
+descrição: link do vídeo, canal e projeto do autor, além do repositório CrânIA
+e do Pergunte Aí. Mídia de referência permanece fora do GitHub.
+
+Último quadro: **Compartilhe e siga para muito mais.**
