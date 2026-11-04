@@ -28,19 +28,20 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
   [Programa e instruções de reprodução](docs/reproduzir-secoes.md).
 - [Resultado e limites da primeira rodada](docs/validacao-primeira-rodada.md):
   H01 (horários) e H13 (idade/comparecimento) permanecem pendentes.
-- [Roteiro do episódio](docs/roteiro-episodio.md), aprovado para narração e
-  com as pendências explicitadas; produção audiovisual em andamento.
+- [Roteiro do episódio](docs/roteiro-episodio.md), com as pendências explicitadas
+  no vídeo produzido.
 - [Proposta original do roteiro](docs/roteiro-preliminar.md), preservada como histórico.
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
 ## Vídeo desta rodada
 
-Master local produzido e aprovado: **6min28s, Full HD**, com lousas, Traço
-Robótico, prompt/GitHub e agradecimento ao estudo original.
+[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=fOl4hBpaMp0),
+disponível como **não listado**: **6min28s, Full HD**, com lousas, Traço
+Robótico, prompt/GitHub e agradecimento ao estudo original. Processamento
+concluído em 04/11/2026; capa aplicada.
 [Evidência pequena do arquivo, escopo e hashes](resultados/video.json).
-O vídeo e os arquivos brutos ficam fora deste Git; nenhuma URL de publicação
-no YouTube foi atribuída nesta execução.
+O vídeo e os arquivos brutos ficam fora deste Git.
 
 ## Reproduzir o primeiro controle
 

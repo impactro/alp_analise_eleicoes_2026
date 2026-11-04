@@ -1,7 +1,7 @@
 {
   "schema": "alp.video-evidence.v1",
   "episode": "2026-11-04-B",
-  "state": "produzido_localmente_qa_aprovado",
+  "state": "publicado_nao_listado_processamento_concluido",
   "title": "Eleitores mortos? Abrimos os dados e refizemos as contas",
   "durationSeconds": 387.6,
   "width": 1920,
@@ -24,11 +24,22 @@
     "demais_hipoteses"
   ],
   "originalReference": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
-  "youtubePublicationUrl": null,
+  "youtubePublicationUrl": "https://www.youtube.com/watch?v=fOl4hBpaMp0",
+  "youtubeVideoId": "fOl4hBpaMp0",
+  "youtubePrivacy": "unlisted",
+  "youtubeUploadStatus": "processed",
+  "youtubeProcessingStatus": "succeeded",
+  "youtubeStatusObservedAt": "2026-11-04T20:12:12Z",
+  "thumbnailApplied": true,
+  "thumbnailSourceSha256": "996070773a10d1b838ec442cf4f2701f02ad520f2f6b7764118abf761144d4a9",
+  "uploadReportSha256": "ffd7b8439f6a5b3003b1f071dce3754993f154aff6bb03e40d6150bd78f20eb0",
+  "statusAttestationSha256": "2db87ef0dc7fdf6b30037f297e473bcc2805fc140c05043c2f80e6aabb8c63fd",
+  "platformQa": "approved",
+  "platformQaReportSha256": "0558f8c5c3d00d5bc9ca83479122c347ba1652a558b9968d25c5c7f539e11b2e",
   "rawDataCommitted": false,
   "mediaCommitted": false,
   "notes": [
-    "O hash é do arquivo master local, não de uma futura transcodificação do YouTube.",
+    "O hash do master corresponde ao arquivo enviado, não à transcodificação do YouTube.",
     "Esta primeira rodada não identifica pessoas falecidas nem valida integralmente as 24 hipóteses.",
     "Código, método, fontes e pequenos resultados estão abertos; vídeo, áudio e arquivos brutos permanecem fora do Git."
   ]
