@@ -28,8 +28,9 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
   [Programa e instruções de reprodução](docs/reproduzir-secoes.md).
 - [Resultado e limites da primeira rodada](docs/validacao-primeira-rodada.md):
   H01 (horários) e H13 (idade/comparecimento) permanecem pendentes.
-- [Roteiro preliminar](docs/roteiro-preliminar.md), ainda sem conclusão sobre
-  as hipóteses pendentes.
+- [Roteiro do episódio](docs/roteiro-episodio.md), aprovado para narração e
+  com as pendências explicitadas; produção audiovisual em andamento.
+- [Proposta original do roteiro](docs/roteiro-preliminar.md), preservada como histórico.
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
