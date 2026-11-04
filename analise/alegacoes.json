@@ -1,7 +1,7 @@
 {
   "schema": "alp.claims.v1",
   "updatedAt": "2026-11-04",
-  "status": "initial_extraction_not_completed_audit",
+  "status": "partial_independent_reproduction",
   "reference": {
     "video": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
     "repository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
@@ -15,9 +15,10 @@
       "reportedByReference": "52,39% de votos válidos para Flávio no recorte até 17h",
       "plannedPrimaryEvidence": "BU, detalhe por seção e fusos na data da eleição",
       "interpretationLimit": "Corte local versus Brasília; incluir exterior em recorte separado",
-      "independentStatus": "pending",
+      "independentStatus": "pending_required_bweb_source",
       "independentResult": null,
-      "firstVideoPriority": true
+      "firstVideoPriority": true,
+      "pendingReason": "Recebimento/totalização do BU no detalhe não substitui abertura/encerramento; nenhum percentual próprio calculado."
     },
     {
       "id": "H02",
@@ -81,8 +82,17 @@
       "reportedByReference": "106 seções; 14.860 votos para Lula; 29 sem branco/nulo; 141 em 2022 e 328 em 2018 no comparador",
       "plannedPrimaryEvidence": "Presidencial por seção, detalhe e locais de votação",
       "interpretationLimit": "Mesmo universo e chave; preservar perdas de pareamento",
-      "independentStatus": "pending",
-      "independentResult": null,
+      "independentStatus": "partially_reproduced_official_archives",
+      "independentResult": {
+        "resultFile": "resultados/secoes_zero_voto.json",
+        "scope": "Brasil sem exterior, presidente, segundo turno; seções instaladas, não anuladas, nominal positivo",
+        "eligibleSections": 497897,
+        "zeroFlavioSections": 106,
+        "lulaVotes": 14860,
+        "zeroBlankAndNullSections": 29,
+        "attendance": 15222,
+        "historicalComparators": "not_reproduced"
+      },
       "firstVideoPriority": true
     },
     {
@@ -147,9 +157,10 @@
       "reportedByReference": "297.977 eleitores 100+; 149.424 residentes 96+ no Censo 2022; diferença 148.553; 2.141 comparecimentos 100+ no 1º turno",
       "plannedPrimaryEvidence": "Perfil eleitoral, comparecimento por faixa etária e Censo IBGE 9514",
       "interpretationLimit": "Diferença agregada não identifica óbitos; mesma data de referência e cobertura",
-      "independentStatus": "pending",
+      "independentStatus": "pending_primary_content_retrieval",
       "independentResult": null,
-      "firstVideoPriority": true
+      "firstVideoPriority": true,
+      "pendingReason": "Recursos oficiais identificados; tentativas sem conteúdo validado por timeout/DNS; aritmética da referência não valida insumos."
     },
     {
       "id": "H14",

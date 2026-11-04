@@ -1,7 +1,8 @@
 # Prompt para reproduzir a análise
 
 Este é o prompt público apresentado no encerramento do vídeo. Estado atual:
-a investigação está em andamento; somente o controle nacional foi executado.
+a investigação está em andamento; o controle nacional e H07 foram executados.
+H01 e H13 permanecem pendentes; consulte `docs/validacao-primeira-rodada.md`.
 Reproduzir um estudo não significa aceitar antecipadamente sua conclusão.
 
 Copie o texto abaixo para uma ferramenta de IA que consiga consultar fontes
@@ -12,7 +13,8 @@ Quero reproduzir de forma independente a análise eleitoral deste projeto:
 https://github.com/impactro/alp_analise_eleicoes_2026
 
 Comece lendo README.md, docs/metodo.md, fontes/manifesto.json,
-analise/alegacoes.json e docs/estado-inicial.md. Informe o commit consultado.
+analise/alegacoes.json, docs/estado-inicial.md e
+docs/validacao-primeira-rodada.md. Informe o commit consultado.
 A referência é o vídeo https://www.youtube.com/watch?v=l5aT6mD0Hpo,
 de Gabriel Carvalho, e o projeto original creditado no manifesto.
 Considere suas afirmações como alegações a testar.
@@ -24,8 +26,9 @@ Não instale dependências nem contorne login, captcha ou restrições de acesso
 Se faltar ferramenta ou evidência, informe exatamente o que ficou pendente.
 
 Primeiro reproduza os totais nacionais com scripts/conferir_totais.py.
-Depois examine H01 (horário e fuso), H07 (seções sem voto para uma candidatura)
-e H13 (cadastro, idade e comparecimento). Documente as demais alegações
+Depois reproduza H07 com scripts/conferir_secoes.py e docs/reproduzir-secoes.md.
+Examine H01 (horário e fuso) e H13 (cadastro, idade e comparecimento), ainda
+pendentes nesta rodada. Documente as demais alegações
 separadamente; não transforme análise parcial em auditoria completa.
 
 Para cada alegação, registre: enunciado, timestamp, fonte/URL, data de referência,

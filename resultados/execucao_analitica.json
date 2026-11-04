@@ -1,0 +1,49 @@
+{
+  "schema": "alp.analysis-execution.v1",
+  "recordedAt": "2026-11-04T12:30:48.618728+00:00",
+  "mode": "analytical_DEV_separate_from_media_execute_existing",
+  "executorRole": "DEV-python",
+  "taskStartedAt": null,
+  "taskElapsedSeconds": null,
+  "taskTimingLimit": "Início integral desta fatia não foi capturado; não reconstruído por estimativa. H07 registra relógio real por execução.",
+  "steps": [
+    {
+      "name": "H07_first_raw_archive_reproduction",
+      "elapsedSeconds": 62.405,
+      "status": "passed"
+    },
+    {
+      "name": "H07_final_raw_archive_reproduction",
+      "startedAt": "2026-11-04T12:25:07.485295+00:00",
+      "finishedAt": "2026-11-04T12:26:12.351590+00:00",
+      "elapsedSeconds": 64.861,
+      "officialTokens": null,
+      "engine": "Python stdlib csv/zipfile",
+      "device": "CPU",
+      "fallback": null,
+      "status": "passed"
+    },
+    {
+      "name": "unit_tests_final",
+      "count": 12,
+      "elapsedSeconds": 0.042,
+      "status": "passed"
+    },
+    {
+      "name": "H13_primary_retrieval",
+      "status": "failed_timeout_and_DNS",
+      "elapsedSeconds": null,
+      "validatedContentBytes": 0
+    },
+    {
+      "name": "H01_BWeb_acquisition",
+      "status": "pending_exact_resource_and_content",
+      "elapsedSeconds": null
+    }
+  ],
+  "officialTokens": null,
+  "officialCost": null,
+  "independentQA": "not_performed_by_this_DEV",
+  "rawDataPublished": false,
+  "activeALPChanged": false
+}

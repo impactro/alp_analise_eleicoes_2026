@@ -21,3 +21,9 @@ nacional de 4.430.191 votos. Demais alegações continuam pendentes.
 Código original, sem dependências externas. Testes próprios não equivalem a
 QA independente. Brutos, transcrição, relatórios alheios e estado privado não
 integram o repositório. Não houve produção audiovisual ou atualização do ALP.
+
+## 2026-11-04 — Primeira rodada independente
+
+- H07 reproduzida por programa próprio stdlib sobre os dois ZIPs oficiais fixados no manifesto:106seções,14860votosLula,29sembrancos/nulos e15222comparecimentos.
+- QA independente de código, agregados e fala do episódio:12testes aprovados, fontes/edições e limites conferidos; sem dados brutos no Git. A revisão não reexecutou os ZIPs, preserva a distinção entre revisão e execução independente.
+- H01/H13 continuam pendentes; README e prompt refletem esse alcance. Comparações históricas ainda não executadas.

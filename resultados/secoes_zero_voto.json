@@ -1,0 +1,63 @@
+{
+  "schema": "alp.zero-sections.v1",
+  "claim": "H07",
+  "status": "recomputed_from_official_archives",
+  "scope": "Brasil sem exterior, presidente, segundo turno, seções instaladas, não anuladas, nominal positivo",
+  "eligibleSections": 497897,
+  "nominalVotesReconciled": 123710622,
+  "zeroFlavioSections": 106,
+  "lulaVotesInZeroSections": 14860,
+  "zeroBlankAndNullSections": 29,
+  "attendanceInZeroSections": 15222,
+  "zeroSectionsByUF": {
+    "AC": 3,
+    "AM": 30,
+    "BA": 4,
+    "CE": 2,
+    "ES": 1,
+    "MA": 20,
+    "MG": 2,
+    "MS": 1,
+    "MT": 5,
+    "PA": 16,
+    "PB": 1,
+    "PE": 1,
+    "PI": 1,
+    "PR": 1,
+    "RO": 1,
+    "RR": 8,
+    "RS": 2,
+    "TO": 7
+  },
+  "limits": [
+    "Reprodução de agregados; não identifica eleitores nem demonstra integridade ou fraude.",
+    "Comparações históricas de 2018/2022 não foram executadas nesta rodada."
+  ],
+  "sources": {
+    "detail": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+      "member": "detalhe_votacao_secao_2026_BR.csv",
+      "sha256": "8ef9ce3a85cde260471faf7a83a9b4f5ccf3993fdda942aacaa658574344789c",
+      "archiveBytes": 234357769,
+      "generatedAtSource": "26/10/2026 09:49:06",
+      "timestampTimeZone": null
+    },
+    "votes": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+      "member": "votacao_secao_2026_BR.csv",
+      "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1",
+      "archiveBytes": 241891087,
+      "generatedAtSource": "26/10/2026 12:07:25",
+      "timestampTimeZone": null
+    }
+  },
+  "execution": {
+    "startedAt": "2026-11-04T12:25:07.485295+00:00",
+    "finishedAt": "2026-11-04T12:26:12.351590+00:00",
+    "elapsedSeconds": 64.861,
+    "officialTokens": null,
+    "engine": "Python stdlib csv/zipfile",
+    "device": "CPU",
+    "fallback": null
+  }
+}

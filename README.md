@@ -1,6 +1,6 @@
 # ALP — análise das eleições de 2026
 
-**Estado: proposta inicial e primeiro controle reproduzível. A investigação das
+**Estado: primeira rodada independente com controle nacional e H07 reproduzidos. A investigação das
 24 alegações não está concluída.**
 
 Projeto de Fábio Souza / CrânIA para conferir números eleitorais com fontes
@@ -23,6 +23,11 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 - [Método e critérios de validação](docs/metodo.md).
 - [Primeiro controle dos totais](resultados/controle_nacional.json), calculado
   diretamente do ZIP oficial, sem depender do código ou banco do autor do vídeo.
+- [Contagem de seções sem voto para Flávio](resultados/secoes_zero_voto.json):
+  106 seções, 14.860 votos para Lula e 29 sem brancos/nulos, no recorte documentado.
+  [Programa e instruções de reprodução](docs/reproduzir-secoes.md).
+- [Resultado e limites da primeira rodada](docs/validacao-primeira-rodada.md):
+  H01 (horários) e H13 (idade/comparecimento) permanecem pendentes.
 - [Roteiro preliminar](docs/roteiro-preliminar.md), ainda sem conclusão sobre
   as hipóteses pendentes.
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
@@ -64,9 +69,10 @@ Vídeos, transcrições integrais e relatórios de terceiros não são republica
 Resultados municipais ou por seção só serão adicionados no tamanho e recorte
 necessários, com metodologia, sem dados pessoais.
 
-O primeiro controle confirma uma conta nacional; não audita individualmente
-eleitores nem certifica integridade do sistema eleitoral. Os demais números
-permanecem em validação.
+O controle nacional e H07 usam edições diferentes, identificadas nos resultados;
+não combinar seus universos silenciosamente. A reprodução das contagens não
+audita individualmente eleitores nem certifica integridade do sistema eleitoral.
+Os demais números permanecem em validação.
 
 ## Relação com ALP e os vídeos
 
