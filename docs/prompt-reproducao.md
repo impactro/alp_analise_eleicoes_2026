@@ -47,8 +47,18 @@ Não infira transferência individual de voto a partir de saldos municipais.
 Não conclua fraude ou integridade eleitoral somente por coincidência estatística.
 Não some hipóteses sobrepostas nem confunda cenários com probabilidades.
 
-Entregue uma tabela: reproduzido, divergente, parcialmente testável ou pendente,
-com evidência e alcance de cada resultado. Construa gráficos com unidades,
+Entregue uma tabela das 24 afirmações, com uma proposição delimitada por linha:
+VERDADEIRO, FALSO ou NÃO É POSSÍVEL VERIFICAR. Acrescente a evidência, o recorte
+e, nos itens em aberto, o dado ou teste necessário para verificar.
+FALSO exige evidência que contradiga a mesma proposição; falta de arquivo não
+é falsidade. NÃO É POSSÍVEL VERIFICAR significa com o material desta rodada,
+sem afirmar impossibilidade permanente. Não invente casos falsos para equilibrar
+o placar. Quando uma alegação mistura várias contas, separe seus componentes.
+H07/2026 reproduzida não confirma comparadores históricos; aritmética H13
+correta não valida cadastro, óbitos ou comparecimento. Preserve também o estado
+técnico: reproduzido, divergente, parcialmente testável ou pendente.
+Use analise/grade-validacao-r4.json como mapa de apresentação, não como prova.
+Construa gráficos com unidades,
 fontes e escalas legíveis. Registre correções e lacunas, sem preencher dados inventados.
 
 Publique somente código próprio, método, fontes, hashes e pequenos resultados

@@ -1,0 +1,159 @@
+{
+  "schema": "alp.presentation-claims.v1",
+  "revision": "R4",
+  "status": "roteiro_aprovado_video_em_producao",
+  "episode": "2026-11-04-B",
+  "purpose": "Mapa das 24 proposições de apresentação do vídeo. Não declara 24 hipóteses amplas investigadas.",
+  "legend": {
+    "VERDADEIRO": "Proposição delimitada confirmada no resultado disponível.",
+    "FALSO": "Proposição contradita por evidência no mesmo recorte; nenhum caso demonstrado nesta rodada.",
+    "NÃO É POSSÍVEL VERIFICAR": "Dado ou teste faltante nesta rodada; não significa impossibilidade permanente."
+  },
+  "scope": "H07 limita-se às contagens de 2026. Comparações com 2018/2022 e interpretações causais continuam em aberto. A aritmética de H13 não valida suas bases ou óbitos.",
+  "items": [
+    {
+      "id": "H01",
+      "label": "Votos até as 17h",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H02",
+      "label": "Votos depois das 17h",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H03",
+      "label": "Digital do mesário",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H04",
+      "label": "Mais de 90% numa seção",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H05",
+      "label": "Lei de Benford",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H06",
+      "label": "Prazo dos boletins",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H07",
+      "label": "Zero voto em 2026",
+      "status": "VERDADEIRO",
+      "scopeNote": "Contagens 2026; histórico pendente"
+    },
+    {
+      "id": "H08",
+      "label": "Resultados repetidos",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H09",
+      "label": "Modelos de urna",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H10",
+      "label": "Contingências de urnas",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H11",
+      "label": "Boletim e total municipal",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H12",
+      "label": "Seções entre turnos",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H13",
+      "label": "Centenários e óbitos",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H14",
+      "label": "Eleitores e residentes",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H15",
+      "label": "Aviso: já votou",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H16",
+      "label": "Liberações em sequência",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H17",
+      "label": "Queda na totalização",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H18",
+      "label": "Quedas por seção",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H19",
+      "label": "Variação por estado",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H20",
+      "label": "Abstenção no Nordeste",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H21",
+      "label": "Benefícios e votação",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H22",
+      "label": "Internet e votação",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H23",
+      "label": "Saldo na Região dos Lagos",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    },
+    {
+      "id": "H24",
+      "label": "Curva da apuração",
+      "status": "NÃO É POSSÍVEL VERIFICAR",
+      "scopeNote": "Com o material desta rodada"
+    }
+  ]
+}

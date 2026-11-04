@@ -43,6 +43,12 @@ concluído em 04/11/2026; capa aplicada.
 [Evidência pequena do arquivo, escopo e hashes](resultados/video.json).
 O vídeo e os arquivos brutos ficam fora deste Git.
 
+Uma revisão está em produção: [roteiro R4](docs/roteiro-episodio-r4.md), com
+os 24 itens na abertura, status por proposição e o caminho para verificar.
+O [mapa de apresentação](analise/grade-validacao-r4.json) separa as contagens
+de 2026 confirmadas das parcelas ainda pendentes. O link acima continua
+identificando a versão já enviada; ainda não há publicação da revisão R4.
+
 ## Reproduzir o primeiro controle
 
 Requisito: Python 3.12 ou posterior; não há pacotes externos.
