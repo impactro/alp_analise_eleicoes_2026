@@ -24,10 +24,14 @@ integram o repositório. Não houve produção audiovisual ou atualização do A
 
 ## 2026-11-04 — Primeira rodada independente
 
-- H07 reproduzida por programa próprio stdlib sobre os dois ZIPs oficiais fixados no manifesto:106seções,14860votosLula,29sembrancos/nulos e15222comparecimentos.
-- QA independente de código, agregados e fala do episódio:12testes aprovados, fontes/edições e limites conferidos; sem dados brutos no Git. A revisão não reexecutou os ZIPs, preserva a distinção entre revisão e execução independente.
+- H07 reproduzida por programa próprio stdlib sobre os dois ZIPs oficiais fixados no manifesto: 106 seções, 14.860 votos para Lula, 29 sem brancos/nulos e 15.222 comparecimentos.
+- QA independente de código, agregados e fala do episódio:12 testes aprovados, fontes/edições e limites conferidos; sem dados brutos no Git. A revisão não reexecutou os ZIPs, preserva a distinção entre revisão e execução independente.
 - H01/H13 continuam pendentes; README e prompt refletem esse alcance. Comparações históricas ainda não executadas.
 
 ## 2026-11-04 — Roteiro autoral
 
-Roteiro próprio revisão2 aprovado para narração, com controle nacional/H07 e limites H01/H13. Valores grandes arredondados no bloco falado de H07; exatos preservados nas evidências. Produção audiovisual em andamento; nenhuma publicação de vídeo declarada.
+Roteiro próprio revisão 2 aprovado para narração, com controle nacional/H07 e limites H01/H13. Valores grandes arredondados no bloco falado de H07; exatos preservados nas evidências. Produção audiovisual em andamento; nenhuma publicação de vídeo declarada.
+
+## 2026-11-04 — Vídeo local concluído
+
+Master de 387,600 s em Full HD/30 fps aprovado tecnicamente e por QA visual independente. Metadados editoriais R3 preservam as 12 falas R2 e o mesmo commit analítico `5015bae`. Prompt, GitHub e agradecimento constam do encerramento. Sem mídia/brutos no Git e sem publicação de vídeo nesta execução. Evidência em resultados/video.json.

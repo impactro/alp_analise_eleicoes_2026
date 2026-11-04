@@ -1,0 +1,35 @@
+{
+  "schema": "alp.video-evidence.v1",
+  "episode": "2026-11-04-B",
+  "state": "produzido_localmente_qa_aprovado",
+  "title": "Eleitores mortos? Abrimos os dados e refizemos as contas",
+  "durationSeconds": 387.6,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "codec": "H.264",
+  "masterSourceSha256": "0793e3f33a7a5299c19dbeac30aa97e6ea1e9f1877fd2cee4d6c902f51de7626",
+  "editorialSourceSha256": "efa6026da9922cd8b76ef48ccf522525685ce3f3a4bdd0055a32c85689402343",
+  "analysisCommit": "5015bae190b14cececc9ef9445f7aeea9e7a895e",
+  "publicNarrative": "docs/roteiro-episodio.md",
+  "reproductionPrompt": "docs/prompt-reproducao.md",
+  "recomputed": [
+    "controle_nacional",
+    "H07_contagem_2026"
+  ],
+  "pending": [
+    "H01_horarios_fusos",
+    "H13_insumos_idade",
+    "comparacoes_historicas",
+    "demais_hipoteses"
+  ],
+  "originalReference": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
+  "youtubePublicationUrl": null,
+  "rawDataCommitted": false,
+  "mediaCommitted": false,
+  "notes": [
+    "O hash é do arquivo master local, não de uma futura transcodificação do YouTube.",
+    "Esta primeira rodada não identifica pessoas falecidas nem valida integralmente as 24 hipóteses.",
+    "Código, método, fontes e pequenos resultados estão abertos; vídeo, áudio e arquivos brutos permanecem fora do Git."
+  ]
+}

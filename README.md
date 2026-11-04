@@ -34,6 +34,14 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
+## Vídeo desta rodada
+
+Master local produzido e aprovado: **6min28s, Full HD**, com lousas, Traço
+Robótico, prompt/GitHub e agradecimento ao estudo original.
+[Evidência pequena do arquivo, escopo e hashes](resultados/video.json).
+O vídeo e os arquivos brutos ficam fora deste Git; nenhuma URL de publicação
+no YouTube foi atribuída nesta execução.
+
 ## Reproduzir o primeiro controle
 
 Requisito: Python 3.12 ou posterior; não há pacotes externos.
