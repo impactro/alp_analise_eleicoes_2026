@@ -1,0 +1,75 @@
+{
+  "schema": "alp.sources.v1",
+  "updatedAt": "2026-11-04",
+  "reference": {
+    "videoId": "l5aT6mD0Hpo",
+    "title": "ELEITORES MORTOS VOTARAM NO 2º TURNO?",
+    "author": "Gabriel Carvalho",
+    "publishedAt": "2026-10-30",
+    "durationSeconds": 812,
+    "url": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
+    "transcript": "Exportada do painel público do YouTube; mantida fora do Git; não é roteiro original nem transcrição auditivamente revisada"
+  },
+  "referenceRepository": {
+    "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
+    "commit": "4a12ed014cf7927df24226f900450db7fe5b1a22",
+    "use": "Atribuição e mapa de alegações. Código e arquivos de terceiros não são redistribuídos neste projeto.",
+    "license": "Não identificada na listagem raiz consultada; não presumir permissão de cópia."
+  },
+  "sources": [
+    {
+      "id": "tse-resultados-2026",
+      "authority": "TSE",
+      "catalogUrl": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip",
+      "sha256": "6d60a212fc46541fbf605da38ad1fcdd83deda030b802e70405ba6b9a01289c1",
+      "bytes": 456838339,
+      "generatedAtSource": "03/11/2026 19:31:38",
+      "timeZoneOfSourceTimestamp": null,
+      "member": "votacao_candidato_munzona_2026_BR.csv",
+      "status": "used_for_national_control",
+      "licenseLabelOnCatalog": "Creative Commons Atribuição",
+      "rawDistributed": false,
+      "notes": [
+        "Arquivo local pré-existente do ALP; não houve novo download.",
+        "O timestamp é texto da fonte; fuso não foi inferido.",
+        "Base nominal não mede comparecimento e não certifica integridade eleitoral."
+      ]
+    },
+    {
+      "id": "ibge-censo-2022",
+      "authority": "IBGE",
+      "url": "https://sidra.ibge.gov.br/tabela/9514",
+      "period": "2022",
+      "status": "planned_for_independent_age_population_reproduction",
+      "sha256": null,
+      "rawDistributed": false
+    },
+    {
+      "id": "tse-secoes",
+      "authority": "TSE",
+      "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+      "scope": "BU, detalhe e votação por seção; logs com amostra e origem próprias",
+      "status": "coverage_and_versions_to_be_verified",
+      "sha256": null,
+      "rawDistributed": false
+    },
+    {
+      "id": "tse-perfil-comparecimento",
+      "authority": "TSE",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "scope": "Perfil eleitoral e comparecimento/abstenção por idade e turno",
+      "status": "exact_resources_and_versions_to_be_verified",
+      "sha256": null,
+      "rawDistributed": false
+    }
+  ],
+  "reproducibility": {
+    "python": "3.12",
+    "dependencies": "stdlib only for first control",
+    "sameSourceAsALP": true,
+    "independentImplementation": true,
+    "independentDifferentAuthority": false
+  }
+}
+

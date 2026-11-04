@@ -1,0 +1,283 @@
+{
+  "schema": "alp.national-control.v1",
+  "status": "recomputed_from_official_archive",
+  "generatedAtSource": "03/11/2026 19:31:38",
+  "inputRows": 88088,
+  "turnsObserved": [
+    1,
+    2
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "candidates": [
+        {
+          "id": "280002551544",
+          "name": "FLAVIO BOLSONARO",
+          "scopes": {
+            "brasil": {
+              "raw": 55960603,
+              "valid": 55960603
+            },
+            "exterior": {
+              "raw": 143900,
+              "valid": 143900
+            }
+          },
+          "raw": 56104503,
+          "valid": 56104503,
+          "shareValidPercent": "47.0278"
+        },
+        {
+          "id": "280002542548",
+          "name": "LULA",
+          "scopes": {
+            "brasil": {
+              "raw": 53722151,
+              "valid": 53722151
+            },
+            "exterior": {
+              "raw": 157387,
+              "valid": 157387
+            }
+          },
+          "raw": 53879538,
+          "valid": 53879538,
+          "shareValidPercent": "45.1628"
+        },
+        {
+          "id": "280002551547",
+          "name": "ESCRITOR AUGUSTO CURY",
+          "scopes": {
+            "brasil": {
+              "raw": 3438835,
+              "valid": 3438835
+            },
+            "exterior": {
+              "raw": 9734,
+              "valid": 9734
+            }
+          },
+          "raw": 3448569,
+          "valid": 3448569,
+          "shareValidPercent": "2.8907"
+        },
+        {
+          "id": "280002540694",
+          "name": "RENAN SANTOS",
+          "scopes": {
+            "brasil": {
+              "raw": 2667307,
+              "valid": 2667307
+            },
+            "exterior": {
+              "raw": 8580,
+              "valid": 8580
+            }
+          },
+          "raw": 2675887,
+          "valid": 2675887,
+          "shareValidPercent": "2.2430"
+        },
+        {
+          "id": "280002551932",
+          "name": "RONALDO CAIADO",
+          "scopes": {
+            "brasil": {
+              "raw": 2600440,
+              "valid": 2600440
+            },
+            "exterior": {
+              "raw": 4708,
+              "valid": 4708
+            }
+          },
+          "raw": 2605148,
+          "valid": 2605148,
+          "shareValidPercent": "2.1837"
+        },
+        {
+          "id": "280002539826",
+          "name": "ZEMA",
+          "scopes": {
+            "brasil": {
+              "raw": 323159,
+              "valid": 323159
+            },
+            "exterior": {
+              "raw": 3329,
+              "valid": 3329
+            }
+          },
+          "raw": 326488,
+          "valid": 326488,
+          "shareValidPercent": "0.2737"
+        },
+        {
+          "id": "280002538811",
+          "name": "SAMARA",
+          "scopes": {
+            "brasil": {
+              "raw": 121858,
+              "valid": 121858
+            },
+            "exterior": {
+              "raw": 1053,
+              "valid": 1053
+            }
+          },
+          "raw": 122911,
+          "valid": 122911,
+          "shareValidPercent": "0.1030"
+        },
+        {
+          "id": "280002541457",
+          "name": "HERTZ DIAS",
+          "scopes": {
+            "brasil": {
+              "raw": 42730,
+              "valid": 42730
+            },
+            "exterior": {
+              "raw": 373,
+              "valid": 373
+            }
+          },
+          "raw": 43103,
+          "valid": 43103,
+          "shareValidPercent": "0.0361"
+        },
+        {
+          "id": "280002552484",
+          "name": "CLARIANA BARAO",
+          "scopes": {
+            "brasil": {
+              "raw": 39218,
+              "valid": 39218
+            },
+            "exterior": {
+              "raw": 825,
+              "valid": 825
+            }
+          },
+          "raw": 40043,
+          "valid": 40043,
+          "shareValidPercent": "0.0336"
+        },
+        {
+          "id": "280002551975",
+          "name": "EDMILSON COSTA",
+          "scopes": {
+            "brasil": {
+              "raw": 22272,
+              "valid": 22272
+            },
+            "exterior": {
+              "raw": 421,
+              "valid": 421
+            }
+          },
+          "raw": 22693,
+          "valid": 22693,
+          "shareValidPercent": "0.0190"
+        },
+        {
+          "id": "280002548139",
+          "name": "VETERINÁRIO WILSON GRASSI",
+          "scopes": {
+            "brasil": {
+              "raw": 16508,
+              "valid": 16508
+            },
+            "exterior": {
+              "raw": 373,
+              "valid": 373
+            }
+          },
+          "raw": 16881,
+          "valid": 16881,
+          "shareValidPercent": "0.0141"
+        },
+        {
+          "id": "280002552487",
+          "name": "RUI COSTA PIMENTA",
+          "scopes": {
+            "brasil": {
+              "raw": 14825,
+              "valid": 14825
+            },
+            "exterior": {
+              "raw": 199,
+              "valid": 199
+            }
+          },
+          "raw": 15024,
+          "valid": 15024,
+          "shareValidPercent": "0.0126"
+        }
+      ],
+      "validTotal": 119300788,
+      "topTwoValidDifference": 2224965,
+      "observedTerritories": {
+        "brasil": 5571,
+        "exterior": 186
+      }
+    },
+    {
+      "turn": 2,
+      "candidates": [
+        {
+          "id": "280002542548",
+          "name": "LULA",
+          "scopes": {
+            "brasil": {
+              "raw": 64056078,
+              "valid": 64056078
+            },
+            "exterior": {
+              "raw": 200154,
+              "valid": 200154
+            }
+          },
+          "raw": 64256232,
+          "valid": 64256232,
+          "shareValidPercent": "51.7852"
+        },
+        {
+          "id": "280002551544",
+          "name": "FLAVIO BOLSONARO",
+          "scopes": {
+            "brasil": {
+              "raw": 59654544,
+              "valid": 59654544
+            },
+            "exterior": {
+              "raw": 171497,
+              "valid": 171497
+            }
+          },
+          "raw": 59826041,
+          "valid": 59826041,
+          "shareValidPercent": "48.2148"
+        }
+      ],
+      "validTotal": 124082273,
+      "topTwoValidDifference": 4430191,
+      "observedTerritories": {
+        "brasil": 5571,
+        "exterior": 186
+      }
+    }
+  ],
+  "limits": [
+    "Totais nominais; não mede comparecimento, abstenção, brancos ou nulos.",
+    "Territórios observados não certificam completude da fonte.",
+    "Não identifica eleitores nem certifica integridade das urnas."
+  ],
+  "source": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip",
+    "sha256": "6d60a212fc46541fbf605da38ad1fcdd83deda030b802e70405ba6b9a01289c1",
+    "archiveBytes": 456838339,
+    "member": "votacao_candidato_munzona_2026_BR.csv"
+  }
+}

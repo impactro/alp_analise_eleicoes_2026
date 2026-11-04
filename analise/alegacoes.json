@@ -1,0 +1,277 @@
+{
+  "schema": "alp.claims.v1",
+  "updatedAt": "2026-11-04",
+  "status": "initial_extraction_not_completed_audit",
+  "reference": {
+    "video": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
+    "repository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
+    "commit": "4a12ed014cf7927df24226f900450db7fe5b1a22"
+  },
+  "claims": [
+    {
+      "id": "H01",
+      "videoTimestampSeconds": 0,
+      "topic": "Percentual obtido ao selecionar seções por encerramento",
+      "reportedByReference": "52,39% de votos válidos para Flávio no recorte até 17h",
+      "plannedPrimaryEvidence": "BU, detalhe por seção e fusos na data da eleição",
+      "interpretationLimit": "Corte local versus Brasília; incluir exterior em recorte separado",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": true
+    },
+    {
+      "id": "H02",
+      "videoTimestampSeconds": 635,
+      "topic": "Comparecimento de seções encerradas tarde e votos tardios",
+      "reportedByReference": "2.537.055 votantes nas seções; 34.424 votos após 17h no relatório revisado",
+      "plannedPrimaryEvidence": "BU e logs horários",
+      "interpretationLimit": "Votação durante todo o dia não equivale a votos lançados depois do corte",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H03",
+      "videoTimestampSeconds": 646,
+      "topic": "Liberação de votação sem digital do eleitor",
+      "reportedByReference": "8.615.564 liberações pela digital do mesário; 12,42% incluindo sem digital cadastrada",
+      "plannedPrimaryEvidence": "BU, logs e dicionário de eventos",
+      "interpretationLimit": "Cadastro biométrico não comprova uso efetivo; denominadores devem coincidir",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H04",
+      "videoTimestampSeconds": 656,
+      "topic": "Predomínio superior a noventa por cento em seções",
+      "reportedByReference": "6.802 seções para Lula e 368 para Flávio, segundo a referência",
+      "plannedPrimaryEvidence": "Votação e BU por seção, 2018/2022/2026",
+      "interpretationLimit": "Tamanho e perfil da seção; recorte Brasil versus exterior",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H05",
+      "videoTimestampSeconds": 657,
+      "topic": "Adequação da distribuição de dígitos a Benford",
+      "reportedByReference": "Sem cifra própria adicional anunciada na fala",
+      "plannedPrimaryEvidence": "Votação por seção e hipótese estatística",
+      "interpretationLimit": "Validar adequação do teste antes de interpretar desvio",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H06",
+      "videoTimestampSeconds": 658,
+      "topic": "Prazo de publicação de boletins",
+      "reportedByReference": "Alegação de 72 horas",
+      "plannedPrimaryEvidence": "Catálogo TSE, arquivos e registros contemporâneos",
+      "interpretationLimit": "Data do catálogo não é prova da primeira disponibilização do arquivo",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H07",
+      "videoTimestampSeconds": 526,
+      "topic": "Seções sem voto para uma candidatura",
+      "reportedByReference": "106 seções; 14.860 votos para Lula; 29 sem branco/nulo; 141 em 2022 e 328 em 2018 no comparador",
+      "plannedPrimaryEvidence": "Presidencial por seção, detalhe e locais de votação",
+      "interpretationLimit": "Mesmo universo e chave; preservar perdas de pareamento",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": true
+    },
+    {
+      "id": "H08",
+      "videoTimestampSeconds": 665,
+      "topic": "Repetição de resultados completos",
+      "reportedByReference": "54.304 boletins repetidos; faixa simulada 43.808–44.541 na referência",
+      "plannedPrimaryEvidence": "BU e simulação com semente/universo registrados",
+      "interpretationLimit": "Placar repetido, padrão repetido e número de seções são contagens diferentes",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H09",
+      "videoTimestampSeconds": 679,
+      "topic": "Comparação de modelos antigos e novos de urna",
+      "reportedByReference": "Quatro modelos, de 2013 a 2022",
+      "plannedPrimaryEvidence": "BU, modelo e votação por seção",
+      "interpretationLimit": "Controlar lugar, tamanho e composição do eleitorado",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H10",
+      "videoTimestampSeconds": 686,
+      "topic": "Contingências e transporte de urnas",
+      "reportedByReference": "1.996 contingências nos logs, segundo a referência",
+      "plannedPrimaryEvidence": "Logs, BU e documentos oficiais de ocorrências",
+      "interpretationLimit": "Ocorrência de transporte não demonstra alteração de voto",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H11",
+      "videoTimestampSeconds": 695,
+      "topic": "Divergência entre boletim impresso e total municipal",
+      "reportedByReference": "Referência: 303 seções de Teixeira de Freitas",
+      "plannedPrimaryEvidence": "BU identificado e apuração oficial da mesma unidade",
+      "interpretationLimit": "Comparar a mesma seção/universo; três boletins não são um município",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H12",
+      "videoTimestampSeconds": 682,
+      "topic": "Continuidade das seções entre os turnos",
+      "reportedByReference": "499.248 seções na referência nacional com exterior",
+      "plannedPrimaryEvidence": "Cadastro e detalhe por seção em ambos os turnos",
+      "interpretationLimit": "Distinguir previstas, instaladas, apuradas, agregadas e exterior",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H13",
+      "videoTimestampSeconds": 387,
+      "topic": "Idade elevada no cadastro, população e comparecimento",
+      "reportedByReference": "297.977 eleitores 100+; 149.424 residentes 96+ no Censo 2022; diferença 148.553; 2.141 comparecimentos 100+ no 1º turno",
+      "plannedPrimaryEvidence": "Perfil eleitoral, comparecimento por faixa etária e Censo IBGE 9514",
+      "interpretationLimit": "Diferença agregada não identifica óbitos; mesma data de referência e cobertura",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": true
+    },
+    {
+      "id": "H14",
+      "videoTimestampSeconds": 149,
+      "topic": "Comparecimento superior à população residente de referência",
+      "reportedByReference": "120 municípios contra 52 em 2022; 33.408 votos acima da referência; 45 vencidos por Flávio",
+      "plannedPrimaryEvidence": "Comparecimento municipal, correspondência TSE/IBGE e Censo",
+      "interpretationLimit": "Domicílio eleitoral e residência não são universos idênticos; defasagem temporal",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H15",
+      "videoTimestampSeconds": 201,
+      "topic": "Repetições do aviso de eleitor que já votou",
+      "reportedByReference": "113.315 avisos; aumento aproximado de 13% na taxa de avisos isolados da amostra",
+      "plannedPrimaryEvidence": "Logs e definição explícita de repetição/isolamento",
+      "interpretationLimit": "Eventos não são pessoas/votos distintos; amostra de seções não é censo",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H16",
+      "videoTimestampSeconds": 701,
+      "topic": "Padrão temporal de liberações manuais",
+      "reportedByReference": "Referência relata no máximo 7 liberações consecutivas no 2º turno amostrado",
+      "plannedPrimaryEvidence": "Logs de amostra com seed/universo/seleção",
+      "interpretationLimit": "Definir sequências, identificação do operador e controles antes de testar",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H17",
+      "videoTimestampSeconds": 705,
+      "topic": "Queda de total nominal e diferença entre painéis",
+      "reportedByReference": "Alegação de 165 mil; referência afirma zero quedas do total",
+      "plannedPrimaryEvidence": "Histórico oficial de totalização e capturas contemporâneas",
+      "interpretationLimit": "Percentual pode cair com total crescente; não confundir painéis de épocas diferentes",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H18",
+      "videoTimestampSeconds": 262,
+      "topic": "Quedas por seção entre primeiro e segundo turno",
+      "reportedByReference": "82.155 seções abaixo do 1º turno; 3.250 com queda grande e comparecimento estável",
+      "plannedPrimaryEvidence": "Votação e comparecimento por seção em ambos os turnos",
+      "interpretationLimit": "Definir queda grande/estável; estatística agregada não identifica troca de voto",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H19",
+      "videoTimestampSeconds": 443,
+      "topic": "Perda de votos por UF entre turnos",
+      "reportedByReference": "Flávio com queda em 6 UFs; Lula em nenhuma, segundo a referência",
+      "plannedPrimaryEvidence": "Votação municipal/UF de cada turno",
+      "interpretationLimit": "Separar saldo nominal, percentual e variação do comparecimento",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H20",
+      "videoTimestampSeconds": 451,
+      "topic": "Variação regional da abstenção",
+      "reportedByReference": "Nordeste: 18,39% para 16,49%",
+      "plannedPrimaryEvidence": "Detalhe de apuração com aptos e comparecimento",
+      "interpretationLimit": "Recalcular taxas pelos totais, não média simples de percentuais municipais",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H21",
+      "videoTimestampSeconds": 714,
+      "topic": "Relação entre benefícios sociais e votação",
+      "reportedByReference": "Não testada no vídeo/projeto de referência",
+      "plannedPrimaryEvidence": "Benefícios agregados e votação municipal",
+      "interpretationLimit": "Correlação municipal não demonstra compra de voto ou comportamento individual",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H22",
+      "videoTimestampSeconds": 714,
+      "topic": "Relação entre conectividade e votação",
+      "reportedByReference": "Não testada no vídeo/projeto de referência",
+      "plannedPrimaryEvidence": "Cobertura temporal Anatel/IBGE e votação",
+      "interpretationLimit": "Cobertura de sinal, uso e voto individual são medidas diferentes",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H23",
+      "videoTimestampSeconds": 318,
+      "topic": "Participação no saldo entre turnos em cidades específicas",
+      "reportedByReference": "Região dos Lagos: 95,1% do saldo; comparadores: 85,0%; 3.025 votos de diferença na referência",
+      "plannedPrimaryEvidence": "Votação municipal por turno e recortes pré-definidos",
+      "interpretationLimit": "Saldo líquido não rastreia transferência individual; validar escolha dos comparadores",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    },
+    {
+      "id": "H24",
+      "videoTimestampSeconds": 563,
+      "topic": "Forma da curva de percentual durante totalização",
+      "reportedByReference": "346 versões na fala; 342 acima de 1% no JSON RODADA3; 99,5% de passos na referência",
+      "plannedPrimaryEvidence": "Snapshots contemporâneos e ordem de recepção por seção",
+      "interpretationLimit": "Conciliar versões/limiar; não confundir correlação, R² e percentual de passos",
+      "independentStatus": "pending",
+      "independentResult": null,
+      "firstVideoPriority": false
+    }
+  ]
+}
+
