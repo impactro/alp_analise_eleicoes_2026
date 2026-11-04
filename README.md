@@ -81,4 +81,3 @@ web ou WhatsApp automaticamente.
 Código e textos originais deste projeto: licença MIT. Fontes externas mantêm
 suas próprias condições; abertura de um repositório não licencia automaticamente
 conteúdo de terceiros.
-

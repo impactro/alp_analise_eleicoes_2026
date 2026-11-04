@@ -126,4 +126,3 @@ mantêm suas seleções de acesso explícitas.
 
 Depois: despesas públicas, emendas, contratos e indicadores brasileiros, cada
 análise com pergunta delimitada e repositório `alp_<nome_da_analise>`.
-

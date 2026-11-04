@@ -94,4 +94,3 @@ contas, tente reproduzir e conte o que encontrou. Se houver erro, a correção
 também fica registrada. Esse é o compromisso desta série: a conta está aberta.
 
 **Visual:** URL real do repositório, revisão usada no vídeo e link do Pergunte Aí.
-

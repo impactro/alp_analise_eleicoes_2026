@@ -13,4 +13,3 @@ deve funcionar para leitores externos sem CES, ALP, login ou banco privado.
 - Não importar código de terceiros sem licença compatível e atribuição.
 - Não alterar fontes locais nem ativar dados no Pergunte Aí como efeito da análise.
 - Usar caminhos relativos e Python com biblioteca padrão sempre que possível.
-

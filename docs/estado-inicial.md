@@ -41,4 +41,3 @@ analítica independente; roteiro narrado final; assets, áudio, prévia/master e
 Não foram alterados dados, configuração ou atendimento do Pergunte Aí.
 Não foi executado código do projeto de referência nem foram baixados seus
 gigabytes de dados. Não há vídeo novo produzido ou publicado nesta rodada.
-

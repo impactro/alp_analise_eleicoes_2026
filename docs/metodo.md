@@ -78,4 +78,3 @@ ambos derivam da mesma origem, portanto isso não é confirmação por outra fon
 Publicar apenas originais próprios e pequenos resultados agregados revisados.
 Repositório acessível não concede licença para copiar código, texto ou mídia
 de terceiros. Fontes primárias continuam com suas licenças e atribuições.
-
