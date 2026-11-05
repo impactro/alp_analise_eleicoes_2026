@@ -36,6 +36,19 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 
 ## Vídeo desta rodada
 
+[Assista à versão R4 com narração e trilha](https://www.youtube.com/watch?v=BjdS7e6yZ3k),
+disponível como **não listada**: **5min08s, Full HD**.
+O [roteiro R4](docs/roteiro-episodio-r4.md) abre com os 24 itens, apresenta o
+status de cada proposição e indica o que falta para conferir.
+O [mapa de apresentação](analise/grade-validacao-r4.json) distingue as contagens
+de 2026 confirmadas das parcelas ainda pendentes.
+O prompt completo, os programas e as fontes estão na descrição do vídeo e
+neste repositório. Agradecimento ao estudo original no encerramento.
+[Evidência do arquivo e da publicação R4](resultados/video-r4.json):
+processamento concluído, capa aplicada e QA de plataforma aprovado em 05/11/2026.
+
+As versões anteriores continuam disponíveis para comparação:
+
 [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=fOl4hBpaMp0),
 disponível como **não listado**: **6min28s, Full HD**, com lousas, Traço
 Robótico, prompt/GitHub e agradecimento ao estudo original. Processamento
@@ -45,12 +58,8 @@ O vídeo e os arquivos brutos ficam fora deste Git.
 
 A [prévia visual R4, sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE)
 está disponível como **não listada** para avaliar no YouTube.
-O [roteiro R4](docs/roteiro-episodio-r4.md) traz os 24 itens na abertura,
-status por proposição e o caminho para verificar.
-O [mapa de apresentação](analise/grade-validacao-r4.json) separa as contagens
-de 2026 confirmadas das parcelas ainda pendentes.
 [Evidência da prévia e seus limites](resultados/video-r4-previa-visual.json).
-A versão R4 com narração continua em produção; o vídeo anterior é a R3.
+A R4 com narração é o link principal acima.
 
 ## Reproduzir o primeiro controle
 

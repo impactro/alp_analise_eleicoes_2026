@@ -1,10 +1,10 @@
-> Roteiro editorial R4 aprovado. A [prévia visual sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE)
-> está no YouTube como não listada. A versão audiovisual com narração continua em produção.
+> Roteiro editorial R4 aprovado. A [versão com narração e trilha](https://www.youtube.com/watch?v=BjdS7e6yZ3k)
+> está no YouTube como não listada. A [prévia visual sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE) permanece como histórico.
 
 # 24 afirmações sobre a eleição: o que dá para verificar?
 
 Episódio: 2026-11-04-B · Revisão4 · Extra fora da agenda padrão.
-Origem: revisão explícita de Fábio após assistir à versão3. Entrega local; publicação anterior preservada.
+Origem: revisão explícita de Fábio após assistir à versão3. Entrega audiovisual não listada; publicações anteriores preservadas.
 
 Abertura: 24 itens no primeiro estado, com foco legível por grupo em seguida.
 Legenda: VERDADEIRO / FALSO / NÃO É POSSÍVEL VERIFICAR. Pendência significa material/teste faltante nesta rodada, sem afirmar impossibilidade absoluta. H07: contagem2026 confere; comparadores históricos em aberto.

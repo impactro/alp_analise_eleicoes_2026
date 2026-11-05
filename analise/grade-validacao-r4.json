@@ -1,8 +1,9 @@
 {
   "schema": "alp.presentation-claims.v1",
   "revision": "R4",
-  "status": "previa_visual_publicada_versao_narrada_em_producao",
-  "reviewUrl": "https://www.youtube.com/watch?v=TU1AyhsBvWE",
+  "status": "versao_audiovisual_publicada_nao_listada",
+  "reviewUrl": "https://www.youtube.com/watch?v=BjdS7e6yZ3k",
+  "silentVisualReviewUrl": "https://www.youtube.com/watch?v=TU1AyhsBvWE",
   "episode": "2026-11-04-B",
   "purpose": "Mapa das 24 proposições de apresentação do vídeo. Não declara 24 hipóteses amplas investigadas.",
   "legend": {
