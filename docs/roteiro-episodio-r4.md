@@ -1,5 +1,5 @@
-> Roteiro editorial R4 aprovado. Produção audiovisual em andamento;
-> este arquivo não declara que a revisão já foi finalizada ou publicada.
+> Roteiro editorial R4 aprovado. A [prévia visual sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE)
+> está no YouTube como não listada. A versão audiovisual com narração continua em produção.
 
 # 24 afirmações sobre a eleição: o que dá para verificar?
 

@@ -43,11 +43,14 @@ concluído em 04/11/2026; capa aplicada.
 [Evidência pequena do arquivo, escopo e hashes](resultados/video.json).
 O vídeo e os arquivos brutos ficam fora deste Git.
 
-Uma revisão está em produção: [roteiro R4](docs/roteiro-episodio-r4.md), com
-os 24 itens na abertura, status por proposição e o caminho para verificar.
+A [prévia visual R4, sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE)
+está disponível como **não listada** para avaliar no YouTube.
+O [roteiro R4](docs/roteiro-episodio-r4.md) traz os 24 itens na abertura,
+status por proposição e o caminho para verificar.
 O [mapa de apresentação](analise/grade-validacao-r4.json) separa as contagens
-de 2026 confirmadas das parcelas ainda pendentes. O link acima continua
-identificando a versão já enviada; ainda não há publicação da revisão R4.
+de 2026 confirmadas das parcelas ainda pendentes.
+[Evidência da prévia e seus limites](resultados/video-r4-previa-visual.json).
+A versão R4 com narração continua em produção; o vídeo anterior é a R3.
 
 ## Reproduzir o primeiro controle
 
