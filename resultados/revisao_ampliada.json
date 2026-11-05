@@ -1,0 +1,122 @@
+{
+  "schema": "alp.expanded-review.v1",
+  "date": "2026-11-05",
+  "referenceCommit": "4a12ed014cf7927df24226f900450db7fe5b1a22",
+  "codeBaseline": "ddc63e5",
+  "status": "expanded_reproduction_and_script_revision_completed",
+  "primaryNumericHypotheses": [
+    "H04",
+    "H07",
+    "H08",
+    "H13",
+    "H14",
+    "H19",
+    "H20",
+    "H23"
+  ],
+  "recalculatedAuthorInputs": [
+    "H01",
+    "H02",
+    "H03",
+    "H15",
+    "H17"
+  ],
+  "partial": [
+    "H24"
+  ],
+  "pending": [
+    "H05",
+    "H06",
+    "H09",
+    "H10",
+    "H11",
+    "H12",
+    "H16",
+    "H18",
+    "H21",
+    "H22"
+  ],
+  "script": "docs/roteiro-episodio-r5.md",
+  "report": "docs/revisao-ampliada.md",
+  "futureDataHandoff": "docs/pergunte-ai-handoff.md",
+  "artifacts": [
+    {
+      "ref": "resultados/idade.json",
+      "sha256": "61f08a399fa18d34ea317302b29fd9f4cceffc5fa9290e8f960dd1839efa10d7",
+      "bytes": 5771
+    },
+    {
+      "ref": "resultados/historico_secoes.json",
+      "sha256": "fbfe29058794bba1926fabaca81a99e1f1752e47b609d75d2d8d51c6c5fbfddf",
+      "bytes": 13129
+    },
+    {
+      "ref": "resultados/municipios.json",
+      "sha256": "7581a7631299787f0e2f70dd9d0be147b3e7a1fd8271e922f355fbf625cb1811",
+      "bytes": 13543
+    },
+    {
+      "ref": "resultados/capturas.json",
+      "sha256": "74a45a2bd1482e5dbd55ad6947a5716d35d7f2d693af6c7d4f249ef7129f2080",
+      "bytes": 3741
+    },
+    {
+      "ref": "analise/grade-validacao-r5.json",
+      "sha256": "39bf60bff47c5ae86e18699ecd754b7114c9a7d17bc466713f1ff7c9a9da513f",
+      "bytes": 12454
+    },
+    {
+      "ref": "docs/roteiro-episodio-r5.md",
+      "sha256": "b703e1d7f569e28e22508dd3dbdc5d069597e5606cabd8d2dbfd10c6c5eebf16",
+      "bytes": 10047
+    },
+    {
+      "ref": "scripts/conferir_idade.py",
+      "sha256": "97b00effeeaa504866a1598edece56b7f3e2bcab2bf7e03966a82c2395e23751",
+      "bytes": 12764
+    },
+    {
+      "ref": "scripts/conferir_historico_secoes.py",
+      "sha256": "b259d3e1b585101a350880a31eb5e1a1a9fa30c14d408c280993dd3aa56d05e5",
+      "bytes": 19893
+    },
+    {
+      "ref": "scripts/conferir_municipios.py",
+      "sha256": "221370d30a9190267adb40c2d842f0f72e0ebb8d912f300d8e6d0c2ff01d862d",
+      "bytes": 13413
+    },
+    {
+      "ref": "scripts/conferir_capturas.py",
+      "sha256": "a0f51d3b5e65af3ecbd62997095693de6e2fa80e303f5313d799dc453de8019f",
+      "bytes": 7158
+    }
+  ],
+  "validation": {
+    "unitTestsPassed": 43,
+    "testCommand": "python -s -m unittest discover -s tests -v",
+    "ownership": "Tests and source/result checks by implementing DEVs; no independent QA claimed.",
+    "jsonAndEncodingChecks": "passed",
+    "reproductionRunsCompleted": true,
+    "primarySourcesFreshlyDownloaded": true,
+    "rawDataOrThirdPartyFilesCommitted": false,
+    "newMediaProduced": false,
+    "pergunteAiIngestionPerformed": false
+  },
+  "telemetry": {
+    "ageReproductionSeconds": 64.582,
+    "historyReproductionSeconds": 134.028,
+    "officialTokenBaseline": null,
+    "officialTokenFinal": null,
+    "officialTokenDelta": null,
+    "externalPaidProviderCalls": 0,
+    "externalPaidProviderUsd": 0,
+    "localComputeUsd": null
+  },
+  "corrections": [
+    "The original investigates public hypotheses; it does not assert24 anomalies as established facts.",
+    "Pending work in our first round was not evidence that the author's data were unavailable or incorrect.",
+    "Correct counts and unsupported causal conclusions must have separate status.",
+    "Retain H02 table34393 vs final narrative34424, the Araruama5-vote classification/edition residual, and unknown2018 section status."
+  ],
+  "artifactHashScope": "Canonical Git blob bytes with LF; Windows checkout line endings may differ."
+}

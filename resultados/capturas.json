@@ -1,0 +1,107 @@
+{
+  "schema": "alp.captured-source-check.v1",
+  "status": "recomputed_from_author_preserved_inputs",
+  "authorRepository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
+  "authorCommit": "4a12ed014cf7927df24226f900450db7fe5b1a22",
+  "sources": {
+    "parquet": {
+      "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/blob/4a12ed014cf7927df24226f900450db7fe5b1a22/dados/copias/t2_secoes.parquet",
+      "sha256": "6da34ba9791e1f06ab12fa5e4b7f62ea882178e2e1600e99a8e7ab3ec2fd80e4",
+      "bytes": 13035932
+    },
+    "nationalCaptures": {
+      "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/tree/4a12ed014cf7927df24226f900450db7fe5b1a22/dados/copias/noite/versoes-tse/br",
+      "files": 346,
+      "logicalNameHashSetSha256": "1ab380fc09cd5b0157420cd01d193cf07777a919f193719ffdb355c75bbbc601"
+    }
+  },
+  "capturedSectionCalculations": {
+    "counts": {
+      "rows": 499248,
+      "installedRows": 499207,
+      "brazilRows": 497897,
+      "log_votos_depois_17h": 34393,
+      "log_votos_depois_19h": 13,
+      "log_manual_mesario": 8615564,
+      "log_manual_sem_digital": 7242863,
+      "log_ja_votou": 113315,
+      "fallbackOffsetRows": 121,
+      "missing_log_votos_depois_17h": 2,
+      "missing_log_votos_depois_19h": 2,
+      "missing_log_manual_mesario": 2,
+      "missing_log_manual_sem_digital": 2,
+      "missing_log_ja_votou": 2,
+      "missingClosingRows": 29
+    },
+    "groups": {
+      "local_all_before1701": {
+        "sections": 150771,
+        "lula": 17369159,
+        "flavio": 19116798,
+        "attendance": 37630420,
+        "loggedVotesAfter17": 3453,
+        "flavioPercent": 52.39
+      },
+      "bsb_brazil_before1701": {
+        "sections": 125626,
+        "lula": 15001228,
+        "flavio": 15608230,
+        "attendance": 31599982,
+        "loggedVotesAfter17": 328,
+        "flavioPercent": 50.99
+      },
+      "bsb_brazil_from1716": {
+        "sections": 8848,
+        "lula": 1362618,
+        "flavio": 1083747,
+        "attendance": 2537055,
+        "loggedVotesAfter17": 5663,
+        "missing_loggedVotesAfter17": 1,
+        "flavioPercent": 44.3
+      }
+    },
+    "offsetMethod": "Opening-hour6/7/8 mapped to common opening08Brasilia; otherwise UF fallback. Reproduces documented author assumption, not an independent timezone audit."
+  },
+  "nationalSeries": {
+    "versions": 346,
+    "nominalDecreases": {
+      "lula": 0,
+      "flavio": 0
+    },
+    "first": {
+      "generated": "2026-10-25T17:06:31",
+      "id": 3948414,
+      "lula": 193574,
+      "flavio": 142169
+    },
+    "last": {
+      "generated": "2026-10-25T23:27:02",
+      "id": 4241309,
+      "lula": 64256232,
+      "flavio": 59826041
+    },
+    "scope": "Somente versões nacionais preservadas; não prova o que ocorreu entre capturas."
+  },
+  "publishedScenarioArithmetic": {
+    "termsSuppliedByAuthor": {
+      "H02": 34424,
+      "H13": 148553,
+      "H14": 33408,
+      "H15": 113315,
+      "H18": 49110,
+      "H23": 3025,
+      "H10": 246,
+      "H07": 118
+    },
+    "sum": 382199,
+    "nationalMargin": 4430191,
+    "percent": 8.63,
+    "level": "arithmetic_only; not validation of every input or of a global upper bound"
+  },
+  "limits": [
+    "Independent calculation code; original BU/log acquisition and transformations not independently repeated.",
+    "H02 table RESUMO and final narrative have different totals; retain versions rather than silently substituting.",
+    "Snapshot monotonicity is a count in the saved series, not a system-wide integrity proof.",
+    "Author scenario combines hypotheses and potentially overlapping categories; arithmetic is not a universal fraud bound."
+  ]
+}

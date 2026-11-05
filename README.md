@@ -1,7 +1,8 @@
 # ALP — análise das eleições de 2026
 
-**Estado: primeira rodada independente com controle nacional e H07 reproduzidos. A investigação das
-24 alegações não está concluída.**
+**Revisão ampliada de05/11/2026: oito blocos numéricos reproduzidos em fontes
+primárias, cinco recalculados nas bases preservadas pelo autor. A investigação
+causal das24 hipóteses não está concluída.**
 
 Projeto de Fábio Souza / CrânIA para conferir números eleitorais com fontes
 abertas, Python e método explícito. Cada leitor deve poder encontrar a origem,
@@ -15,6 +16,19 @@ de Gabriel Carvalho, publicado em 30/10/2026. Seu
 Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 
 ## O que já existe
+
+- [Revisão ampliada e correção de contexto](docs/revisao-ampliada.md): o original
+  testa hipóteses do público; não apresenta24 afirmações factuais do autor.
+- [Idade e comparecimento](resultados/idade.json), [histórico2018/2022/2026](resultados/historico_secoes.json)
+  e [municípios/estados/abstenção/ganho líquido](resultados/municipios.json),
+  com programas próprios e hashes de fontes primárias.
+- [Recálculos das bases/capturas preservadas](resultados/capturas.json),
+  separados da reconstrução primária e da conferência aritmética isolada.
+- [Roteiro R5 revisado](docs/roteiro-episodio-r5.md) e [matriz atualizada das24 hipóteses](analise/grade-validacao-r5.json).
+- [Como reproduzir a ampliação](docs/reproduzir-revisao-ampliada.md) e
+  [pacote para integração futura no Pergunte Aí](docs/pergunte-ai-handoff.md).
+
+As entradas abaixo preservam a construção e a primeira rodada:
 
 - [Proposta editorial e escopo](docs/proposta.md) de um vídeo extra da CrânIA,
   fora da agenda regular.
@@ -34,7 +48,10 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
-## Vídeo desta rodada
+## Vídeo anterior à revisão ampliada
+
+A R4 abaixo registra a primeira reprodução e a direção visual. A revisão
+ampliada posterior está no roteiro R5; ainda não há vídeo R5 neste registro.
 
 [Assista à versão R4 com narração e trilha](https://www.youtube.com/watch?v=BjdS7e6yZ3k),
 disponível como **não listada**: **5min08s, Full HD**.
@@ -100,7 +117,8 @@ necessários, com metodologia, sem dados pessoais.
 O controle nacional e H07 usam edições diferentes, identificadas nos resultados;
 não combinar seus universos silenciosamente. A reprodução das contagens não
 audita individualmente eleitores nem certifica integridade do sistema eleitoral.
-Os demais números permanecem em validação.
+Os novos resultados e os limites atuais estão na revisão ampliada; a primeira
+rodada e os vídeos anteriores não são sobrescritos como se já os incluíssem.
 
 ## Relação com ALP e os vídeos
 

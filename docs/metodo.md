@@ -14,6 +14,14 @@ verificáveis. Divergência pode ser revisão da fonte, cobertura ou erro: inves
 - `divergent`: diferença material após conciliar definição e versão.
 - `partially_testable`: apenas parte do enunciado é observável nos dados acessíveis.
 - `not_testable_with_available_data`: a evidência necessária não está disponível.
+- `recomputed_author_inputs`: código próprio refez contas nas tabelas/capturas
+  preservadas pelo autor; a aquisição e transformação primárias não foram
+  reconstruídas integralmente.
+
+A matriz R5 detalha também `numericStatus` para distinguir reprodução primária,
+recálculo de captura e parcelas pendentes. O estado se aplica à proposição
+numérica delimitada; a conclusão causal possui campo separado. Uma soma
+aritmética confirmada não é validação de todos os termos do cenário.
 
 Esses são estados de trabalho da análise. Não são vereditos sobre uma eleição.
 Uma conclusão interpretativa deve ter campo próprio e explicar o alcance.
@@ -29,7 +37,10 @@ Uma conclusão interpretativa deve ter campo próprio e explicar o alcance.
    final não reconstrói sozinho a sequência histórica de divulgação.
 4. Separar Brasil e exterior, eleição ordinária e suplementar, cargo e turno.
    Município TSE não é código IBGE. Pareamento usa chave/versão territorial,
-   nunca apenas nome. Conservar os não pareados.
+   nunca apenas nome sem UF e controle de identidade. Preferir correspondência
+   de códigos. Quando usar UF+nome normalizado, declarar os aliases, preservar
+   o código IBGE ligado, testar unicidade e registrar os não pareados. Isso não
+   resolve automaticamente mudanças de limites territoriais.
 5. Totais por candidatura não medem comparecimento. Contagem de avisos de log
    não mede pessoas distintas nem votos fraudulentos.
 6. Zeros esparsos só são preenchidos depois de provar a seção e seu universo

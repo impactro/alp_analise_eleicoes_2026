@@ -1,8 +1,10 @@
 # Prompt para reproduzir a análise
 
-Este é o prompt público apresentado no encerramento do vídeo. Estado atual:
-a investigação está em andamento; o controle nacional e H07 foram executados.
-H01 e H13 permanecem pendentes; consulte `docs/validacao-primeira-rodada.md`.
+Prompt atualizado após a revisão ampliada de05/11/2026. Há8 blocos numéricos
+reproduzidos em fontes primárias,5 recalculados nas bases preservadas pelo autor
+e outras parcelas pendentes. Consulte `docs/revisao-ampliada.md` e a matriz R5.
+O vídeo R4 e sua descrição preservam a versão anterior deste prompt no commit
+`ddc63e5`; este arquivo passa a orientar a nova reprodução.
 Reproduzir um estudo não significa aceitar antecipadamente sua conclusão.
 
 Copie o texto abaixo para uma ferramenta de IA que consiga consultar fontes
@@ -54,10 +56,18 @@ FALSO exige evidência que contradiga a mesma proposição; falta de arquivo nã
 é falsidade. NÃO É POSSÍVEL VERIFICAR significa com o material desta rodada,
 sem afirmar impossibilidade permanente. Não invente casos falsos para equilibrar
 o placar. Quando uma alegação mistura várias contas, separe seus componentes.
-H07/2026 reproduzida não confirma comparadores históricos; aritmética H13
-correta não valida cadastro, óbitos ou comparecimento. Preserve também o estado
+Leia antes a descrição do vídeo, o relatório, os manifestos, os scripts e as
+revisões do projeto do autor. Identifique quem propôs cada hipótese e qual
+foi a conclusão original. São24 hipóteses investigadas, não24 afirmações factuais.
+Separe número medido, hipótese causal, conclusão do autor e resultado próprio.
+Pendência da nossa execução não significa inexistência de fonte.
+Os comparadores históricosH07 e os totaisH13 de cadastro/Censo/comparecimento
+já têm reprodução primária em resultados/. Confira-os na edição fixada.
+Não confunda esses totais com identificação de óbitos. Preserve também o estado
 técnico: reproduzido, divergente, parcialmente testável ou pendente.
-Use analise/grade-validacao-r4.json como mapa de apresentação, não como prova.
+Distinga fontes primárias, tabelas/capturas do autor e aritmética isolada.
+H02 tem34.393 na tabela e34.424 após revisão textual: reconstituir o ajuste31.
+Use analise/grade-validacao-r5.json como mapa de apresentação, não como prova.
 Construa gráficos com unidades,
 fontes e escalas legíveis. Registre correções e lacunas, sem preencher dados inventados.
 

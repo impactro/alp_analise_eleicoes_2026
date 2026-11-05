@@ -1,0 +1,338 @@
+{
+  "schema": "alp.historical-zero-sections.v1",
+  "claim": "H07",
+  "status": "recomputed_from_official_archives",
+  "scope": "Eleição ordinária, presidente, segundo turno; chave UF/município/zona/seção; opções ausentes só em seções com nominal positivo.",
+  "sources": {
+    "ibgeCensus2022": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5Ball%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B100362%5D",
+      "sha256": "8afacb4f4dd0fa0779431f3ba52c73f580e3b2219ee0a9829c045cdcf3f9b5da",
+      "archiveBytes": 689499,
+      "edition": "Censo Demográfico 2022, tabela 9514, população total"
+    },
+    "votes2026": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+      "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1",
+      "archiveBytes": 241891087,
+      "member": "votacao_secao_2026_BR.csv",
+      "generatedAtSource": "26/10/2026 12:07:25",
+      "timestampTimeZone": null
+    },
+    "detail2026": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+      "sha256": "8ef9ce3a85cde260471faf7a83a9b4f5ccf3993fdda942aacaa658574344789c",
+      "archiveBytes": 234357769,
+      "member": "detalhe_votacao_secao_2026_BR.csv",
+      "generatedAtSource": "26/10/2026 09:49:06",
+      "timestampTimeZone": null
+    },
+    "votes2022": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2022_BR.zip",
+      "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+      "archiveBytes": 271292455,
+      "member": "votacao_secao_2022_BR.csv",
+      "generatedAtSource": "01/11/2022 16:05:25",
+      "timestampTimeZone": null
+    },
+    "detail2022": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip",
+      "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+      "archiveBytes": 243822213,
+      "member": "detalhe_votacao_secao_2022_BR.csv",
+      "generatedAtSource": "15/02/2024 15:56:11",
+      "timestampTimeZone": null
+    },
+    "votes2018": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2018_BR.zip",
+      "sha256": "dde2250058a7efa3b7ee336520556905456cb75d7debf99ea4badfc4d598a48c",
+      "archiveBytes": 250985147,
+      "member": "votacao_secao_2018_BR.csv",
+      "generatedAtSource": "15/07/2021 10:53:12",
+      "timestampTimeZone": null
+    },
+    "detail2018": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+      "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+      "archiveBytes": 256133172,
+      "member": "detalhe_votacao_secao_2018_BR.csv",
+      "generatedAtSource": "15/02/2024 16:19:02",
+      "timestampTimeZone": null
+    }
+  },
+  "results": {
+    "2026": {
+      "target": "Flávio",
+      "opponent": "Lula",
+      "allPositiveVoteSectionsBrazil": {
+        "sectionsWithPositiveNominalVotes": 497897,
+        "zeroTargetSections": 106,
+        "opponentVotesInZeroSections": 14860,
+        "zeroOpponentSections": 4
+      },
+      "allPositiveVoteSectionsIncludingForeign": {
+        "sectionsWithPositiveNominalVotes": 499205,
+        "zeroTargetSections": 106,
+        "opponentVotesInZeroSections": 14860,
+        "zeroOpponentSections": 4
+      },
+      "statusChecks": {
+        "detailSections": 499248,
+        "excludedByStatus": {
+          "notInstalled": 41,
+          "annulled": 0,
+          "zeroNominal": 2
+        },
+        "unknownStatusSections": 0,
+        "positiveVoteSectionsWithoutDetail": 0
+      },
+      "installedNonAnnulledBrazil": {
+        "sectionsWithPositiveNominalVotes": 497897,
+        "zeroTargetSections": 106,
+        "opponentVotesInZeroSections": 14860,
+        "zeroOpponentSections": 4
+      },
+      "installedNonAnnulledIncludingForeign": {
+        "sectionsWithPositiveNominalVotes": 499205,
+        "zeroTargetSections": 106,
+        "opponentVotesInZeroSections": 14860,
+        "zeroOpponentSections": 4
+      },
+      "sectionDistribution": {
+        "scope": "Brasil sem exterior, segundo turno2026; instaladas, não anuladas, nominal positivo",
+        "sections": 497897,
+        "H04": {
+          "lulaAbove90Percent": 6802,
+          "flavioAbove90Percent": 368,
+          "threshold": "Estritamente mais de90% dos votos nominais; não inclui exatamente90%",
+          "authorReference": {
+            "lula": 6802,
+            "flavio": 368
+          }
+        },
+        "H08": {
+          "repeatedNominalScoreGroups": 41133,
+          "sectionsInRepeatedNominalScoreGroups": 489030,
+          "repeatedFourOptionScoreGroups": 54304,
+          "sectionsInRepeatedFourOptionScoreGroups": 117488,
+          "repeatedFourOptionGroupsWithinMunicipality": 949,
+          "repeatedFourOptionGroupsWithinZone": 212,
+          "definition": "Grupo com frequência>=2. Placar nominal=(Lula,Flávio); quatro opções=(Lula,Flávio,brancos,nulos). Não é cópia integral de todos os campos de um BU.",
+          "authorReference": {
+            "nominalScoreGroups": 41133,
+            "fourOptionScoreGroups": 54304,
+            "sectionsInFourOptionGroups": 117488
+          },
+          "simulation": null,
+          "limits": "Reproduz frequências observadas; não executa simulação, distribuição nula ou teste de significância."
+        }
+      },
+      "attendanceInZeroSections": 15222,
+      "zeroBlankAndNullSections": 29,
+      "locationNameTerms": {
+        "regex": "INDIGENA|ALDEIA|INDIG|TERRA INDIGENA|QUILOMB|KM |MALOCA|COMUNIDADE|POLO BASE|POSTO DE SAUDE|SESAI",
+        "matchedSections": 46,
+        "totalSections": 106,
+        "source": "NM_LOCAL_VOTACAO do detalhe oficial, segundo turno"
+      },
+      "authorReferenceZeroTargetSections": 106,
+      "differenceFromReferenceBrazil": 0,
+      "firstTurnWithinSecondTurnZeroSections": {
+        "matchedSections": 106,
+        "missingOrEmptySections": 0,
+        "flavioVotes": 118,
+        "zeroFlavioSections": 50,
+        "oneToFiveFlavioSections": 55,
+        "atMostFiveFlavioSections": 105,
+        "aboveFiveFlavioSections": 1,
+        "maximumFlavioVotes": 16,
+        "distribution": {
+          "0": 50,
+          "1": 30,
+          "2": 10,
+          "3": 9,
+          "4": 5,
+          "5": 1,
+          "16": 1
+        }
+      }
+    },
+    "2022": {
+      "target": "Bolsonaro",
+      "opponent": "Lula",
+      "allPositiveVoteSectionsBrazil": {
+        "sectionsWithPositiveNominalVotes": 471010,
+        "zeroTargetSections": 141,
+        "opponentVotesInZeroSections": 16418,
+        "zeroOpponentSections": 2
+      },
+      "allPositiveVoteSectionsIncludingForeign": {
+        "sectionsWithPositiveNominalVotes": 472027,
+        "zeroTargetSections": 143,
+        "opponentVotesInZeroSections": 16455,
+        "zeroOpponentSections": 4
+      },
+      "within2026ZeroSectionsBySameKey": {
+        "matchedSections": 61,
+        "targetVotes": 103,
+        "zeroTargetSections": 23
+      },
+      "statusChecks": {
+        "detailSections": 472075,
+        "excludedByStatus": {
+          "notInstalled": 47,
+          "annulled": 1,
+          "zeroNominal": 0
+        },
+        "unknownStatusSections": 0,
+        "positiveVoteSectionsWithoutDetail": 0,
+        "attendanceAboveCensus2022": {
+          "municipalitiesInTSE": 5570,
+          "matchedByUFAndNormalizedName": 5570,
+          "unmatchedMunicipalities": [],
+          "explicitAliasesApplied": [
+            {
+              "uf": "BA",
+              "tseName": "CAMACÃ",
+              "normalizedIBGEName": "CAMACAN"
+            },
+            {
+              "uf": "MG",
+              "tseName": "BARÃO DE MONTE ALTO",
+              "normalizedIBGEName": "BARAODOMONTEALTO"
+            },
+            {
+              "uf": "MG",
+              "tseName": "DONA EUSÉBIA",
+              "normalizedIBGEName": "DONAEUZEBIA"
+            },
+            {
+              "uf": "MG",
+              "tseName": "SÃO THOMÉ DAS LETRAS",
+              "normalizedIBGEName": "SAOTOMEDASLETRAS"
+            },
+            {
+              "uf": "MT",
+              "tseName": "SANTO ANTÔNIO DO LEVERGER",
+              "normalizedIBGEName": "SANTOANTONIODELEVERGER"
+            },
+            {
+              "uf": "PA",
+              "tseName": "ELDORADO DOS CARAJÁS",
+              "normalizedIBGEName": "ELDORADODOCARAJAS"
+            },
+            {
+              "uf": "PA",
+              "tseName": "SANTA ISABEL DO PARÁ",
+              "normalizedIBGEName": "SANTAIZABELDOPARA"
+            },
+            {
+              "uf": "RN",
+              "tseName": "BOA SAÚDE",
+              "normalizedIBGEName": "JANUARIOCICCO"
+            },
+            {
+              "uf": "RO",
+              "tseName": "ALVORADA DO OESTE",
+              "normalizedIBGEName": "ALVORADADOESTE"
+            },
+            {
+              "uf": "RO",
+              "tseName": "ESPIGÃO DO OESTE",
+              "normalizedIBGEName": "ESPIGAODOESTE"
+            },
+            {
+              "uf": "RR",
+              "tseName": "SÃO LUIZ",
+              "normalizedIBGEName": "SAOLUIZDOANAUA"
+            },
+            {
+              "uf": "SE",
+              "tseName": "AMPARO DE SÃO FRANCISCO",
+              "normalizedIBGEName": "AMPARODOSAOFRANCISCO"
+            },
+            {
+              "uf": "SP",
+              "tseName": "SÃO LUÍS DO PARAITINGA",
+              "normalizedIBGEName": "SAOLUIZDOPARAITINGA"
+            }
+          ],
+          "municipalitiesAbovePopulation": 52,
+          "authorReference": 52,
+          "differenceFromReference": 0,
+          "scope": "2022 segundo turno; seções instaladas e não anuladas; comparecimento versus população residente Censo2022; junção UF+nome normalizado, aliases explícitos de conferir_municipios.py e dois aliases históricos com código TSE conferido; sem fuzzy",
+          "limits": "Domicílio eleitoral e residência censitária são conceitos diferentes; excedente não prova voto irregular."
+        }
+      },
+      "installedNonAnnulledBrazil": {
+        "sectionsWithPositiveNominalVotes": 471010,
+        "zeroTargetSections": 141,
+        "opponentVotesInZeroSections": 16418,
+        "zeroOpponentSections": 2
+      },
+      "installedNonAnnulledIncludingForeign": {
+        "sectionsWithPositiveNominalVotes": 472027,
+        "zeroTargetSections": 143,
+        "opponentVotesInZeroSections": 16455,
+        "zeroOpponentSections": 4
+      },
+      "authorReferenceZeroTargetSections": 141,
+      "differenceFromReferenceBrazil": 0
+    },
+    "2018": {
+      "target": "Bolsonaro",
+      "opponent": "Haddad",
+      "allPositiveVoteSectionsBrazil": {
+        "sectionsWithPositiveNominalVotes": 453703,
+        "zeroTargetSections": 328,
+        "opponentVotesInZeroSections": 36608,
+        "zeroOpponentSections": 3
+      },
+      "allPositiveVoteSectionsIncludingForeign": {
+        "sectionsWithPositiveNominalVotes": 454447,
+        "zeroTargetSections": 328,
+        "opponentVotesInZeroSections": 36608,
+        "zeroOpponentSections": 4
+      },
+      "within2026ZeroSectionsBySameKey": {
+        "matchedSections": 47,
+        "targetVotes": 55,
+        "zeroTargetSections": 21
+      },
+      "statusChecks": {
+        "detailSections": 454490,
+        "excludedByStatus": {
+          "notInstalled": 0,
+          "annulled": 0,
+          "zeroNominal": 43
+        },
+        "unknownStatusSections": 454490,
+        "positiveVoteSectionsWithoutDetail": 0
+      },
+      "installedNonAnnulledBrazil": null,
+      "installedNonAnnulledIncludingForeign": null,
+      "authorReferenceZeroTargetSections": 328,
+      "differenceFromReferenceBrazil": 0
+    }
+  },
+  "authorReference": {
+    "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/blob/4a12ed014cf7927df24226f900450db7fe5b1a22/ferramentas/analise.py",
+    "commit": "4a12ed014cf7927df24226f900450db7fe5b1a22"
+  },
+  "limits": [
+    "Agregados de seção não identificam eleitores, mortes ou transferência individual de voto e não provam fraude nem integridade.",
+    "Correspondência da chave entre eleições não garante mesmos eleitores, composição ou local.",
+    "Regex reproduz indícios no nome do local; não classifica identidade étnica de pessoas nem confirma comunidade indígena.",
+    "A contagem por nome usa o detalhe oficial, enquanto o autor usa cadastro de locais; fontes podem divergir.",
+    "Históricos sem ZIP de detalhe não tiveram status de instalação/anulação reconciliado.",
+    "Testes do próprio DEV; não constituem validação independente."
+  ],
+  "execution": {
+    "startedAt": "2026-11-05T23:44:23.343863+00:00",
+    "finishedAt": "2026-11-05T23:46:37.375455+00:00",
+    "elapsedSeconds": 134.028,
+    "officialTokens": null,
+    "engine": "Python 3.12 stdlib csv/zipfile",
+    "device": "CPU",
+    "fallback": null
+  }
+}

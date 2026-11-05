@@ -1,6 +1,9 @@
 > Roteiro editorial R4 aprovado. A [versão com narração e trilha](https://www.youtube.com/watch?v=BjdS7e6yZ3k)
 > está no YouTube como não listada. A [prévia visual sem áudio](https://www.youtube.com/watch?v=TU1AyhsBvWE) permanece como histórico.
 
+> Histórico: esta versão antecede a [revisão ampliada](revisao-ampliada.md).
+> O [roteiro R5](roteiro-episodio-r5.md) incorpora as novas contas reproduzidas.
+
 # 24 afirmações sobre a eleição: o que dá para verificar?
 
 Episódio: 2026-11-04-B · Revisão4 · Extra fora da agenda padrão.

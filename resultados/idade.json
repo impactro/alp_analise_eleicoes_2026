@@ -1,0 +1,161 @@
+{
+  "schema": "alp.age-check.v1",
+  "claim": "H13",
+  "status": "recomputed_from_primary_sources",
+  "scope": "Eleitorado e comparecimento de 2026, Brasil sem exterior; Censo 2022 nacional. Sem identificação individual.",
+  "sources": {
+    "electorate": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2026.zip",
+      "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b",
+      "bytes": 408490728,
+      "edition": "Arquivo TSE 2026 identificado pelo SHA-256; geração interna abaixo",
+      "csvMembersRead": [
+        "perfil_eleitorado_2026_BRASIL.csv"
+      ],
+      "csvGenerationDatesAndTimes": [
+        [
+          "14/07/2026",
+          "18:03:33"
+        ]
+      ],
+      "rowCountsByTurnIncludingExterior": {
+        "cadastro": 11046845
+      }
+    },
+    "attendance": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_comparecimento_abstencao/perfil_comparecimento_abstencao_2026.zip",
+      "sha256": "abd1af8ff28a80b4e861edafd9f544a8f3f667e1c2e146911d083bf7cc34f023",
+      "bytes": 229213668,
+      "edition": "Arquivo TSE 2026 identificado pelo SHA-256; geração interna abaixo",
+      "csvMembersRead": [
+        "perfil_comparecimento_abstencao_2026_BRASIL.csv"
+      ],
+      "csvGenerationDatesAndTimes": [
+        [
+          "13/10/2026",
+          "16:46:32"
+        ]
+      ],
+      "rowCountsByTurnIncludingExterior": {
+        "1": 11060908
+      }
+    },
+    "census": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N1%5B1%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6649%2C6650%2C6651%2C6652%2C6653%5D",
+      "sha256": "e8a4d2de5dccc9accfe3ae8e7d06b66f16a33ecd67273ecae16d5e5746844bd3",
+      "bytes": 1752,
+      "edition": "Censo Demográfico 2022; tabela 9514; variável 93; consulta nacional N1[1]",
+      "retrievalLayer": "primary_ibge_api"
+    }
+  },
+  "results": {
+    "electorate100plus2026": 297977,
+    "census2022": {
+      "byAge": {
+        "96 anos": 42055,
+        "97 anos": 30469,
+        "98 anos": 22658,
+        "99 anos": 16428,
+        "100 anos ou mais": 37814
+      },
+      "population96plus": 149424,
+      "population100plus": 37814
+    },
+    "differenceElectorate100plusMinusCensus96plus": 148553,
+    "ratioElectorate100plusToCensus96plus": 1.994171,
+    "differenceElectorate100plusMinusCensus100plusSameAgeDifferentDates": 260163,
+    "availableAttendanceTurns": [
+      "1"
+    ],
+    "attendanceByAge": {
+      "85 a 89 anos": {
+        "registered": 1464715,
+        "withBiometrics": 965375,
+        "byTurn": {
+          "1": {
+            "eligible": 1464715,
+            "attendance": 356147,
+            "abstention": 1108568,
+            "attendancePct": 24.315106,
+            "attendanceOverBiometricRegistrationsPct": 36.892089
+          }
+        }
+      },
+      "90 a 94 anos": {
+        "registered": 664482,
+        "withBiometrics": 353471,
+        "byTurn": {
+          "1": {
+            "eligible": 664482,
+            "attendance": 89530,
+            "abstention": 574952,
+            "attendancePct": 13.473653,
+            "attendanceOverBiometricRegistrationsPct": 25.328811
+          }
+        }
+      },
+      "95 a 99 anos": {
+        "registered": 337136,
+        "withBiometrics": 93734,
+        "byTurn": {
+          "1": {
+            "eligible": 337136,
+            "attendance": 14661,
+            "abstention": 322475,
+            "attendancePct": 4.34869,
+            "attendanceOverBiometricRegistrationsPct": 15.641069
+          }
+        }
+      },
+      "100 anos ou mais": {
+        "registered": 297977,
+        "withBiometrics": 23834,
+        "byTurn": {
+          "1": {
+            "eligible": 297977,
+            "attendance": 2141,
+            "abstention": 295836,
+            "attendancePct": 0.718512,
+            "attendanceOverBiometricRegistrationsPct": 8.982966
+          }
+        }
+      }
+    },
+    "exteriorElectorate100plusExcluded": 262
+  },
+  "referenceComparison": {
+    "reference": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/tree/4a12ed014cf7927df24226f900450db7fe5b1a22",
+    "expected": {
+      "electorate100plus2026": 297977,
+      "censusPopulation96plus2022": 149424,
+      "difference": 148553,
+      "attendance100plusFirstTurn": 2141
+    },
+    "actual": {
+      "electorate100plus2026": 297977,
+      "censusPopulation96plus2022": 149424,
+      "difference": 148553,
+      "attendance100plusFirstTurn": 2141
+    },
+    "matches": true,
+    "referenceAttendancePctRounded": 0.72,
+    "actualAttendancePctRounded": 0.72
+  },
+  "limits": [
+    "Cadastro eleitoral, população residente e comparecimento são universos e datas distintos.",
+    "96 anos ou mais em 2022 é uma aproximação de coorte para 100 anos ou mais em 2026; não incorpora aniversário exato, migração, mortalidade nem erro de idade/cobertura.",
+    "A diferença agregada não identifica óbitos, registros individuais impossíveis, voto de falecido ou fraude.",
+    "Comparecimento publicado por faixa etária não atribui votos a candidato e não atesta identificação biométrica em cada votação.",
+    "Turno ausente do arquivo não equivale a comparecimento zero; esta edição só pode responder pelos turnos efetivamente observados.",
+    "Não reproduzido o cruzamento municipal ou o controle de eleitorado de 2022 do autor."
+  ],
+  "execution": {
+    "startedAtUtc": "2026-11-05T23:34:44.571077+00:00",
+    "finishedAtUtc": "2026-11-05T23:35:49.139998+00:00",
+    "elapsedSeconds": 64.582,
+    "officialTokensBaseline": null,
+    "officialTokensFinal": null,
+    "officialTokensDelta": null,
+    "externalPaidProviders": false
+  }
+}

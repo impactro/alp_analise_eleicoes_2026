@@ -1,6 +1,6 @@
 {
   "schema": "alp.sources.v1",
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "reference": {
     "videoId": "l5aT6mD0Hpo",
     "title": "ELEITORES MORTOS VOTARAM NO 2º TURNO?",
@@ -8,7 +8,13 @@
     "publishedAt": "2026-10-30",
     "durationSeconds": 812,
     "url": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
-    "transcript": "Exportada do painel público do YouTube; mantida fora do Git; não é roteiro original nem transcrição auditivamente revisada"
+    "transcript": "Exportada do painel público do YouTube; mantida fora do Git; não é roteiro original nem transcrição auditivamente revisada",
+    "descriptionReadAgain": "2026-11-05",
+    "context": "24 hipóteses investigadas;22 testadas e2 não testadas. Diferenciar hipótese de terceiros, resultado e interpretação do autor.",
+    "relatedRepositories": [
+      "https://github.com/Gabriel-Alexandre/pesquisas-e-resultado-segundo-turno-2026",
+      "https://github.com/Gabriel-Alexandre/investigacao-segundo-turno-2026"
+    ]
   },
   "referenceRepository": {
     "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
@@ -24,10 +30,12 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip",
       "sha256": "6d60a212fc46541fbf605da38ad1fcdd83deda030b802e70405ba6b9a01289c1",
       "bytes": 456838339,
-      "generatedAtSource": "03/11/2026 19:31:38",
+      "generatedAtSource": [
+        "03/11/2026 19:31:38"
+      ],
       "timeZoneOfSourceTimestamp": null,
       "member": "votacao_candidato_munzona_2026_BR.csv",
-      "status": "used_for_national_control",
+      "status": "used_for_expanded_primary_reproduction",
       "licenseLabelOnCatalog": "Creative Commons Atribuição",
       "rawDistributed": false,
       "notes": [
@@ -41,10 +49,13 @@
       "authority": "IBGE",
       "url": "https://sidra.ibge.gov.br/tabela/9514",
       "period": "2022",
-      "status": "pending_primary_API_response",
-      "sha256": null,
+      "status": "primary_api_retrieved_and_used_for_H13",
+      "sha256": "e8a4d2de5dccc9accfe3ae8e7d06b66f16a33ecd67273ecae16d5e5746844bd3",
       "rawDistributed": false,
-      "apiUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N1%5B1%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6649,6650,6651,6652,6653%5D"
+      "apiUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N1%5B1%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6649%2C6650%2C6651%2C6652%2C6653%5D",
+      "bytes": 1752,
+      "contentHashAppliesTo": "apiUrl",
+      "result": "resultados/idade.json"
     },
     {
       "id": "tse-secoes",
@@ -60,49 +71,144 @@
       "authority": "TSE",
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_comparecimento_abstencao/perfil_comparecimento_abstencao_2026.zip",
       "scope": "Perfil eleitoral e comparecimento/abstenção por idade e turno",
-      "status": "identified_content_not_retrieved",
-      "sha256": null,
-      "rawDistributed": false
+      "status": "used_for_expanded_primary_reproduction",
+      "sha256": "abd1af8ff28a80b4e861edafd9f544a8f3f667e1c2e146911d083bf7cc34f023",
+      "rawDistributed": false,
+      "bytes": 229213668,
+      "generatedAtSource": [
+        "13/10/2026 16:46:32"
+      ],
+      "membersRead": [
+        "perfil_comparecimento_abstencao_2026_BRASIL.csv"
+      ]
     },
     {
       "id": "tse-secoes-detail",
       "authority": "TSE",
-      "status": "used_for_H07_independent_archive_reproduction",
+      "status": "used_for_expanded_primary_reproduction",
       "rawDistributed": false,
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
       "member": "detalhe_votacao_secao_2026_BR.csv",
       "sha256": "8ef9ce3a85cde260471faf7a83a9b4f5ccf3993fdda942aacaa658574344789c",
       "archiveBytes": 234357769,
       "generatedAtSource": "26/10/2026 09:49:06",
-      "timestampTimeZone": null
+      "timestampTimeZone": null,
+      "bytes": 234357769
     },
     {
       "id": "tse-secoes-votes",
       "authority": "TSE",
-      "status": "used_for_H07_independent_archive_reproduction",
+      "status": "used_for_expanded_primary_reproduction",
       "rawDistributed": false,
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
       "member": "votacao_secao_2026_BR.csv",
       "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1",
       "archiveBytes": 241891087,
       "generatedAtSource": "26/10/2026 12:07:25",
-      "timestampTimeZone": null
+      "timestampTimeZone": null,
+      "bytes": 241891087
     },
     {
       "id": "tse-perfil-eleitorado",
       "authority": "TSE",
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2026.zip",
-      "status": "HEAD_200_content_not_retrieved",
-      "headContentLength": 408490728,
-      "sha256": null,
+      "status": "used_for_expanded_primary_reproduction",
+      "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b",
+      "rawDistributed": false,
+      "bytes": 408490728,
+      "generatedAtSource": [
+        "14/07/2026 18:03:33"
+      ],
+      "membersRead": [
+        "perfil_eleitorado_2026_BRASIL.csv"
+      ]
+    },
+    {
+      "id": "revision5-age-census",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N1%5B1%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6649%2C6650%2C6651%2C6652%2C6653%5D",
+      "sha256": "e8a4d2de5dccc9accfe3ae8e7d06b66f16a33ecd67273ecae16d5e5746844bd3",
+      "bytes": 1752,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false
+    },
+    {
+      "id": "revision5-municipal-population",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5Ball%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B100362%5D",
+      "sha256": "8afacb4f4dd0fa0779431f3ba52c73f580e3b2219ee0a9829c045cdcf3f9b5da",
+      "bytes": 689499,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false
+    },
+    {
+      "id": "revision5-history-votes2022",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2022_BR.zip",
+      "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+      "bytes": 271292455,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false,
+      "generatedAtSource": "01/11/2022 16:05:25",
+      "member": "votacao_secao_2022_BR.csv"
+    },
+    {
+      "id": "revision5-history-detail2022",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip",
+      "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+      "bytes": 243822213,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false,
+      "generatedAtSource": "15/02/2024 15:56:11",
+      "member": "detalhe_votacao_secao_2022_BR.csv"
+    },
+    {
+      "id": "revision5-history-votes2018",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2018_BR.zip",
+      "sha256": "dde2250058a7efa3b7ee336520556905456cb75d7debf99ea4badfc4d598a48c",
+      "bytes": 250985147,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false,
+      "generatedAtSource": "15/07/2021 10:53:12",
+      "member": "votacao_secao_2018_BR.csv"
+    },
+    {
+      "id": "revision5-history-detail2018",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+      "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+      "bytes": 256133172,
+      "status": "used_for_expanded_primary_reproduction",
+      "rawDistributed": false,
+      "generatedAtSource": "15/02/2024 16:19:02",
+      "member": "detalhe_votacao_secao_2018_BR.csv"
+    },
+    {
+      "id": "revision5-author-inputs",
+      "authority": "Capturas/tabelas preservadas pelo autor",
+      "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/blob/4a12ed014cf7927df24226f900450db7fe5b1a22/dados/copias/t2_secoes.parquet",
+      "sha256": "6da34ba9791e1f06ab12fa5e4b7f62ea882178e2e1600e99a8e7ab3ec2fd80e4",
+      "bytes": 13035932,
+      "status": "recalculated_author_preserved_input",
+      "rawDistributed": false
+    },
+    {
+      "id": "revision5-author-national-captures",
+      "authority": "Respostas oficiais históricas preservadas pelo autor",
+      "url": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026/tree/4a12ed014cf7927df24226f900450db7fe5b1a22/dados/copias/noite/versoes-tse/br",
+      "files": 346,
+      "logicalNameHashSetSha256": "1ab380fc09cd5b0157420cd01d193cf07777a919f193719ffdb355c75bbbc601",
+      "status": "independently_parsed_saved_series",
       "rawDistributed": false
     }
   ],
   "reproducibility": {
     "python": "3.12",
-    "dependencies": "Python stdlib only",
+    "dependencies": "Python stdlib para fontes primárias; pyarrow24.0.0 opcional para o Parquet preservado",
     "sameSourceAsALP": true,
     "independentImplementation": true,
     "independentDifferentAuthority": false
-  }
+  },
+  "revision5Results": [
+    "resultados/idade.json",
+    "resultados/historico_secoes.json",
+    "resultados/municipios.json",
+    "resultados/capturas.json"
+  ]
 }

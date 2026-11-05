@@ -1,0 +1,479 @@
+{
+  "schema": "alp.municipal-reproduction.v1",
+  "status": "recomputed_from_primary_sources",
+  "sources": {
+    "votes": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip",
+      "sha256": "6d60a212fc46541fbf605da38ad1fcdd83deda030b802e70405ba6b9a01289c1",
+      "bytes": 456838339,
+      "generatedAtSource": [
+        "03/11/2026 19:31:38"
+      ]
+    },
+    "detail": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+      "sha256": "8ef9ce3a85cde260471faf7a83a9b4f5ccf3993fdda942aacaa658574344789c",
+      "bytes": 234357769,
+      "generatedAtSource": [
+        "26/10/2026 09:49:06"
+      ]
+    },
+    "population": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5Ball%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B100362%5D",
+      "sha256": "8afacb4f4dd0fa0779431f3ba52c73f580e3b2219ee0a9829c045cdcf3f9b5da",
+      "bytes": 689499
+    }
+  },
+  "scope": "Brasil sem exterior; Presidente; eleição ordinária; dois turnos2026; população residente2022",
+  "results": {
+    "H14": {
+      "municipalities": 5571,
+      "matchedPopulation": 5570,
+      "unmatchedPopulation": [
+        {
+          "uf": "MT",
+          "municipality": "BOA ESPERANÇA DO NORTE"
+        }
+      ],
+      "populationJoinAliases": [
+        {
+          "uf": "GO",
+          "tseName": "BOM JESUS",
+          "ibgeName": "BOM JESUS DE GOIAS",
+          "ibgeCode": "5203500"
+        },
+        {
+          "uf": "MG",
+          "tseName": "BARÃO DE MONTE ALTO",
+          "ibgeName": "BARAO DO MONTE ALTO",
+          "ibgeCode": "3105509"
+        },
+        {
+          "uf": "MG",
+          "tseName": "DONA EUSÉBIA",
+          "ibgeName": "DONA EUZEBIA",
+          "ibgeCode": "3122900"
+        },
+        {
+          "uf": "MG",
+          "tseName": "SÃO THOMÉ DAS LETRAS",
+          "ibgeName": "SAO TOME DAS LETRAS",
+          "ibgeCode": "3165206"
+        },
+        {
+          "uf": "MT",
+          "tseName": "SANTO ANTÔNIO DO LEVERGER",
+          "ibgeName": "SANTO ANTONIO DE LEVERGER",
+          "ibgeCode": "5107800"
+        },
+        {
+          "uf": "PA",
+          "tseName": "ELDORADO DOS CARAJÁS",
+          "ibgeName": "ELDORADO DO CARAJAS",
+          "ibgeCode": "1502954"
+        },
+        {
+          "uf": "PR",
+          "tseName": "MUNHOZ DE MELLO",
+          "ibgeName": "MUNHOZ DE MELO",
+          "ibgeCode": "4116307"
+        },
+        {
+          "uf": "RN",
+          "tseName": "BOA SAÚDE",
+          "ibgeName": "JANUARIO CICCO",
+          "ibgeCode": "2405306"
+        },
+        {
+          "uf": "RO",
+          "tseName": "ESPIGÃO DO OESTE",
+          "ibgeName": "ESPIGAO D'OESTE",
+          "ibgeCode": "1100098"
+        },
+        {
+          "uf": "RO",
+          "tseName": "ALVORADA DO OESTE",
+          "ibgeName": "ALVORADA D'OESTE",
+          "ibgeCode": "1100346"
+        },
+        {
+          "uf": "RR",
+          "tseName": "SÃO LUIZ",
+          "ibgeName": "SAO LUIZ DO ANAUA",
+          "ibgeCode": "1400605"
+        },
+        {
+          "uf": "SE",
+          "tseName": "AMPARO DE SÃO FRANCISCO",
+          "ibgeName": "AMPARO DO SAO FRANCISCO",
+          "ibgeCode": "2800100"
+        },
+        {
+          "uf": "SP",
+          "tseName": "SÃO LUÍS DO PARAITINGA",
+          "ibgeName": "SAO LUIZ DO PARAITINGA",
+          "ibgeCode": "3550001"
+        }
+      ],
+      "attendanceAboveCensus": 120,
+      "flavioWinsInThose": 45,
+      "sumAttendanceMinusCensusPositive": 33408,
+      "lulaVotesAbovePopulation": [
+        {
+          "uf": "PI",
+          "name": "NOVO SANTO ANTÔNIO",
+          "population": 2827,
+          "lula": 3142,
+          "lulaFirst": 3169
+        },
+        {
+          "uf": "PI",
+          "name": "JATOBÁ DO PIAUÍ",
+          "population": 4494,
+          "lula": 4787,
+          "lulaFirst": 4558
+        },
+        {
+          "uf": "PI",
+          "name": "AROEIRAS DO ITAIM",
+          "population": 2690,
+          "lula": 3104,
+          "lulaFirst": 2937
+        }
+      ]
+    },
+    "H19": {
+      "flavioDecreases": {
+        "AC": {
+          "flavioDelta": -15092,
+          "attendanceDelta": -34676
+        },
+        "AM": {
+          "flavioDelta": -1519,
+          "attendanceDelta": -42490
+        },
+        "AP": {
+          "flavioDelta": -13604,
+          "attendanceDelta": -46587
+        },
+        "MA": {
+          "flavioDelta": -9069,
+          "attendanceDelta": -32572
+        },
+        "RR": {
+          "flavioDelta": -11647,
+          "attendanceDelta": -24175
+        },
+        "TO": {
+          "flavioDelta": -1405,
+          "attendanceDelta": -10433
+        }
+      },
+      "lulaDecreases": []
+    },
+    "H20": {
+      "Centro-Oeste": {
+        "firstAbsencePercent": 21.7,
+        "secondAbsencePercent": 20.05
+      },
+      "Nordeste": {
+        "firstAbsencePercent": 18.39,
+        "secondAbsencePercent": 16.49
+      },
+      "Norte": {
+        "firstAbsencePercent": 19.43,
+        "secondAbsencePercent": 21.25
+      },
+      "Sudeste": {
+        "firstAbsencePercent": 22.7,
+        "secondAbsencePercent": 20.27
+      },
+      "Sul": {
+        "firstAbsencePercent": 20.46,
+        "secondAbsencePercent": 18.19
+      }
+    },
+    "H23": {
+      "lagosLulaGain": 28624,
+      "lagosFlavioGain": 1476,
+      "lagosLulaShareOfNetGainPercent": 95.1,
+      "lagosFlavioFirstSharePercent": 64.28,
+      "peersInRJ": 25,
+      "peersLulaShareOfNetGainPercent": 85.05,
+      "lulaAbovePeerScenario": 3025,
+      "cases": [
+        {
+          "uf": "RJ",
+          "municipality": "ARARUAMA",
+          "first": {
+            "others": 5331,
+            "valid": 82197,
+            "lula": 23451,
+            "flavio": 53415,
+            "aptos": 111370,
+            "attendance": 86031,
+            "absence": 25339,
+            "blank": 1655,
+            "null": 2174,
+            "nominalRaw": 82202
+          },
+          "second": {
+            "flavio": 53426,
+            "valid": 82458,
+            "lula": 29032,
+            "aptos": 111368,
+            "attendance": 85207,
+            "absence": 26161,
+            "blank": 981,
+            "null": 1768,
+            "nominalRaw": 82458,
+            "others": 0
+          },
+          "lulaGain": 5581,
+          "flavioGain": 11,
+          "explicitBlankNullDrop": 1080,
+          "attendanceLessValidDrop": 1085,
+          "nonValidNominalOrEditionResidualFirst": 5
+        },
+        {
+          "uf": "RJ",
+          "municipality": "CABO FRIO",
+          "first": {
+            "others": 8817,
+            "valid": 131974,
+            "lula": 39944,
+            "flavio": 83213,
+            "aptos": 179682,
+            "attendance": 137352,
+            "absence": 42330,
+            "blank": 2238,
+            "null": 3135,
+            "nominalRaw": 131979
+          },
+          "second": {
+            "flavio": 83555,
+            "valid": 132668,
+            "lula": 49113,
+            "aptos": 179584,
+            "attendance": 136812,
+            "absence": 42772,
+            "blank": 1460,
+            "null": 2684,
+            "nominalRaw": 132668,
+            "others": 0
+          },
+          "lulaGain": 9169,
+          "flavioGain": 342,
+          "explicitBlankNullDrop": 1229,
+          "attendanceLessValidDrop": 1234,
+          "nonValidNominalOrEditionResidualFirst": 5
+        },
+        {
+          "uf": "RJ",
+          "municipality": "IGUABA GRANDE",
+          "first": {
+            "others": 1583,
+            "valid": 23873,
+            "lula": 6773,
+            "flavio": 15517,
+            "aptos": 30569,
+            "attendance": 24735,
+            "absence": 5834,
+            "blank": 377,
+            "null": 483,
+            "nominalRaw": 23875
+          },
+          "second": {
+            "flavio": 15701,
+            "valid": 23917,
+            "lula": 8216,
+            "aptos": 30579,
+            "attendance": 24610,
+            "absence": 5969,
+            "blank": 235,
+            "null": 458,
+            "nominalRaw": 23917,
+            "others": 0
+          },
+          "lulaGain": 1443,
+          "flavioGain": 184,
+          "explicitBlankNullDrop": 167,
+          "attendanceLessValidDrop": 169,
+          "nonValidNominalOrEditionResidualFirst": 2
+        },
+        {
+          "uf": "RJ",
+          "municipality": "ARMAÇÃO DOS BÚZIOS",
+          "first": {
+            "others": 1817,
+            "valid": 27336,
+            "lula": 8225,
+            "flavio": 17294,
+            "aptos": 36236,
+            "attendance": 28170,
+            "absence": 8066,
+            "blank": 384,
+            "null": 447,
+            "nominalRaw": 27339
+          },
+          "second": {
+            "flavio": 17368,
+            "valid": 27574,
+            "lula": 10206,
+            "aptos": 36245,
+            "attendance": 28271,
+            "absence": 7974,
+            "blank": 263,
+            "null": 434,
+            "nominalRaw": 27574,
+            "others": 0
+          },
+          "lulaGain": 1981,
+          "flavioGain": 74,
+          "explicitBlankNullDrop": 134,
+          "attendanceLessValidDrop": 137,
+          "nonValidNominalOrEditionResidualFirst": 3
+        },
+        {
+          "uf": "RJ",
+          "municipality": "SÃO PEDRO DA ALDEIA",
+          "first": {
+            "others": 3571,
+            "valid": 56298,
+            "lula": 14421,
+            "flavio": 38306,
+            "aptos": 74913,
+            "attendance": 58503,
+            "absence": 16410,
+            "blank": 993,
+            "null": 1210,
+            "nominalRaw": 56300
+          },
+          "second": {
+            "flavio": 38739,
+            "valid": 56764,
+            "lula": 18025,
+            "aptos": 74915,
+            "attendance": 58474,
+            "absence": 16441,
+            "blank": 650,
+            "null": 1060,
+            "nominalRaw": 56764,
+            "others": 0
+          },
+          "lulaGain": 3604,
+          "flavioGain": 433,
+          "explicitBlankNullDrop": 493,
+          "attendanceLessValidDrop": 495,
+          "nonValidNominalOrEditionResidualFirst": 2
+        },
+        {
+          "uf": "RJ",
+          "municipality": "SAQUAREMA",
+          "first": {
+            "others": 4184,
+            "valid": 68647,
+            "lula": 20288,
+            "flavio": 44175,
+            "aptos": 92059,
+            "attendance": 71981,
+            "absence": 20078,
+            "blank": 1341,
+            "null": 1990,
+            "nominalRaw": 68650
+          },
+          "second": {
+            "flavio": 44444,
+            "valid": 70128,
+            "lula": 25684,
+            "aptos": 92065,
+            "attendance": 72443,
+            "absence": 19622,
+            "blank": 759,
+            "null": 1556,
+            "nominalRaw": 70128,
+            "others": 0
+          },
+          "lulaGain": 5396,
+          "flavioGain": 269,
+          "explicitBlankNullDrop": 1016,
+          "attendanceLessValidDrop": 1019,
+          "nonValidNominalOrEditionResidualFirst": 3
+        },
+        {
+          "uf": "RJ",
+          "municipality": "ARRAIAL DO CABO",
+          "first": {
+            "others": 1824,
+            "valid": 26435,
+            "lula": 8652,
+            "flavio": 15959,
+            "aptos": 35242,
+            "attendance": 27352,
+            "absence": 7890,
+            "blank": 418,
+            "null": 498,
+            "nominalRaw": 26436
+          },
+          "second": {
+            "flavio": 16122,
+            "valid": 26224,
+            "lula": 10102,
+            "aptos": 35244,
+            "attendance": 26902,
+            "absence": 8342,
+            "blank": 250,
+            "null": 428,
+            "nominalRaw": 26224,
+            "others": 0
+          },
+          "lulaGain": 1450,
+          "flavioGain": 163,
+          "explicitBlankNullDrop": 238,
+          "attendanceLessValidDrop": 239,
+          "nonValidNominalOrEditionResidualFirst": 1
+        },
+        {
+          "uf": "SC",
+          "municipality": "JOAÇABA",
+          "first": {
+            "others": 1366,
+            "valid": 17548,
+            "lula": 3863,
+            "flavio": 12319,
+            "aptos": 22370,
+            "attendance": 18023,
+            "absence": 4347,
+            "blank": 247,
+            "null": 228,
+            "nominalRaw": 17548
+          },
+          "second": {
+            "flavio": 13162,
+            "valid": 18071,
+            "lula": 4909,
+            "aptos": 22373,
+            "attendance": 18479,
+            "absence": 3894,
+            "blank": 183,
+            "null": 225,
+            "nominalRaw": 18071,
+            "others": 0
+          },
+          "lulaGain": 1046,
+          "flavioGain": 843,
+          "explicitBlankNullDrop": 67,
+          "attendanceLessValidDrop": 67,
+          "nonValidNominalOrEditionResidualFirst": 0
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Fontes TSE de edições distintas explicitadas; não constituem snapshot simultâneo.",
+    "Municípios sem correspondência exata de UF/nome não recebem população zero.",
+    "População residente não é eleitorado; excesso agregado não identifica votos irregulares.",
+    "Parte do saldo é razão de ganhos líquidos agregados, não destino individual de votos.",
+    "Comparação de municípios semelhantes é cenário descritivo, não estimativa causal de fraude."
+  ]
+}

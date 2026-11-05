@@ -1,7 +1,7 @@
 {
   "schema": "alp.claims.v1",
-  "updatedAt": "2026-11-04",
-  "status": "partial_independent_reproduction",
+  "updatedAt": "2026-11-05",
+  "status": "expanded_reproduction",
   "reference": {
     "video": "https://www.youtube.com/watch?v=l5aT6mD0Hpo",
     "repository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
@@ -15,10 +15,18 @@
       "reportedByReference": "52,39% de votos válidos para Flávio no recorte até 17h",
       "plannedPrimaryEvidence": "BU, detalhe por seção e fusos na data da eleição",
       "interpretationLimit": "Corte local versus Brasília; incluir exterior em recorte separado",
-      "independentStatus": "pending_required_bweb_source",
+      "independentStatus": "recomputed_author_inputs",
       "independentResult": null,
       "firstVideoPriority": true,
-      "pendingReason": "Recebimento/totalização do BU no detalhe não substitui abertura/encerramento; nenhum percentual próprio calculado."
+      "numericStatus": "recalculated_author_inputs",
+      "review20261105": {
+        "finding": "52,39% em hora local com exterior; 50,99% pelo método de conversão e Brasil sem exterior.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Auditar boletins originais, fusos e sensibilidade dos cortes; os universos diferem."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H02",
@@ -27,9 +35,18 @@
       "reportedByReference": "2.537.055 votantes nas seções; 34.424 votos após 17h no relatório revisado",
       "plannedPrimaryEvidence": "BU e logs horários",
       "interpretationLimit": "Votação durante todo o dia não equivale a votos lançados depois do corte",
-      "independentStatus": "pending",
+      "independentStatus": "recomputed_author_inputs",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "recalculated_author_inputs",
+      "review20261105": {
+        "finding": "2.537.055 comparecimentos no dia em seções encerradas a partir17h16; tabela soma34.393 eventos após17h.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Reconstruir ajuste31 no oeste do AM que leva relatório final a34.424; não confundir comparecimento com horário individual."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H03",
@@ -38,9 +55,18 @@
       "reportedByReference": "8.615.564 liberações pela digital do mesário; 12,42% incluindo sem digital cadastrada",
       "plannedPrimaryEvidence": "BU, logs e dicionário de eventos",
       "interpretationLimit": "Cadastro biométrico não comprova uso efetivo; denominadores devem coincidir",
-      "independentStatus": "pending",
+      "independentStatus": "recomputed_author_inputs",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "recalculated_author_inputs",
+      "review20261105": {
+        "finding": "8.615.564 pela digital do mesário e7.242.863 na categoria sem digital cadastrada.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Reconstruir aquisição de BU/log e investigar eventos; contagem não prova irregularidade."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H04",
@@ -49,9 +75,18 @@
       "reportedByReference": "6.802 seções para Lula e 368 para Flávio, segundo a referência",
       "plannedPrimaryEvidence": "Votação e BU por seção, 2018/2022/2026",
       "interpretationLimit": "Tamanho e perfil da seção; recorte Brasil versus exterior",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "6.802 seções para Lula e368 para Flávio, limiar estrito>90%, no Brasil.",
+        "evidence": [
+          "resultados/historico_secoes.json"
+        ],
+        "nextTest": "Estudar distribuição e contexto; contagem não é teste causal de fraude."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H05",
@@ -62,7 +97,14 @@
       "interpretationLimit": "Validar adequação do teste antes de interpretar desvio",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "O teste de adequação e seus pressupostos ainda não foram reexecutados aqui.",
+        "evidence": [],
+        "nextTest": "Implementar desenho adequado, universo e controles; não converter p-valor em prova de fraude."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H06",
@@ -73,7 +115,14 @@
       "interpretationLimit": "Data do catálogo não é prova da primeira disponibilização do arquivo",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Cronologia de BU, API e entrada no catálogo não reconstituída nesta rodada.",
+        "evidence": [],
+        "nextTest": "Preservar documentos/capturas por evento e horário, distinguir publicação de catalogação."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H07",
@@ -82,7 +131,7 @@
       "reportedByReference": "106 seções; 14.860 votos para Lula; 29 sem branco/nulo; 141 em 2022 e 328 em 2018 no comparador",
       "plannedPrimaryEvidence": "Presidencial por seção, detalhe e locais de votação",
       "interpretationLimit": "Mesmo universo e chave; preservar perdas de pareamento",
-      "independentStatus": "partially_reproduced_official_archives",
+      "independentStatus": "reproduced",
       "independentResult": {
         "resultFile": "resultados/secoes_zero_voto.json",
         "scope": "Brasil sem exterior, presidente, segundo turno; seções instaladas, não anuladas, nominal positivo",
@@ -93,7 +142,16 @@
         "attendance": 15222,
         "historicalComparators": "not_reproduced"
       },
-      "firstVideoPriority": true
+      "firstVideoPriority": true,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "2018=328,2022=141,2026=106; 14.860 votosLula e29 sem branco/nulo;105/106≤5 votosFlávio1t e118 no total.",
+        "evidence": [
+          "resultados/historico_secoes.json"
+        ],
+        "nextTest": "Comparar universo e continuidade das unidades; mesma chave não implica os mesmos eleitores."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H08",
@@ -102,9 +160,18 @@
       "reportedByReference": "54.304 boletins repetidos; faixa simulada 43.808–44.541 na referência",
       "plannedPrimaryEvidence": "BU e simulação com semente/universo registrados",
       "interpretationLimit": "Placar repetido, padrão repetido e número de seções são contagens diferentes",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "41.133 grupos nominais repetidos;54.304 grupos(L,F,B,N), contendo117.488 seções.",
+        "evidence": [
+          "resultados/historico_secoes.json"
+        ],
+        "nextTest": "Simulação do acaso e inferência sobre anomalia não reexecutadas. Quarteto não é identidade de todo arquivoBU."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H09",
@@ -115,7 +182,14 @@
       "interpretationLimit": "Controlar lugar, tamanho e composição do eleitorado",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Comparações condicionais entre modelos não reexecutadas.",
+        "evidence": [],
+        "nextTest": "Ligar votos/modelo e controlar composição geográfica; modelo por si não identifica efeito."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H10",
@@ -126,7 +200,14 @@
       "interpretationLimit": "Ocorrência de transporte não demonstra alteração de voto",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Teto246 é termo do cenário publicado, não cálculo primário desta rodada.",
+        "evidence": [],
+        "nextTest": "Reexecutar comparação com vizinhas; separar ocorrência documentada de efeito nos votos."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H11",
@@ -137,7 +218,14 @@
       "interpretationLimit": "Comparar a mesma seção/universo; três boletins não são um município",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Casos específicos e procedência das imagens não reavaliados.",
+        "evidence": [],
+        "nextTest": "Comparar mesmas seções, cargo, turno e edição."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H12",
@@ -148,7 +236,14 @@
       "interpretationLimit": "Distinguir previstas, instaladas, apuradas, agregadas e exterior",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Cobertura completa de todas as chaves não auditada como teste próprio da hipótese.",
+        "evidence": [],
+        "nextTest": "Reconciliar chaves/status das fontes completas; não inferir pela simples existência de arquivos."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H13",
@@ -157,10 +252,18 @@
       "reportedByReference": "297.977 eleitores 100+; 149.424 residentes 96+ no Censo 2022; diferença 148.553; 2.141 comparecimentos 100+ no 1º turno",
       "plannedPrimaryEvidence": "Perfil eleitoral, comparecimento por faixa etária e Censo IBGE 9514",
       "interpretationLimit": "Diferença agregada não identifica óbitos; mesma data de referência e cobertura",
-      "independentStatus": "pending_primary_content_retrieval",
+      "independentStatus": "reproduced",
       "independentResult": null,
       "firstVideoPriority": true,
-      "pendingReason": "Recursos oficiais identificados; tentativas sem conteúdo validado por timeout/DNS; aritmética da referência não valida insumos."
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "297.977 cadastro100+,149.424 Censo96+,diferença148.553;2.141 comparecimentos1t=0,718512%.",
+        "evidence": [
+          "resultados/idade.json"
+        ],
+        "nextTest": "2t ausente na edição por idade; diferenças de data/coorte/cobertura e cruzamento de óbitos seguem em aberto."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H14",
@@ -169,9 +272,18 @@
       "reportedByReference": "120 municípios contra 52 em 2022; 33.408 votos acima da referência; 45 vencidos por Flávio",
       "plannedPrimaryEvidence": "Comparecimento municipal, correspondência TSE/IBGE e Censo",
       "interpretationLimit": "Domicílio eleitoral e residência não são universos idênticos; defasagem temporal",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "2026=120 municípios,45 vencidos porFlávio; excedentes33.408;2022=52. Três municípiosPI com votosLula acimaCenso.",
+        "evidence": [
+          "resultados/municipios.json"
+        ],
+        "nextTest": "População residente2022 não é domicílio eleitoral2026. Um município2026 sem população correspondente não virou zero."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H15",
@@ -180,9 +292,18 @@
       "reportedByReference": "113.315 avisos; aumento aproximado de 13% na taxa de avisos isolados da amostra",
       "plannedPrimaryEvidence": "Logs e definição explícita de repetição/isolamento",
       "interpretationLimit": "Eventos não são pessoas/votos distintos; amostra de seções não é censo",
-      "independentStatus": "pending",
+      "independentStatus": "recomputed_author_inputs",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "recalculated_author_inputs",
+      "review20261105": {
+        "finding": "113.315 eventos no campo preservado.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Não são pessoas únicas ou casos de usurpação identificados; recompor logs e amostra dos avisos isolados."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H16",
@@ -193,7 +314,14 @@
       "interpretationLimit": "Definir sequências, identificação do operador e controles antes de testar",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Padrão horário e testes condicionais não reexecutados.",
+        "evidence": [],
+        "nextTest": "Reprocessar amostra com seleção, perdas e definições de evento."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H17",
@@ -202,9 +330,18 @@
       "reportedByReference": "Alegação de 165 mil; referência afirma zero quedas do total",
       "plannedPrimaryEvidence": "Histórico oficial de totalização e capturas contemporâneas",
       "interpretationLimit": "Percentual pode cair com total crescente; não confundir painéis de épocas diferentes",
-      "independentStatus": "pending",
+      "independentStatus": "recomputed_author_inputs",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "recalculated_author_inputs",
+      "review20261105": {
+        "finding": "346 versões nacionais preservadas; zero reduções nominais deLula ouFlávio.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Não cobre intervalos entre capturas, nem autenticação integral de todos os boletins."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H18",
@@ -215,7 +352,14 @@
       "interpretationLimit": "Definir queda grande/estável; estatística agregada não identifica troca de voto",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "82.155/3.250 são resultados do autor ainda não reexecutados por esta rodada.",
+        "evidence": [],
+        "nextTest": "Definir quedas e estabilidade de comparecimento, refazer pares; a mudança individual de voto não é observada."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H19",
@@ -224,9 +368,18 @@
       "reportedByReference": "Flávio com queda em 6 UFs; Lula em nenhuma, segundo a referência",
       "plannedPrimaryEvidence": "Votação municipal/UF de cada turno",
       "interpretationLimit": "Separar saldo nominal, percentual e variação do comparecimento",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "Flávio caiu emAC,AM,AP,MA,RR,TO; Lula em nenhum; comparecimento caiu nos seis.",
+        "evidence": [
+          "resultados/municipios.json"
+        ],
+        "nextTest": "Mudança agregada entre turnos não identifica sua causa."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H20",
@@ -235,9 +388,18 @@
       "reportedByReference": "Nordeste: 18,39% para 16,49%",
       "plannedPrimaryEvidence": "Detalhe de apuração com aptos e comparecimento",
       "interpretationLimit": "Recalcular taxas pelos totais, não média simples de percentuais municipais",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "Nordeste18,39%→16,49%, demais regiões também recalculadas.",
+        "evidence": [
+          "resultados/municipios.json"
+        ],
+        "nextTest": "Efeito causal de transporte ou campanha não foi identificado."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H21",
@@ -248,7 +410,14 @@
       "interpretationLimit": "Correlação municipal não demonstra compra de voto ou comportamento individual",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Não foi testado no estudo original nesta rodada; permanece sem novo teste aqui.",
+        "evidence": [],
+        "nextTest": "Fonte de benefícios, universo e estratégia causal; renda não substitui automaticamente benefício."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H22",
@@ -259,7 +428,14 @@
       "interpretationLimit": "Cobertura de sinal, uso e voto individual são medidas diferentes",
       "independentStatus": "pending",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "pending",
+      "review20261105": {
+        "finding": "Não foi testado no estudo original nesta rodada; permanece sem novo teste aqui.",
+        "evidence": [],
+        "nextTest": "Fonte de cobertura/uso e estratégia de identificação com controles."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H23",
@@ -268,9 +444,18 @@
       "reportedByReference": "Região dos Lagos: 95,1% do saldo; comparadores: 85,0%; 3.025 votos de diferença na referência",
       "plannedPrimaryEvidence": "Votação municipal por turno e recortes pré-definidos",
       "interpretationLimit": "Saldo líquido não rastreia transferência individual; validar escolha dos comparadores",
-      "independentStatus": "pending",
+      "independentStatus": "reproduced",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "reproduced_primary_numeric",
+      "review20261105": {
+        "finding": "RegiãoLagos:ganhosL28.624/F1.476; parcela95,1%;25pares≈85%,cenário3.025;AraruamaL+5.581/F+11.",
+        "evidence": [
+          "resultados/municipios.json"
+        ],
+        "nextTest": "Ganho líquido não é destino individual dos votos; categoria brancos/nulos emAraruama tem resíduo5 entre fontes."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     },
     {
       "id": "H24",
@@ -279,9 +464,20 @@
       "reportedByReference": "346 versões na fala; 342 acima de 1% no JSON RODADA3; 99,5% de passos na referência",
       "plannedPrimaryEvidence": "Snapshots contemporâneos e ordem de recepção por seção",
       "interpretationLimit": "Conciliar versões/limiar; não confundir correlação, R² e percentual de passos",
-      "independentStatus": "pending",
+      "independentStatus": "partially_testable",
       "independentResult": null,
-      "firstVideoPriority": false
+      "firstVideoPriority": false,
+      "numericStatus": "partially_reproduced",
+      "review20261105": {
+        "finding": "Não houve queda nominal nas346 capturas; estatística de99,5% dos passos não recalculada.",
+        "evidence": [
+          "resultados/capturas.json"
+        ],
+        "nextTest": "Refazer curva contrafactual na ordem de chegada, tamanhos de bloco, métricas e controles."
+      },
+      "causalConclusion": "Não estabelecida pelo simples acerto numérico."
     }
-  ]
+  ],
+  "currentPresentationMap": "analise/grade-validacao-r5.json",
+  "referenceContext": "24 hipóteses investigadas pelo estudo original,22 testadas e2 não testadas; não24 afirmações factuais do autor."
 }

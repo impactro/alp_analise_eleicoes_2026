@@ -1,0 +1,272 @@
+{
+  "schema": "alp.presentation-claims.v2",
+  "revision": "R5",
+  "updatedAt": "2026-11-05",
+  "status": "expanded_reproduction_script_revised",
+  "referenceContext": "24 hipóteses investigadas pelo estudo original,22 testadas e2 não testadas; não24 afirmações factuais do autor.",
+  "referenceRepository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
+  "referenceCommit": "4a12ed014cf7927df24226f900450db7fe5b1a22",
+  "previousPresentation": "analise/grade-validacao-r4.json",
+  "currentScript": "docs/roteiro-episodio-r5.md",
+  "publishedVideoRevision": 4,
+  "legend": {
+    "reproduced_primary_numeric": "Proposição numérica reproduzida com fontes primárias; não valida automaticamente a interpretação causal.",
+    "recalculated_author_inputs": "Código próprio recalculou tabelas/capturas preservadas pelo autor; aquisição/transformação original não reconstruída integralmente.",
+    "partially_reproduced": "Parte da proposição possui recálculo próprio; parcela restante explicitada.",
+    "pending": "Ainda não executado nesta rodada; não implica falsidade nem impossibilidade."
+  },
+  "summary": {
+    "primaryNumericBlocks": 8,
+    "authorInputRecalculatedBlocks": 5,
+    "partialBlocks": 1,
+    "pendingBlocks": 10,
+    "allFraudHypothesesResolved": false
+  },
+  "items": [
+    {
+      "id": "H01",
+      "topic": "Horário de encerramento",
+      "numericStatus": "recalculated_author_inputs",
+      "numericFinding": "52,39% em hora local com exterior; 50,99% pelo método de conversão e Brasil sem exterior.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Auditar boletins originais, fusos e sensibilidade dos cortes; os universos diferem.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H02",
+      "topic": "Comparecimento e votos após o horário",
+      "numericStatus": "recalculated_author_inputs",
+      "numericFinding": "2.537.055 comparecimentos no dia em seções encerradas a partir17h16; tabela soma34.393 eventos após17h.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Reconstruir ajuste31 no oeste do AM que leva relatório final a34.424; não confundir comparecimento com horário individual.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H03",
+      "topic": "Liberações sem biometria do eleitor",
+      "numericStatus": "recalculated_author_inputs",
+      "numericFinding": "8.615.564 pela digital do mesário e7.242.863 na categoria sem digital cadastrada.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Reconstruir aquisição de BU/log e investigar eventos; contagem não prova irregularidade.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H04",
+      "topic": "Mais de90% por candidato",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "6.802 seções para Lula e368 para Flávio, limiar estrito>90%, no Brasil.",
+      "evidence": [
+        "resultados/historico_secoes.json"
+      ],
+      "nextTest": "Estudar distribuição e contexto; contagem não é teste causal de fraude.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H05",
+      "topic": "Benford",
+      "numericStatus": "pending",
+      "numericFinding": "O teste de adequação e seus pressupostos ainda não foram reexecutados aqui.",
+      "evidence": [],
+      "nextTest": "Implementar desenho adequado, universo e controles; não converter p-valor em prova de fraude.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H06",
+      "topic": "Publicação dos boletins",
+      "numericStatus": "pending",
+      "numericFinding": "Cronologia de BU, API e entrada no catálogo não reconstituída nesta rodada.",
+      "evidence": [],
+      "nextTest": "Preservar documentos/capturas por evento e horário, distinguir publicação de catalogação.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H07",
+      "topic": "Seções sem voto",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "2018=328,2022=141,2026=106; 14.860 votosLula e29 sem branco/nulo;105/106≤5 votosFlávio1t e118 no total.",
+      "evidence": [
+        "resultados/historico_secoes.json"
+      ],
+      "nextTest": "Comparar universo e continuidade das unidades; mesma chave não implica os mesmos eleitores.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H08",
+      "topic": "Placares e quartetos repetidos",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "41.133 grupos nominais repetidos;54.304 grupos(L,F,B,N), contendo117.488 seções.",
+      "evidence": [
+        "resultados/historico_secoes.json"
+      ],
+      "nextTest": "Simulação do acaso e inferência sobre anomalia não reexecutadas. Quarteto não é identidade de todo arquivoBU.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H09",
+      "topic": "Modelo de urna",
+      "numericStatus": "pending",
+      "numericFinding": "Comparações condicionais entre modelos não reexecutadas.",
+      "evidence": [],
+      "nextTest": "Ligar votos/modelo e controlar composição geográfica; modelo por si não identifica efeito.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H10",
+      "topic": "Contingências e transporte",
+      "numericStatus": "pending",
+      "numericFinding": "Teto246 é termo do cenário publicado, não cálculo primário desta rodada.",
+      "evidence": [],
+      "nextTest": "Reexecutar comparação com vizinhas; separar ocorrência documentada de efeito nos votos.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H11",
+      "topic": "BU impresso e total municipal",
+      "numericStatus": "pending",
+      "numericFinding": "Casos específicos e procedência das imagens não reavaliados.",
+      "evidence": [],
+      "nextTest": "Comparar mesmas seções, cargo, turno e edição.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H12",
+      "topic": "Lista de seções entre turnos",
+      "numericStatus": "pending",
+      "numericFinding": "Cobertura completa de todas as chaves não auditada como teste próprio da hipótese.",
+      "evidence": [],
+      "nextTest": "Reconciliar chaves/status das fontes completas; não inferir pela simples existência de arquivos.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H13",
+      "topic": "Idade e comparecimento",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "297.977 cadastro100+,149.424 Censo96+,diferença148.553;2.141 comparecimentos1t=0,718512%.",
+      "evidence": [
+        "resultados/idade.json"
+      ],
+      "nextTest": "2t ausente na edição por idade; diferenças de data/coorte/cobertura e cruzamento de óbitos seguem em aberto.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H14",
+      "topic": "Comparecimento e população",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "2026=120 municípios,45 vencidos porFlávio; excedentes33.408;2022=52. Três municípiosPI com votosLula acimaCenso.",
+      "evidence": [
+        "resultados/municipios.json",
+        "resultados/historico_secoes.json"
+      ],
+      "nextTest": "População residente2022 não é domicílio eleitoral2026. Um município2026 sem população correspondente não virou zero.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H15",
+      "topic": "Avisos já votou",
+      "numericStatus": "recalculated_author_inputs",
+      "numericFinding": "113.315 eventos no campo preservado.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Não são pessoas únicas ou casos de usurpação identificados; recompor logs e amostra dos avisos isolados.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H16",
+      "topic": "Liberações ao longo do dia",
+      "numericStatus": "pending",
+      "numericFinding": "Padrão horário e testes condicionais não reexecutados.",
+      "evidence": [],
+      "nextTest": "Reprocessar amostra com seleção, perdas e definições de evento.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H17",
+      "topic": "Série da totalização",
+      "numericStatus": "recalculated_author_inputs",
+      "numericFinding": "346 versões nacionais preservadas; zero reduções nominais deLula ouFlávio.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Não cobre intervalos entre capturas, nem autenticação integral de todos os boletins.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H18",
+      "topic": "Queda por seção e troca de voto",
+      "numericStatus": "pending",
+      "numericFinding": "82.155/3.250 são resultados do autor ainda não reexecutados por esta rodada.",
+      "evidence": [],
+      "nextTest": "Definir quedas e estabilidade de comparecimento, refazer pares; a mudança individual de voto não é observada.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H19",
+      "topic": "Votos por estado",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "Flávio caiu emAC,AM,AP,MA,RR,TO; Lula em nenhum; comparecimento caiu nos seis.",
+      "evidence": [
+        "resultados/municipios.json"
+      ],
+      "nextTest": "Mudança agregada entre turnos não identifica sua causa.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H20",
+      "topic": "Abstenção regional",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "Nordeste18,39%→16,49%, demais regiões também recalculadas.",
+      "evidence": [
+        "resultados/municipios.json"
+      ],
+      "nextTest": "Efeito causal de transporte ou campanha não foi identificado.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H21",
+      "topic": "Benefício social",
+      "numericStatus": "pending",
+      "numericFinding": "Não foi testado no estudo original nesta rodada; permanece sem novo teste aqui.",
+      "evidence": [],
+      "nextTest": "Fonte de benefícios, universo e estratégia causal; renda não substitui automaticamente benefício.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H22",
+      "topic": "Conectividade e5G",
+      "numericStatus": "pending",
+      "numericFinding": "Não foi testado no estudo original nesta rodada; permanece sem novo teste aqui.",
+      "evidence": [],
+      "nextTest": "Fonte de cobertura/uso e estratégia de identificação com controles.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H23",
+      "topic": "Saldo dos finalistas em municípios",
+      "numericStatus": "reproduced_primary_numeric",
+      "numericFinding": "RegiãoLagos:ganhosL28.624/F1.476; parcela95,1%;25pares≈85%,cenário3.025;AraruamaL+5.581/F+11.",
+      "evidence": [
+        "resultados/municipios.json"
+      ],
+      "nextTest": "Ganho líquido não é destino individual dos votos; categoria brancos/nulos emAraruama tem resíduo5 entre fontes.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    },
+    {
+      "id": "H24",
+      "topic": "Curva de percentual",
+      "numericStatus": "partially_reproduced",
+      "numericFinding": "Não houve queda nominal nas346 capturas; estatística de99,5% dos passos não recalculada.",
+      "evidence": [
+        "resultados/capturas.json"
+      ],
+      "nextTest": "Refazer curva contrafactual na ordem de chegada, tamanhos de bloco, métricas e controles.",
+      "causalVerdict": "Não promovido pelo simples acerto numérico."
+    }
+  ]
+}
