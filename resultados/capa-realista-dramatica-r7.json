@@ -2,7 +2,7 @@
   "schema": "alp.thumbnail-revision-evidence.v1",
   "episode": "2026-11-04-B",
   "revision": "photographic-dramatic-r2",
-  "status": "applied_to_existing_public_video",
+  "status": "superseded_after_owner_identity_rejection",
   "youtubeVideoId": "WZJsq1Vimto",
   "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
   "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
@@ -121,5 +121,14 @@
       "sha256": "fdeb17bb88f4c9c6a5f31f142d027b9be21d2bbaaabe469a8e2328d775598e7a",
       "bytes": 3188
     }
-  ]
+  ],
+  "artifactSnapshotCommit": "0aced3d7457752935acc45be1f6ca93329e1caae",
+  "artifactSnapshotNote": "Os hashes em artifacts preservam a entrega fotográfica nesse commit. A aplicação ocorreu; o aceite de identidade foi posteriormente reaberto pelo proprietário.",
+  "supersededBy": "resultados/capa-identidade-corrigida-r7.json",
+  "laterOwnerReview": {
+    "ideaAndStyleAccepted": true,
+    "characterIdentityRejected": true,
+    "reason": "Design facial e proporções não correspondiam às referências selecionadas. O QA anterior reconheceu características genéricas, sem comprovar semelhança do design.",
+    "correctionEvidence": "resultados/capa-identidade-corrigida-r7.json"
+  }
 }

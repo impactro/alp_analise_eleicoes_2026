@@ -1,0 +1,111 @@
+{
+  "schema": "alp.thumbnail-revision-evidence.v1",
+  "episode": "2026-11-04-B",
+  "revision": "identity-corrected-r1",
+  "status": "applied_to_existing_public_video",
+  "youtubeVideoId": "WZJsq1Vimto",
+  "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
+  "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
+  "privacy": "public",
+  "observedAtUtc": "2026-11-06T19:17:09Z",
+  "apiPublishedAtUnchanged": "2026-11-06T15:55:06Z",
+  "ownerFeedback": {
+    "ideaAndCompositionAccepted": true,
+    "dramaticRealismAndTypographyAccepted": true,
+    "previousCharacterIdentityRejected": true,
+    "explicitOpenAiEditorAuthorization": true
+  },
+  "copy": {
+    "headline": "IA PROVA FRAUDE?",
+    "context": "ELEIÇÃO 2026",
+    "edition": "EXTRA NOVEMBRO"
+  },
+  "noCalendarOrDayDate": true,
+  "sourceEdit": {
+    "provider": "OpenAI integrated image_gen",
+    "operation": "reference-conditioned edit",
+    "model": null,
+    "actualInputImages": 3,
+    "prompt": "docs/prompt-capa-identidade.md",
+    "originalPromptFileSha256": "cf6c5d97acc3b8d4e59796960bd0bb796547690c768cb757a227fc6b93c9c34c",
+    "editTargetSha256": "d2dfe9867140a537fdf43dccba6bf974eac479dc979fa7fb53223288041c6641",
+    "characterReferenceSha256": {
+      "crania": "7354d17a5dde90591acb5ed168cc35207b36d0907b17360b7b17a5573f7ef983",
+      "aistein": "9ebe61bffb18e18464bb20f3010115f2922b961f8cc725c60309a809426367ff"
+    },
+    "selectedReferences": "CSM editorial alpha r2c / AIstein P02; not byte-equivalent to Avatar III looks",
+    "originalOutputSha256": "eea6d2f648a5a048d01b0cafb823cc8d468cbab8273900e09b176669d034a3ce",
+    "originalOutputDimensions": [
+      1672,
+      941
+    ],
+    "compositionSourceSha256": "1c6211d9138fc1d27fe6b432128f398151feabb6f9f833715ac2eb78bad462ed",
+    "nativeResize": "contain 1280x720; no further crop",
+    "generations": 1,
+    "observedToolWallSeconds": 42.5,
+    "officialTokens": null,
+    "actualCharge": null,
+    "provenanceRecordSha256": "d3117b485d5a57be4cd56b52dbe714ac3bcb15a7778ff8fad4129b50ba4046bf"
+  },
+  "thumbnail": {
+    "sha256": "2fbf5fe1f46ffd15f7b6e5071d3b9aa1540c6b038db76225756c0d0a59d85b2f",
+    "bytes": 1670230,
+    "width": 1280,
+    "height": 720,
+    "format": "PNG"
+  },
+  "mobile": {
+    "sha256": "b2227dd4cc55010cc1098d28727b50b68de8da5d88f6056e9437b9e9e6908ad7",
+    "bytes": 123204,
+    "width": 320,
+    "height": 180
+  },
+  "typographyLayersIdenticalToApprovedPriorVersion": true,
+  "previousThumbnailSha256": "9cc67f9d8b1a9435b1145e9ccfd0183ba3b19a8d97a0dc3a88a517bcd50f781e",
+  "previousThumbnailRecord": "resultados/capa-realista-dramatica-r7.json",
+  "previousDeliveryCommit": "0aced3d7457752935acc45be1f6ca93329e1caae",
+  "visualQa": {
+    "model": "gpt-6.1-sol",
+    "result": "approved_with_low_warnings",
+    "identityComparedDirectlyToSelectedReferences": true,
+    "sourceResultSha256": "3758af708320b4f188b43e5750de7828c88034566f727d1ae3048db977b01756",
+    "resultSha256": "7ceac5ff797ba8b7405d6af84f88d81451b657f3764eaf39ddd8cf825d5f8307",
+    "nativeReviewSha256": "1cc62cc300df376dbb1aa946fc367fa6f66c3d0de94b1a73214f4d817acc057b",
+    "identityAndPhysicalContinuity": "PASS",
+    "photographicDrama": "PASS",
+    "fullAndMobileApproved": true,
+    "warnings": [
+      "Hair near top edge, without loss of face or action.",
+      "Secondary context/edition are small on mobile; headline/question remain legible.",
+      "Tiny illustrative sheet glyphs are not legible electoral data.",
+      "Small emblem cannot be attested."
+    ]
+  },
+  "nativeCreatedImageQaSha256": "41a499050d1719534e7515cf65436b886d1669b5f938f4fe5a4d257cadea1055",
+  "nativeAdoptionManifestSha256": "32b615752478d7c3b2dcf8bff82f3899d5dbc2aaa308bc5c07b98d6888563168",
+  "nativeAdoptionQaSha256": "149606c1cf1d869cd78c9c86ff8c7671fa1d408813496431d9494ff027ae7ce9",
+  "csmEditorialAcceptanceSha256": "7adc0309b379b93a8dd2ca4cfce86770ced3505e84b8e744b20a1b2da0da9496",
+  "rootReleaseSha256": "89ddd55bf52fff7666fdd2dcc7758b2dd142b75c5f52ec4b968dce895dfa7f79",
+  "officialSet": {
+    "accepted": true,
+    "source": "youtube_api.thumbnails.set",
+    "responseSha256": "d54081b167586b0b64e16bf6cbb47cbe81c1685562577cce8ef0b0e0da7c96e3",
+    "calls": 1
+  },
+  "independentStatusSha256": "9b9a115bd2558adb1aa14e51cee196fc5cdd931a7b66690ecb0190f20722448b",
+  "sourceVideoSha256": "4ca1cc19c3195567e951240cb976dc87ca44d443bd5c1908f74c00bf8de7db18",
+  "originalVideoEpisodeSha256": "ba2594716833fff098840e34b76b9dcbb4949a1f4e6fa969ce3e80d7951e3121",
+  "thumbnailOnlyEditorialSnapshotSha256": "bd72aafbf67b90ca6362b48c9027c16dc4e3614bfc1d07ef7bcc39f5cf9fb9a2",
+  "analysisCodeAndResultsUnchanged": true,
+  "titleDescriptionAudioVideoPrivacyUnchanged": true,
+  "newVideoUpload": false,
+  "oldFilesPreserved": true,
+  "mediaCommitted": false,
+  "rawDataCommitted": false,
+  "limits": [
+    "Arte sintética ilustrativa; não é cena documental nem evidência de fraude. A pergunta da capa não altera conclusões analíticas.",
+    "A API aceitou o arquivo selado; não expõe hash dos bytes da imagem transcodificada servida.",
+    "Referências de marca e imagens permanecem no acervo; este repositório contém prompt, método e hashes. A reprodução dos números independe da arte.",
+    "Modelo interno, custo atribuível e contadores oficiais do editor não foram expostos; valores indisponíveis ficam null."
+  ]
+}

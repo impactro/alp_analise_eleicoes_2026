@@ -75,7 +75,8 @@ Fábio aprovou a versão após a revisão não listada e autorizou a publicaçã
 pública em 06/11/2026. [Registro da liberação pública](resultados/publicacao-publica-r7.json).
 Capa fotográfica e dramática, sem calendário, com **“IA PROVA FRAUDE?”**,
 “ELEIÇÃO 2026” e “EXTRA NOVEMBRO”. CrânIA e AIstein confrontam uma planilha.
-[Registro da capa atual e do QA](resultados/capa-realista-dramatica-r7.json).
+Personagens corrigidos por edição com as referências visuais selecionadas, preservando a cena e as mesmas letras.
+[Registro da capa atual e do QA](resultados/capa-identidade-corrigida-r7.json) · [Prompt e referências da edição](docs/prompt-capa-identidade.md).
 
 ## Prévia temporal R6.2 para avaliação
 
