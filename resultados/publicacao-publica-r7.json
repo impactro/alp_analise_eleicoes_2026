@@ -1,0 +1,62 @@
+{
+  "schema": "alp.public-release-evidence.v1",
+  "episode": "2026-11-04-B",
+  "revision": "R7.1",
+  "status": "public_confirmed",
+  "youtubeVideoId": "WZJsq1Vimto",
+  "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
+  "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
+  "privacyBefore": "unlisted",
+  "privacyRequested": "public",
+  "privacyConfirmed": "public",
+  "ownerApprovedAfterUnlistedReview": true,
+  "officialApiPublishedAt": "2026-11-06T15:55:06Z",
+  "publicStatusObservedAt": "2026-11-06T15:58:28Z",
+  "scheduledPublishAt": null,
+  "uploadStatus": "processed",
+  "processingStatus": "succeeded",
+  "durationSeconds": 434,
+  "existingVideoPreserved": true,
+  "newUploadPerformed": false,
+  "mediaChanged": false,
+  "thumbnailChanged": false,
+  "titleChanged": false,
+  "descriptionChanged": false,
+  "sourceVideoSha256": "4ca1cc19c3195567e951240cb976dc87ca44d443bd5c1908f74c00bf8de7db18",
+  "initialUnlistedDeliveryCommit": "c3e5055b864be3dae8dd10e156d061830d3453dc",
+  "initialUnlistedEvidenceSha256": "9af802bcd853507cda9932a9e49b62e4215b3dcaf85941a5aef19badf3f8a6ef",
+  "beforeStatusSha256": "2e51a4c79b108c0cb45624b6314a3feea72b49975019a8ef45d1fd294f9f8118",
+  "executeResponseSha256": "8dc0e74321fd36649f3b974879864abb50661ad49a3ca75c92fccdb5f8900407",
+  "afterStatusSha256": "1d111a1825d9ccd13ad84c8645368bd687df54fdacab08c94ae081fe623d7c4a",
+  "rootOfficialStatusSha256": "919dfa5d2eb6a308dfae8d1ff581ce1ae30e6810de3c02a0551912d69bf3111d",
+  "checks": {
+    "officialUpdateVerified": true,
+    "independentOfficialStatusConfirmed": true,
+    "sameVideoChannelTitle": true,
+    "publicProcessedSucceeded": true,
+    "noSchedule": true,
+    "nativePublicationQaApproved": true
+  },
+  "editorialState": "closed_after_first_public_release; further video edits require a new specific owner request",
+  "limits": [
+    "A alteração foi somente de visibilidade do vídeo existente; os QAs audiovisuais anteriores permanecem vinculados ao mesmo arquivo.",
+    "A API confirma o estado público, canal, título, duração e processamento; não fornece hash criptográfico do vídeo enviado.",
+    "Sinalizador de mídia sintética continua sem observação no resumo da API; a solicitação original foi preservada."
+  ],
+  "artifactHashScope": "Canonical UTF-8/LF Git blobs; record excludes its own hash.",
+  "artifacts": [
+    {
+      "ref": "README.md",
+      "sha256": "e44f6809822d9aa5fb2a4324be1dc72d633f8a93fd1bcab5cc6f57a842015f60",
+      "bytes": 10452
+    },
+    {
+      "ref": "resultados/video-r7-final.json",
+      "sha256": "7e110c9fbe5f178cdb2218884d7b36d6fae35174d36952eb1843ccc919e59004",
+      "bytes": 6932
+    }
+  ],
+  "nativePublicationQa": "approved",
+  "nativePublicationQaSha256": "ceb5545aba486710441c415bc269266608cd05c1f9ec1940a4177a22fc5754c3",
+  "nativePublicationAttestationSha256": "b5a22d5242e9098ca6d1cb0d6792cbb7ea8e50f0eba0868df7608ca6a871d8ea"
+}

@@ -3,17 +3,17 @@
   "episode": "2026-11-04-B",
   "revision": "R7.1",
   "kind": "final_audiovisual_episode",
-  "state": "publicado_nao_listado_processado_qa_aprovado",
+  "state": "publicado_publico_processado_qa_aprovado",
   "title": "Lula e Flávio: o que os números da apuração mostram",
   "youtubePublicationUrl": "https://www.youtube.com/watch?v=WZJsq1Vimto",
   "youtubeVideoId": "WZJsq1Vimto",
   "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
-  "youtubePrivacy": "unlisted",
+  "youtubePrivacy": "public",
   "youtubeUploadStatus": "processed",
   "youtubeProcessingStatus": "succeeded",
-  "youtubeStatusObservedAt": "2026-11-06T10:13:44Z",
+  "youtubeStatusObservedAt": "2026-11-06T15:58:28Z",
   "scheduledPublishAt": null,
-  "publishedPublicAt": null,
+  "publishedPublicAt": "2026-11-06T15:55:06Z",
   "notFinalVideo": false,
   "notFinalVoice": false,
   "sourceDurationSeconds": 433.333333,
@@ -121,5 +121,14 @@
       "sha256": "60cb4dd8af155db2762bc17e1b247fae70c70fc77102a2851875399d06b5472f",
       "bytes": 7203
     }
-  ]
+  ],
+  "initialUnlistedDelivery": {
+    "commit": "c3e5055b864be3dae8dd10e156d061830d3453dc",
+    "evidenceSha256": "9af802bcd853507cda9932a9e49b62e4215b3dcaf85941a5aef19badf3f8a6ef",
+    "privacy": "unlisted",
+    "sameVideoId": true
+  },
+  "publicReleaseEvidence": "resultados/publicacao-publica-r7.json",
+  "artifactSnapshotCommit": "c3e5055b864be3dae8dd10e156d061830d3453dc",
+  "artifactSnapshotNote": "Os hashes em artifacts preservam o pacote inicial de entrega não listada nesse commit. A liberação pública posterior está no registro indicado."
 }
