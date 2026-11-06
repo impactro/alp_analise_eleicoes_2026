@@ -1,0 +1,1143 @@
+{
+  "schema": "alp.temporal-observations.v1",
+  "status": "visual_and_press_observations_recorded",
+  "date": "2026-10-25",
+  "reading": {
+    "model": "gpt-6.1-sol",
+    "environment": "Codex",
+    "provider": "OpenAI",
+    "independentQa": false,
+    "modelEvidence": "Explicitly instantiated Sol 6.1 agent under CSM visual QA policy"
+  },
+  "scope": "Factual legibility and faithful data extraction only; no endorsement of broadcast accuracy, license or republication",
+  "observations": [
+    {
+      "id": "CNN-f10",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=9794s",
+      "sourcePositionSeconds": 9794.032,
+      "atSeconds": 9794.032,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "19:05",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 707531,
+        "lula": 718651
+      },
+      "candidatePercentages": {
+        "flavio": 49.61,
+        "lula": 50.39
+      },
+      "sectionsPercent": 1.1,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 11120,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "ef130bbb799529dc8190a1093a6ed3f26fa59ddbdff1e444f3c65765b7a315e0",
+      "cropSha256": "4a4e90a1dab4a6e6d30f1f479e3a9904a559a325bf2d41d2764c046cfcd07c6a",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f11",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=10824s",
+      "sourcePositionSeconds": 10824.982,
+      "atSeconds": 10824.982,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "19:22",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 1682396,
+        "lula": 1783016
+      },
+      "candidatePercentages": {
+        "flavio": 48.55,
+        "lula": 51.45
+      },
+      "sectionsPercent": 2.78,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 100620,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "5acd859b0751cc8564c431aa90c42aac95cc2e66aa60da78632b8840faf9c7b8",
+      "cropSha256": "de1f06d5bfcbca2bea5b366b5b0713e1a9a8d68709ed1ffad898459f2f387454",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro.",
+        "Telão central mostra PRESIDÊNCIA | MINAS GERAIS, distinto do rodapé nacional extraído."
+      ]
+    },
+    {
+      "id": "CNN-f12",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=11855s",
+      "sourcePositionSeconds": 11855.933,
+      "atSeconds": 11855.933,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "19:39",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 6449165,
+        "lula": 6567952
+      },
+      "candidatePercentages": {
+        "flavio": 49.54,
+        "lula": 50.46
+      },
+      "sectionsPercent": 10.4,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 118787,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "cfe1f3cfd729e5a38343ac2cb8a8f9bebfb1464e46911bff2be6444d3b424c0b",
+      "cropSha256": "e9c65132d559c171bbc4a0ccdf60a8c6f39ca242d99fc9f1fafdfcc1b80a4bf2",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f13",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=12886s",
+      "sourcePositionSeconds": 12886.884,
+      "atSeconds": 12886.884,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "19:56",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 12278121,
+        "lula": 12067480
+      },
+      "candidatePercentages": {
+        "flavio": 50.43,
+        "lula": 49.57
+      },
+      "sectionsPercent": 19.62,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 210641,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "4063b9eeee02ce85d19553d2b7a26b45633abb42533902b632efe41c85427e0d",
+      "cropSha256": "d614a37fdf0f861c4b26015fbef5340ea37445bf42bab5c13de44b03cb8aedd0",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f14",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=13917s",
+      "sourcePositionSeconds": 13917.834,
+      "atSeconds": 13917.834,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "20:14",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 22018541,
+        "lula": 21756615
+      },
+      "candidatePercentages": {
+        "flavio": 50.3,
+        "lula": 49.7
+      },
+      "sectionsPercent": 35.52,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 261926,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "e2f58f6df378cff7948d24db3b42f3b6b4a3c96c34bc83e1cad326fa90465e7c",
+      "cropSha256": "8dce1cf8fc0156e27a29707c2ee59e3a1664d30468fb36016378095be6ff2ce9",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f15",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=14948s",
+      "sourcePositionSeconds": 14948.785,
+      "atSeconds": 14948.785,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "20:31",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 33337283,
+        "lula": 33756075
+      },
+      "candidatePercentages": {
+        "flavio": 49.69,
+        "lula": 50.31
+      },
+      "sectionsPercent": 54.4,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 418792,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "530fa55e50aac3e9e0300e0d194ebd2eab7c1f58937a1866978e5d59ae1ba9b8",
+      "cropSha256": "ef3933f403679641eb3f024ff8542b747698861a833297b3f25ad6d47ee5ee16",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f16",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=15979s",
+      "sourcePositionSeconds": 15979.736,
+      "atSeconds": 15979.736,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "20:48",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 45213739,
+        "lula": 47205970
+      },
+      "candidatePercentages": {
+        "flavio": 48.92,
+        "lula": 51.08
+      },
+      "sectionsPercent": 74.82,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 1992231,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "6ee5dea80f0a518240494957828f71eb7d77571d224d1ca830cd40a794f66b54",
+      "cropSha256": "858bd86569e557aadce538e4d97e767af021daa2636b98f53a480873c73d4846",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro."
+      ]
+    },
+    {
+      "id": "CNN-f17",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=17010s",
+      "sourcePositionSeconds": 17010.687,
+      "atSeconds": 17010.687,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "21:05",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 55699832,
+        "lula": 59556789
+      },
+      "candidatePercentages": {
+        "flavio": 48.33,
+        "lula": 51.67
+      },
+      "sectionsPercent": 93.15,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 3856957,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "8a8f6c9fc2f938d1eaa0e54b20b3f54d4beb521be8078088ea2a5d5bd47d73eb",
+      "cropSha256": "4f30ddf934d4ccf122a4d47b96b2748b91b5ec958bf44f73c24bb8f844c3540d",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro.",
+        "Telão central mostra GOVERNO | RIO GRANDE DO NORTE, distinto do rodapé nacional extraído."
+      ]
+    },
+    {
+      "id": "CNN-f18",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=18041s",
+      "sourcePositionSeconds": 18041.637,
+      "atSeconds": 18041.637,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "21:22",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 59761526,
+        "lula": 64124287
+      },
+      "candidatePercentages": {
+        "flavio": 48.24,
+        "lula": 51.76
+      },
+      "sectionsPercent": 99.84,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 4362761,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "2983cc5e1161453ac9feb3806fe3d02735369c029e92159142a8abad88a97974",
+      "cropSha256": "26d848f648917c9976105682d811dfef02478e345af44c3e31c2246452fa728e",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro.",
+        "Faixa de Flávio está esmaecida pela arte da emissora, mas os dígitos permanecem legíveis no original e no recorte."
+      ]
+    },
+    {
+      "id": "CNN-f19",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=19072s",
+      "sourcePositionSeconds": 19072.588,
+      "atSeconds": 19072.588,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "21:40",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 59791534,
+        "lula": 64174591
+      },
+      "candidatePercentages": {
+        "flavio": 48.23,
+        "lula": 51.77
+      },
+      "sectionsPercent": 99.9,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 4383057,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "1475fafcf8a35aa946fe9a1a1956b0792a1a97c00c8d3dafc0db81076961e68b",
+      "cropSha256": "5945675ce8a38291f0dff36b1b59802038af42e8360c87bb5e658e624fe40761",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro.",
+        "Faixa de Flávio está esmaecida pela arte da emissora, mas os dígitos permanecem legíveis no original e no recorte."
+      ]
+    },
+    {
+      "id": "CNN-f20",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=20103s",
+      "sourcePositionSeconds": 20103.539,
+      "atSeconds": 20103.539,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identificação da transmissão oficial; relógio visível informa somente HH:mm",
+      "visibleClock": "21:57",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "flavio": 59815984,
+        "lula": 64235635
+      },
+      "candidatePercentages": {
+        "flavio": 48.22,
+        "lula": 51.78
+      },
+      "sectionsPercent": 99.97,
+      "sectionsDisplayLabel": "URNAS APURADAS",
+      "visibleVoteDifference": 4419651,
+      "units": {
+        "candidatePercentages": "percent",
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidateVotes": "votes"
+      },
+      "quality": "confirmed",
+      "frameSha256": "6f17204afbfe65528a18eb879887898c93bef0fc92717623b5cbe492f2616d05",
+      "cropSha256": "3a170ee1d130db4adb2284f53c6337033aefc07f8ada1895a64bc9c13f6c6c2a",
+      "bbox": [
+        65,
+        770,
+        1790,
+        290
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1790,
+        290
+      ],
+      "evidenceRegion": "Lower third including candidate names, percentages, absolute vote counts, urnas apuradas, visible clock and CNN branding",
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crop; no OCR-derived digits",
+      "ambiguities": [
+        "Rodapé não imprime o cargo/BR em texto: classificação nacional usa o contexto da transmissão preservado no quadro completo; não usar os resultados estaduais ou de outro cargo do telão.",
+        "Relógio HH:mm não informa segundos. Data de 2026-10-25 vem da identificação da transmissão, não é impressa em cada quadro.",
+        "Faixa de Flávio está esmaecida pela arte da emissora, mas os dígitos permanecem legíveis no original e no recorte."
+      ]
+    },
+    {
+      "id": "Band-f12",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=9835s",
+      "sourcePositionSeconds": 9835.383,
+      "atSeconds": 9835.383,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "25OUT printed beside clock; year2026 on election artwork",
+      "visibleClock": "19:13",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 52.12,
+        "flavio": 47.88
+      },
+      "sectionsPercent": 1.67,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "confirmed",
+      "frameSha256": "a551698c65740a22916153d3b5b0ad8bb7708e51f9c701d35d4ba31889354a47",
+      "cropSha256": "73ae3e99c6464f852b462947fe7331b4bbc3d4a0d63bd97e7d18bea304b84116",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference."
+      ],
+      "eligibleForTemporalMatching": true,
+      "clockCropSha256": "f3143b5ef33c60999c814502c9605a35e1870d1d6cb8bd7d7772153dde7106b0",
+      "clockBbox": [
+        45,
+        670,
+        190,
+        32
+      ]
+    },
+    {
+      "id": "Band-f13",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=10690s",
+      "sourcePositionSeconds": 10690.634,
+      "atSeconds": 10690.634,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "25OUT printed beside clock; year2026 on election artwork",
+      "visibleClock": "19:27",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 51.26,
+        "flavio": 48.74
+      },
+      "sectionsPercent": 4.1,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "confirmed",
+      "frameSha256": "0725306ba1512d070e67a96f1f3f4f6e2c8ea6200532d84ccf0af9142117e1ac",
+      "cropSha256": "5a8267352325f88bb35d178446f4b200adf548996d41cc6966c1100096af2468",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference."
+      ],
+      "eligibleForTemporalMatching": true,
+      "clockCropSha256": "47737c576b184f9d7e7e01104c11efa98f4982925884f2b215bc7713c73d8e61",
+      "clockBbox": [
+        45,
+        670,
+        190,
+        32
+      ]
+    },
+    {
+      "id": "Band-f14",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=11545s",
+      "sourcePositionSeconds": 11545.884,
+      "atSeconds": 11545.884,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "25OUT printed beside clock; year2026 on election artwork",
+      "visibleClock": "19:41",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 50.36,
+        "flavio": 49.64
+      },
+      "sectionsPercent": 11.66,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "confirmed",
+      "frameSha256": "29df891fd8ac2fb673fbf90a5d2110a55fc5a8cf2337f96462de5d99f7650066",
+      "cropSha256": "2ea0bb1f6d5ec95177fe5fe304614afc243d4de6ca087124841e574107a27a73",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference."
+      ],
+      "eligibleForTemporalMatching": true,
+      "clockCropSha256": "a0b9d5be795564be12bee4cafe8c588714f0d028b4996d1704ef750edea93156",
+      "clockBbox": [
+        45,
+        670,
+        190,
+        32
+      ]
+    },
+    {
+      "id": "Band-f16",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=13256s",
+      "sourcePositionSeconds": 13256.386,
+      "atSeconds": 13256.386,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "25OUT printed beside clock; year2026 on election artwork",
+      "visibleClock": "20:10",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.56,
+        "flavio": 50.44
+      },
+      "sectionsPercent": 30.82,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "confirmed",
+      "frameSha256": "fe7658c72d3f87850742e04982e2b30c60664f8ca84facc7d14efccb5eb7f88e",
+      "cropSha256": "38ceca800ea3df10d8150715239a961e729b75320d86ece697730aaee2710adb",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference."
+      ],
+      "eligibleForTemporalMatching": true,
+      "clockCropSha256": "11774b3409a7b9dbc3d6cc8b913b4d56e6ee5622b4e5372f9c90b1422c315f93",
+      "clockBbox": [
+        45,
+        670,
+        190,
+        32
+      ]
+    },
+    {
+      "id": "Band-f17",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=14111s",
+      "sourcePositionSeconds": 14111.637,
+      "atSeconds": 14111.637,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "25OUT printed beside clock; year2026 on election artwork",
+      "visibleClock": "20:24",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.97,
+        "flavio": 50.03
+      },
+      "sectionsPercent": 46.03,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "confirmed",
+      "frameSha256": "8bc99be567eacacf4f05d19144711b4ea8a2f7e0172081edc7917939e81c4340",
+      "cropSha256": "2125998b0a55969a09732d5d0a66e1520fbbf6c4eaf7056485b92e0fb2159785",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference."
+      ],
+      "eligibleForTemporalMatching": true,
+      "clockCropSha256": "b687746b8b129bab5a0fdbca2a5d1b1a86fc86dbb3da85642dcb91c0156a9ab5",
+      "clockBbox": [
+        45,
+        670,
+        190,
+        32
+      ]
+    },
+    {
+      "id": "Band-f20",
+      "source": "BandNews TV",
+      "sourceVideoId": "y1DWEywGD2k",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=16677s",
+      "sourcePositionSeconds": 16677.389,
+      "atSeconds": 16677.389,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Transmission identification and election artwork; no date/clock visible in frame20",
+      "visibleClock": null,
+      "timePrecision": "unavailable",
+      "timezone": "America/Sao_Paulo",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 51.72,
+        "flavio": 48.28
+      },
+      "sectionsPercent": 94.93,
+      "sectionsDisplayLabel": "Urnas apuradas",
+      "units": {
+        "sectionsPercent": "percent urnas apuradas, emissora label",
+        "candidatePercentages": "percent",
+        "candidateVotes": null
+      },
+      "quality": "percentages_confirmed_clock_missing",
+      "frameSha256": "b29a823d238acf2ac54cec9514920ec7b49b00b15e130f2b4b1e3664c4958fc7",
+      "cropSha256": "eb6a0141063ab46341708c8358a36438f9d40fa575673b99dbf3d9b768d298c7",
+      "bbox": [
+        250,
+        30,
+        750,
+        520
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        750,
+        520
+      ],
+      "readingMethod": "Direct visual inspection original frame and final native CDraw crops",
+      "evidenceRegion": "Presidential board, not lower governor ticker",
+      "ambiguities": [
+        "Only percentages are displayed: absolute votes remain null; no denominator or count conversion.",
+        "Presidente title and national results/map establish scope; lower third GOVERNADOR/UF is a different election and excluded.",
+        "Clock read as printed HH:mm, without second interpolation or player-to-civil-time inference.",
+        "No clock visible at frame20. Cannot infer a time from nearby frames or official live metadata."
+      ],
+      "eligibleForTemporalMatching": false
+    },
+    {
+      "id": "AB-17h06",
+      "source": "Agência Brasil",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h",
+      "sourceType": "article",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "observedDate": "2026-10-25",
+      "visibleClock": null,
+      "timePrecision": "unavailable",
+      "timezone": "America/Sao_Paulo",
+      "quality": "confirmed",
+      "eligibleForTemporalMatching": false,
+      "readingMethod": "Leitura da publicação acessível em06/11/2026 UTC; registro factual mínimo, sem transcrição integral.",
+      "publishedAt": "2026-10-25T17:07:00-03:00",
+      "updatedAt": "2026-10-25T17:40:00-03:00",
+      "reportedTotalizationClock": "17:06",
+      "candidateVotes": {
+        "lula": 193574,
+        "flavio": 142169
+      },
+      "candidatePercentages": {
+        "lula": 57.66,
+        "flavio": 42.34
+      },
+      "sectionsCount": 1225,
+      "sectionsTotal": 499248,
+      "sectionsPercent": null,
+      "ambiguities": [
+        "17h06 é o horário da suspensão/contagem citado no texto; 17h40 é atualização editorial. Não são relógios de um quadro de TV."
+      ]
+    },
+    {
+      "id": "UOL-headline",
+      "source": "UOL / Reuters",
+      "sourceUrl": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-ultrapassa-lula-e-tem-5003-contra-4997-com-1398-das-secoes-apuradas-mostra-tse.htm",
+      "sourceType": "article",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "observedDate": "2026-10-25",
+      "visibleClock": null,
+      "timePrecision": "unavailable",
+      "timezone": "America/Sao_Paulo",
+      "quality": "confirmed",
+      "eligibleForTemporalMatching": false,
+      "readingMethod": "Leitura da publicação acessível em06/11/2026 UTC; registro factual mínimo, sem transcrição integral.",
+      "publishedAt": "2026-10-25T19:56:00-03:00",
+      "dataLocation": "headline",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.97,
+        "flavio": 50.03
+      },
+      "sectionsPercent": 13.98,
+      "ambiguities": [
+        "Título e corpo registram parciais diferentes; preservar ambos. Publicação não estabelece horário exato do dado."
+      ]
+    },
+    {
+      "id": "UOL-body",
+      "source": "UOL / Reuters",
+      "sourceUrl": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-ultrapassa-lula-e-tem-5003-contra-4997-com-1398-das-secoes-apuradas-mostra-tse.htm",
+      "sourceType": "article",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "observedDate": "2026-10-25",
+      "visibleClock": null,
+      "timePrecision": "unavailable",
+      "timezone": "America/Sao_Paulo",
+      "quality": "confirmed",
+      "eligibleForTemporalMatching": false,
+      "readingMethod": "Leitura da publicação acessível em06/11/2026 UTC; registro factual mínimo, sem transcrição integral.",
+      "publishedAt": "2026-10-25T19:56:00-03:00",
+      "dataLocation": "body",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.92,
+        "flavio": 50.08
+      },
+      "sectionsPercent": 15.06,
+      "ambiguities": [
+        "Percentual distinto do título. Nenhuma contagem nominal foi inferida dos percentuais."
+      ]
+    },
+    {
+      "id": "TSE-final",
+      "source": "TSE / comunicação institucional",
+      "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/envio-rapido-de-boletins-de-urna-garante-totalizacao-recorde-no-2o-turno",
+      "sourceType": "article",
+      "scope": "BR",
+      "office": "presidente",
+      "round": 2,
+      "observedDate": "2026-10-25",
+      "visibleClock": null,
+      "timePrecision": "unavailable",
+      "timezone": "America/Sao_Paulo",
+      "quality": "confirmed",
+      "eligibleForTemporalMatching": false,
+      "readingMethod": "Leitura da publicação acessível em06/11/2026 UTC; registro factual mínimo, sem transcrição integral.",
+      "publishedAt": "2026-10-29T12:00:00-03:00",
+      "updatedAt": "2026-10-29T17:52:00-03:00",
+      "reportedTotalizationClock": "23:26",
+      "reportedIrreversibleResultClock": "21:09",
+      "candidateVotes": {
+        "lula": 64256232,
+        "flavio": 59826041
+      },
+      "candidatePercentages": {
+        "lula": 51.79,
+        "flavio": 48.21
+      },
+      "sectionsPercent": 100,
+      "ambiguities": [
+        "Notícia retrospectiva, posterior à eleição. Horário final anunciado23h26 é distinto da geração23h27min02s do JSON preservado."
+      ]
+    },
+    {
+      "id": "CNN-f11-MG",
+      "source": "CNN Brasil",
+      "sourceVideoId": "wwLxIO0zTP8",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=10824s",
+      "sourcePositionSeconds": 10824.982,
+      "atSeconds": 10824.982,
+      "observedDate": "2026-10-25",
+      "observedDateBasis": "Identification of transmission, year2026 on artwork; frame clock provides HH:mm only",
+      "visibleClock": "19:22",
+      "timePrecision": "minute",
+      "timezone": "America/Sao_Paulo",
+      "scope": "MG",
+      "scopeName": "Minas Gerais",
+      "office": "presidente",
+      "round": 2,
+      "visibleOfficeScopeLabel": "PRESIDÊNCIA | MINAS GERAIS",
+      "candidateVotes": {
+        "lula": 140496,
+        "flavio": 142697
+      },
+      "candidatePercentages": {
+        "lula": 49.61,
+        "flavio": 50.39
+      },
+      "sectionsPercent": 1.87,
+      "sectionsDisplayLabel": "APURAÇÃO ESTADUAL",
+      "sectionsCount": null,
+      "units": {
+        "candidateVotes": "votes",
+        "sectionsPercent": "percent apuracao estadual displayed by broadcaster",
+        "candidatePercentages": "percent"
+      },
+      "quality": "confirmed",
+      "frameSha256": "5acd859b0751cc8564c431aa90c42aac95cc2e66aa60da78632b8840faf9c7b8",
+      "cropSha256": "043b35db76c9c910db7b46ea429645e22431db17564e744e436e7ee88fa9068e",
+      "bbox": [
+        285,
+        110,
+        1170,
+        600
+      ],
+      "bboxConvention": "native pixels x,y,width,height",
+      "cropDimensions": [
+        1170,
+        600
+      ],
+      "clockCropSha256": "402f42f0f2f265c2f6440a2ac479f74bd84b1413899e3251ba710ddb27ada89c",
+      "clockBbox": [
+        70,
+        995,
+        150,
+        57
+      ],
+      "readingMethod": "Direct visual reading of original and native CDraw board and clock crops",
+      "ambiguities": [
+        "Regional board only: national lower-third tally is a different dataset.",
+        "UI heading also says04APURAÇÃOFINAL, but apuracao estadual is1.87%; this observation is not claimed as final election result.",
+        "Clock HH:mm without exact second.",
+        "SectionsCount left null; not needed for this observation."
+      ],
+      "eligibleForTemporalMatching": true
+    }
+  ],
+  "limits": [
+    "São leituras de fontes externas, não nova totalização eleitoral.",
+    "Os arquivos de vídeo, quadros e recortes ficam fora do Git. Os links e hashes permitem conferir a origem.",
+    "A posição no arquivo é um localizador; não substitui o relógio visível.",
+    "CNN e Band são duas exibições editoriais; podem usar o mesmo feed do TSE e não são duas totalizações independentes.",
+    "Um quadro Band sem relógio permite confronto numérico, mas não é contado entre os16 pontos temporais.",
+    "Nas observações de imprensa, publication/updatedAt não substituem a hora do dado; nenhum relógio de TV foi atribuído."
+  ],
+  "comparisonRef": "resultados/confronto-divulgacao.json"
+}

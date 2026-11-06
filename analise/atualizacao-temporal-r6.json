@@ -1,0 +1,36 @@
+{
+  "schema": "alp.temporal-claims-update.v1",
+  "revision": "R6-temporal",
+  "date": "2026-11-05",
+  "baselinePresentation": "analise/grade-validacao-r5.json",
+  "report": "docs/linha-do-tempo-divulgacao.md",
+  "newVideoProduced": false,
+  "previewScript": "docs/roteiro-episodio-r6-previa.md",
+  "officialHistory": "Painel oficial do TSE confirmado por apresentação institucional; export não coletado nesta rodada.",
+  "displayCrosscheck": {"nationalMatched": 21, "nationalTimedFrames": 16, "stateReadingUnmatched": 1, "state": "MG", "unmatchedDoesNotMeanFalse": true},
+  "items": [
+    {
+      "id": "H17",
+      "numericStatus": "recalculated_author_inputs_with_external_display_corroboration",
+      "finding": "2.554 arquivos preservados verificados; 346 versões nacionais sem redução nominal. 16 quadros temporais de CNN/Band coincidem numericamente com versões salvas.",
+      "evidence": [
+        "resultados/serie_temporal.json",
+        "resultados/confronto-divulgacao.json",
+        "fontes/observacoes-divulgacao.json"
+      ],
+      "limit": "Coleta histórica atribuída ao estudo original; exibição na TV não constitui nova totalização independente. Lacunas conservadas."
+    },
+    {
+      "id": "H24",
+      "numericStatus": "partially_reproduced",
+      "finding": "Curvas e taxas nacionais e regionais reconstruídas; no intervalo19:59:38→20:29:29, Flávio cresce18.977.434 votos enquanto sua participação cai50,4685%→49,7715%.",
+      "evidence": [
+        "resultados/serie_temporal.json",
+        "docs/figuras/curva-divulgacao.svg"
+      ],
+      "limit": "Estatística de99,5% dos passos, linearidade e contrafactuais continuam sem novo teste. Taxa de divulgação não é taxa de votação."
+    }
+  ],
+  "extraHoursCausalEffect": "not_identified_by_disclosure_curve",
+  "nextTest": "Boletins e logs das seções afetadas, cronologia das decisões/encerramento/envio e comparação adequada; sem inferir causalidade apenas dos agregados."
+}

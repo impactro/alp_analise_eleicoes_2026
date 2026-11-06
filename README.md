@@ -17,6 +17,18 @@ Revisão de referência: `4a12ed014cf7927df24226f900450db7fe5b1a22`.
 
 ## O que já existe
 
+- [Linha do tempo de divulgação](docs/linha-do-tempo-divulgacao.md): 16 quadros
+  com relógio de CNN/Band conferidos, 346 versões nacionais, taxas por intervalo
+  e decomposição regional. [Gráfico](docs/figuras/curva-divulgacao.svg),
+  [observações e localizadores](fontes/observacoes-divulgacao.json) e
+  [confronto reproduzido](resultados/confronto-divulgacao.json). Esta rodada
+  amplia H17/H24 sem concluir o efeito causal da prorrogação.
+- [Gráficos de quatro e seis estados](docs/reproduzir-graficos-uf.md),
+  [fontes oficiais de histórico e documentos](fontes/fontes-temporais-oficiais.json)
+  e [roteiro da prévia R6](docs/roteiro-episodio-r6-previa.md).
+  [Laudo da rodada temporal](resultados/revisao_temporal.json): 21 confrontos
+  nacionais coincidem; uma leitura estadual segue sem correspondência na
+  coleção preservada. Isso não representa uma porcentagem de verdade do vídeo.
 - [Revisão ampliada e correção de contexto](docs/revisao-ampliada.md): o original
   testa hipóteses do público; não apresenta24 afirmações factuais do autor.
 - [Idade e comparecimento](resultados/idade.json), [histórico2018/2022/2026](resultados/historico_secoes.json)

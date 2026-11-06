@@ -1,0 +1,188 @@
+{
+  "schema": "alp.temporal-review.v1",
+  "date": "2026-11-05",
+  "basePushSha": "8552ef7b0edb82e2f9b49ed7539aae1dc894af74",
+  "status": "analysis_completed_with_explicit_source_gaps_preview_pending_qa",
+  "officialSourceCaptureCount": 2554,
+  "nationalSavedVersions": 346,
+  "displayCrosscheck": {
+    "observations": 22,
+    "matched": 21,
+    "unmatched": 1,
+    "notTested": 0,
+    "withVisibleClock": 17,
+    "distinctTimedSourceFrames": 16,
+    "nationalObservations": 21,
+    "nationalMatched": 21,
+    "stateObservations": 1,
+    "stateMatched": 0
+  },
+  "nationalNominalDecreases": {
+    "lula": 0,
+    "flavio": 0
+  },
+  "officialHistoryPanelExists": true,
+  "officialHistoryExportCollected": false,
+  "regionalSeries": "asynchronous historical UF captures; preserve staleness and incomplete last UF versions",
+  "lateVotesCausalEffectIdentified": false,
+  "fullOriginalStudyVerified": false,
+  "equivalenceIsNotTruthPercentage": true,
+  "transmissions": {
+    "selectedVodSeconds": 37724.028,
+    "asrSegments": 12831,
+    "fullVisualViewing": false,
+    "sampledFramesInspected": 60,
+    "model": "local faster-whisper small",
+    "device": "cuda float16"
+  },
+  "report": "docs/linha-do-tempo-divulgacao.md",
+  "method": "docs/reproduzir-serie-temporal.md",
+  "script": "docs/roteiro-episodio-r6-previa.md",
+  "analysisUpdate": "analise/atualizacao-temporal-r6.json",
+  "preview": {
+    "status": "R6.1_revised_narration_in_production",
+    "unlistedRequested": true,
+    "replacesExistingVideo": false,
+    "notFinalVoice": true,
+    "notFinalVideo": true,
+    "episodeSha256": "330d614a4652de37e1f84ff1d0e7183d48ba219c6bf7d17c2383d0d8166ee61a"
+  },
+  "validation": {
+    "testsPassed": 85,
+    "command": "python -s -m unittest discover -s tests -v",
+    "scope": "Independent DEV slices and integrator checks; visual chart inspection by explicitly routed Sol6.1; no independent electoral audit claimed.",
+    "encodingPathsAndLinks": "passed"
+  },
+  "artifactHashScope": "Canonical Git blob UTF-8/LF bytes for own artifacts, not normalization of original raw-source bytes.",
+  "artifacts": [
+    {
+      "ref": "README.md",
+      "sha256": "ba4e4987826b3f4900ac9e7c006a312ea61ec7ea8238ab5370060d3dab87863b",
+      "bytes": 8659
+    },
+    {
+      "ref": "analise/atualizacao-temporal-r6.json",
+      "sha256": "91c4e513985ab063ccc4933e578ac3c1bc4343185f9d69cd4a01d99fe84f41a9",
+      "bytes": 1987
+    },
+    {
+      "ref": "docs/figuras/curva-divulgacao.svg",
+      "sha256": "78b6fef4e86e5fe51b45c8145ee1100c6efdc9d50932a4ecc971b546b62f4fc2",
+      "bytes": 52372
+    },
+    {
+      "ref": "docs/figuras/temporal-4ufs-percentuais.svg",
+      "sha256": "89ce39bec890a12f126800593fde5a83486c52fdd7e52fe01c7ac73bb8d5eb72",
+      "bytes": 62442
+    },
+    {
+      "ref": "docs/figuras/temporal-4ufs-quantidades.svg",
+      "sha256": "c2deded9a7d4e463e0e233f14abb83cff4bbd9724882ea87cae20147b21059f2",
+      "bytes": 56175
+    },
+    {
+      "ref": "docs/figuras/temporal-6ufs-percentuais.svg",
+      "sha256": "d8eae570135fe9aa880a6be8528ca71c13ac20da21d21dd198935940b9b1458e",
+      "bytes": 95347
+    },
+    {
+      "ref": "docs/figuras/temporal-6ufs-quantidades.svg",
+      "sha256": "b616f0de41c9450a4581b18504e10311a4ddd081eecbca2e89e8864e39b8d649",
+      "bytes": 85892
+    },
+    {
+      "ref": "docs/linha-do-tempo-divulgacao.md",
+      "sha256": "97ba7d4d23a35ab4f1695e9d6dcd28d13023d2a20a8d53c28cdf40b07682f23c",
+      "bytes": 16949
+    },
+    {
+      "ref": "docs/pergunte-ai-handoff.md",
+      "sha256": "3646e3b384abe6ac99f589cf920ca0b775fd0b19daf8feb7e588332c6c80fe25",
+      "bytes": 3780
+    },
+    {
+      "ref": "docs/prompt-reproducao.md",
+      "sha256": "7eaf0857de15d4509a2a62ade88dad2a0b6cd3ec0d74812bfcacb052ac9635c2",
+      "bytes": 6437
+    },
+    {
+      "ref": "docs/reproduzir-graficos-uf.md",
+      "sha256": "34c687f0e92afb615b899ed64cafcec0fbef707884b81dfaea12d71ff33c8824",
+      "bytes": 3448
+    },
+    {
+      "ref": "docs/reproduzir-serie-temporal.md",
+      "sha256": "1f43130c79f179db51ca411d520e12528ce24799a63dfd3bd3bdc0e65d05e23d",
+      "bytes": 15175
+    },
+    {
+      "ref": "docs/roteiro-episodio-r6-previa.md",
+      "sha256": "d8e8f109d6908761dae8158fc35fb8afb65a1aa562e90276c3ff63886716b085",
+      "bytes": 13586
+    },
+    {
+      "ref": "fontes/fontes-temporais-oficiais.json",
+      "sha256": "33a7f7498ae89e04c46f1448e24ad109800dff1758bb942940a87acae06fe659",
+      "bytes": 1929
+    },
+    {
+      "ref": "fontes/observacoes-divulgacao.json",
+      "sha256": "f5bd4faa59849fe3fb67d1b2eb9a0c2fb8b5186924e9fb46dd9324de54092dd5",
+      "bytes": 44343
+    },
+    {
+      "ref": "fontes/transmissoes.json",
+      "sha256": "1bead283fe67841ef02d86f54a0ce2b96d897bebb638043d817e619e48116e87",
+      "bytes": 9393
+    },
+    {
+      "ref": "resultados/confronto-divulgacao.json",
+      "sha256": "c16fde7448f685ebb97398c7bd5350c88345ea4c0b81f0fc4e298a4d54b4c34f",
+      "bytes": 27079
+    },
+    {
+      "ref": "resultados/serie_temporal.json",
+      "sha256": "0ccc43e1768fe1821cb5aeae7a035cd085868b7e976e5bc260ccaa59e7d1899d",
+      "bytes": 207727
+    },
+    {
+      "ref": "scripts/confrontar_observacoes.py",
+      "sha256": "6ed3a76c8464f2fbcad668d3d1d56232bc6d54f715d0e251e93cb624a4e4c375",
+      "bytes": 10369
+    },
+    {
+      "ref": "scripts/plotar_estados_temporal.py",
+      "sha256": "5e0ac342e6ec873280da1ec5fc20080fff25d3b0b03a09ce51732714e9c27e01",
+      "bytes": 12183
+    },
+    {
+      "ref": "scripts/plotar_serie_temporal.py",
+      "sha256": "d584313de3fa647f9ba5c98f95739ace1f954eff10de4f486f79e4803d9061c9",
+      "bytes": 10937
+    },
+    {
+      "ref": "scripts/reconstruir_serie_temporal.py",
+      "sha256": "34d4f04277d090407395a3c7f35be2e71357d9eed7d84a850f674c195f00ad4f",
+      "bytes": 24194
+    },
+    {
+      "ref": "tests/test_observacoes.py",
+      "sha256": "20ce06e53862c531bc9eac7e32f71f31cd83ce563f4782ef394eb17b9a0a40a1",
+      "bytes": 5803
+    },
+    {
+      "ref": "tests/test_plotar_estados_temporal.py",
+      "sha256": "116b613cba2642b1d80fe03abbe8310497ef4cebe9b47f057466df3490075360",
+      "bytes": 2760
+    },
+    {
+      "ref": "tests/test_serie_temporal.py",
+      "sha256": "02f8434fc5f26ff6595e86a70cb6be4641d358b3e83a370cef4e13f65919dbf2",
+      "bytes": 10053
+    }
+  ],
+  "rawDataAndMediaCommitted": false,
+  "officialTokenUsage": null,
+  "externalPaidMediaProviderUsed": false,
+  "modelSessionCostUSD": null
+}

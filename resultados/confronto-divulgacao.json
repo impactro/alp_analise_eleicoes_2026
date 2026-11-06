@@ -1,0 +1,780 @@
+{
+  "schema": "alp.display-crosscheck.v1",
+  "status": "comparison_executed",
+  "provenance": {
+    "seriesSha256": "5bf87ab019c2a290b2b65c0aac968e04b3dc3f576387fcd66c5b11a67581dcef",
+    "observationsSha256": "f5bd4faa59849fe3fb67d1b2eb9a0c2fb8b5186924e9fb46dd9324de54092dd5",
+    "observationsHashScope": "Canonical Git UTF-8 bytes with LF; only own observation JSON, not original source captures.",
+    "sourceArchive": {
+      "repository": "https://github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026",
+      "repositoryCommit": "4a12ed014cf7927df24226f900450db7fe5b1a22",
+      "archiveSha256": "f3a1378864bcc7085f24943c099afe649d7de7e8d304ffe809833936fac0a9b1",
+      "archiveBytes": 134197573,
+      "manifestSha256": "059f8d1fd5b37aba25d8715741d3efe7ce60561b070f0c9ac12a66c18339fede",
+      "files": 2554,
+      "logicalPathHashSetSha256": "3d811426e8c4085c0d2702b3c103f1a25970059dc56500d0b067639dc66fa2fe",
+      "verification": {
+        "exactManifestBytes": 2554,
+        "exactPinnedArchiveBytes": 2554,
+        "lineEndingNormalizationUsed": false
+      }
+    }
+  },
+  "counts": {
+    "observations": 22,
+    "matched": 21,
+    "unmatched": 1,
+    "notTested": 0,
+    "withVisibleClock": 17,
+    "distinctTimedSourceFrames": 16,
+    "nationalObservations": 21,
+    "nationalMatched": 21,
+    "stateObservations": 1,
+    "stateMatched": 0
+  },
+  "observations": [
+    {
+      "observationId": "CNN-f10",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=9794s",
+      "source": "CNN Brasil",
+      "visibleClock": "19:05",
+      "candidateVotes": {
+        "flavio": 707531,
+        "lula": 718651
+      },
+      "candidatePercentages": {
+        "flavio": 49.61,
+        "lula": 50.39
+      },
+      "sectionsPercent": 1.1,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:04:36-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:04:36-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3947335"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:05:00-03:00",
+        "through": "2026-10-25T19:05:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 24.0,
+        "maximum": 83.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f11",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=10824s",
+      "source": "CNN Brasil",
+      "visibleClock": "19:22",
+      "candidateVotes": {
+        "flavio": 1682396,
+        "lula": 1783016
+      },
+      "candidatePercentages": {
+        "flavio": 48.55,
+        "lula": 51.45
+      },
+      "sectionsPercent": 2.78,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:21:46-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:21:46-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3959817"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:22:00-03:00",
+        "through": "2026-10-25T19:22:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 14.0,
+        "maximum": 73.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f12",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=11855s",
+      "source": "CNN Brasil",
+      "visibleClock": "19:39",
+      "candidateVotes": {
+        "flavio": 6449165,
+        "lula": 6567952
+      },
+      "candidatePercentages": {
+        "flavio": 49.54,
+        "lula": 50.46
+      },
+      "sectionsPercent": 10.4,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:38:48-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:38:48-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3989044"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:39:00-03:00",
+        "through": "2026-10-25T19:39:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 12.0,
+        "maximum": 71.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f13",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=12886s",
+      "source": "CNN Brasil",
+      "visibleClock": "19:56",
+      "candidateVotes": {
+        "flavio": 12278121,
+        "lula": 12067480
+      },
+      "candidatePercentages": {
+        "flavio": 50.43,
+        "lula": 49.57
+      },
+      "sectionsPercent": 19.62,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:56:38-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:56:38-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4014607"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:56:00-03:00",
+        "through": "2026-10-25T19:56:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": -38.0,
+        "maximum": 21.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f14",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=13917s",
+      "source": "CNN Brasil",
+      "visibleClock": "20:14",
+      "candidateVotes": {
+        "flavio": 22018541,
+        "lula": 21756615
+      },
+      "candidatePercentages": {
+        "flavio": 50.3,
+        "lula": 49.7
+      },
+      "sectionsPercent": 35.52,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T20:13:29-03:00",
+      "lastMatchingGeneration": "2026-10-25T20:13:29-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4051602"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T20:14:00-03:00",
+        "through": "2026-10-25T20:14:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 31.0,
+        "maximum": 90.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f15",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=14948s",
+      "source": "CNN Brasil",
+      "visibleClock": "20:31",
+      "candidateVotes": {
+        "flavio": 33337283,
+        "lula": 33756075
+      },
+      "candidatePercentages": {
+        "flavio": 49.69,
+        "lula": 50.31
+      },
+      "sectionsPercent": 54.4,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T20:30:40-03:00",
+      "lastMatchingGeneration": "2026-10-25T20:30:40-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4086631"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T20:31:00-03:00",
+        "through": "2026-10-25T20:31:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 20.0,
+        "maximum": 79.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f16",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=15979s",
+      "source": "CNN Brasil",
+      "visibleClock": "20:48",
+      "candidateVotes": {
+        "flavio": 45213739,
+        "lula": 47205970
+      },
+      "candidatePercentages": {
+        "flavio": 48.92,
+        "lula": 51.08
+      },
+      "sectionsPercent": 74.82,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T20:48:12-03:00",
+      "lastMatchingGeneration": "2026-10-25T20:48:12-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4115822"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T20:48:00-03:00",
+        "through": "2026-10-25T20:48:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": -12.0,
+        "maximum": 47.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f17",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=17010s",
+      "source": "CNN Brasil",
+      "visibleClock": "21:05",
+      "candidateVotes": {
+        "flavio": 55699832,
+        "lula": 59556789
+      },
+      "candidatePercentages": {
+        "flavio": 48.33,
+        "lula": 51.67
+      },
+      "sectionsPercent": 93.15,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T21:04:52-03:00",
+      "lastMatchingGeneration": "2026-10-25T21:04:52-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4139682"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T21:05:00-03:00",
+        "through": "2026-10-25T21:05:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 8.0,
+        "maximum": 67.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f18",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=18041s",
+      "source": "CNN Brasil",
+      "visibleClock": "21:22",
+      "candidateVotes": {
+        "flavio": 59761526,
+        "lula": 64124287
+      },
+      "candidatePercentages": {
+        "flavio": 48.24,
+        "lula": 51.76
+      },
+      "sectionsPercent": 99.84,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T21:22:31-03:00",
+      "lastMatchingGeneration": "2026-10-25T21:22:31-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4151238"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T21:22:00-03:00",
+        "through": "2026-10-25T21:22:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": -31.0,
+        "maximum": 28.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f19",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=19072s",
+      "source": "CNN Brasil",
+      "visibleClock": "21:40",
+      "candidateVotes": {
+        "flavio": 59791534,
+        "lula": 64174591
+      },
+      "candidatePercentages": {
+        "flavio": 48.23,
+        "lula": 51.77
+      },
+      "sectionsPercent": 99.9,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T21:39:30-03:00",
+      "lastMatchingGeneration": "2026-10-25T21:39:30-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4213902"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T21:40:00-03:00",
+        "through": "2026-10-25T21:40:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 30.0,
+        "maximum": 89.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "CNN-f20",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=20103s",
+      "source": "CNN Brasil",
+      "visibleClock": "21:57",
+      "candidateVotes": {
+        "flavio": 59815984,
+        "lula": 64235635
+      },
+      "candidatePercentages": {
+        "flavio": 48.22,
+        "lula": 51.78
+      },
+      "sectionsPercent": 99.97,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T21:56:41-03:00",
+      "lastMatchingGeneration": "2026-10-25T21:56:41-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4221056"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T21:57:00-03:00",
+        "through": "2026-10-25T21:57:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 19.0,
+        "maximum": 78.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f12",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=9835s",
+      "source": "BandNews TV",
+      "visibleClock": "19:13",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 52.12,
+        "flavio": 47.88
+      },
+      "sectionsPercent": 1.67,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 2,
+      "firstMatchingGeneration": "2026-10-25T19:11:36-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:12:06-03:00",
+      "uniqueVersionIdentified": false,
+      "matchingSnapshotIds": [
+        "3955206",
+        "3956088"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:13:00-03:00",
+        "through": "2026-10-25T19:13:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 54.0,
+        "maximum": 143.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f13",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=10690s",
+      "source": "BandNews TV",
+      "visibleClock": "19:27",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 51.26,
+        "flavio": 48.74
+      },
+      "sectionsPercent": 4.1,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:26:28-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:26:28-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3965778"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:27:00-03:00",
+        "through": "2026-10-25T19:27:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 32.0,
+        "maximum": 91.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f14",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=11545s",
+      "source": "BandNews TV",
+      "visibleClock": "19:41",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 50.36,
+        "flavio": 49.64
+      },
+      "sectionsPercent": 11.66,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:41:08-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:41:08-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3997003"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T19:41:00-03:00",
+        "through": "2026-10-25T19:41:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": -8.0,
+        "maximum": 51.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f16",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=13256s",
+      "source": "BandNews TV",
+      "visibleClock": "20:10",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.56,
+        "flavio": 50.44
+      },
+      "sectionsPercent": 30.82,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T20:08:58-03:00",
+      "lastMatchingGeneration": "2026-10-25T20:08:58-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4045562"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T20:10:00-03:00",
+        "through": "2026-10-25T20:10:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 62.0,
+        "maximum": 121.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f17",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=14111s",
+      "source": "BandNews TV",
+      "visibleClock": "20:24",
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.97,
+        "flavio": 50.03
+      },
+      "sectionsPercent": 46.03,
+      "eligibleForTemporalMatching": true,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T20:23:19-03:00",
+      "lastMatchingGeneration": "2026-10-25T20:23:19-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4071480"
+      ],
+      "displayTimeInterval": {
+        "from": "2026-10-25T20:24:00-03:00",
+        "through": "2026-10-25T20:24:59-03:00"
+      },
+      "displayMinusMatchingGenerationSecondsRange": {
+        "minimum": 41.0,
+        "maximum": 100.0
+      },
+      "allMatchingGenerationsAfterDisplayMinute": false,
+      "interpretation": "Range includes clock precision and repeated matching versions; not a measured transmission delay."
+    },
+    {
+      "observationId": "Band-f20",
+      "scope": "BR",
+      "sourceUrl": "https://www.youtube.com/watch?v=y1DWEywGD2k&t=16677s",
+      "source": "BandNews TV",
+      "visibleClock": null,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 51.72,
+        "flavio": 48.28
+      },
+      "sectionsPercent": 94.93,
+      "eligibleForTemporalMatching": false,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T21:06:21-03:00",
+      "lastMatchingGeneration": "2026-10-25T21:06:21-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4143217"
+      ],
+      "displayMinusMatchingGenerationSecondsRange": null,
+      "interpretation": "No source clock; article publication time was not used as the data timestamp."
+    },
+    {
+      "observationId": "AB-17h06",
+      "scope": "BR",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h",
+      "source": "Agência Brasil",
+      "visibleClock": null,
+      "candidateVotes": {
+        "lula": 193574,
+        "flavio": 142169
+      },
+      "candidatePercentages": {
+        "lula": 57.66,
+        "flavio": 42.34
+      },
+      "sectionsPercent": null,
+      "eligibleForTemporalMatching": false,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T17:06:31-03:00",
+      "lastMatchingGeneration": "2026-10-25T17:06:31-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3948414"
+      ],
+      "displayMinusMatchingGenerationSecondsRange": null,
+      "interpretation": "No source clock; article publication time was not used as the data timestamp."
+    },
+    {
+      "observationId": "UOL-headline",
+      "scope": "BR",
+      "sourceUrl": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-ultrapassa-lula-e-tem-5003-contra-4997-com-1398-das-secoes-apuradas-mostra-tse.htm",
+      "source": "UOL / Reuters",
+      "visibleClock": null,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.97,
+        "flavio": 50.03
+      },
+      "sectionsPercent": 13.98,
+      "eligibleForTemporalMatching": false,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:45:30-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:45:30-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "3998332"
+      ],
+      "displayMinusMatchingGenerationSecondsRange": null,
+      "interpretation": "No source clock; article publication time was not used as the data timestamp."
+    },
+    {
+      "observationId": "UOL-body",
+      "scope": "BR",
+      "sourceUrl": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-ultrapassa-lula-e-tem-5003-contra-4997-com-1398-das-secoes-apuradas-mostra-tse.htm",
+      "source": "UOL / Reuters",
+      "visibleClock": null,
+      "candidateVotes": {
+        "lula": null,
+        "flavio": null
+      },
+      "candidatePercentages": {
+        "lula": 49.92,
+        "flavio": 50.08
+      },
+      "sectionsPercent": 15.06,
+      "eligibleForTemporalMatching": false,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T19:47:21-03:00",
+      "lastMatchingGeneration": "2026-10-25T19:47:21-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4005432"
+      ],
+      "displayMinusMatchingGenerationSecondsRange": null,
+      "interpretation": "No source clock; article publication time was not used as the data timestamp."
+    },
+    {
+      "observationId": "TSE-final",
+      "scope": "BR",
+      "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/envio-rapido-de-boletins-de-urna-garante-totalizacao-recorde-no-2o-turno",
+      "source": "TSE / comunicação institucional",
+      "visibleClock": null,
+      "candidateVotes": {
+        "lula": 64256232,
+        "flavio": 59826041
+      },
+      "candidatePercentages": {
+        "lula": 51.79,
+        "flavio": 48.21
+      },
+      "sectionsPercent": 100,
+      "eligibleForTemporalMatching": false,
+      "status": "numbers_match_preserved_snapshot",
+      "matchingSnapshots": 1,
+      "firstMatchingGeneration": "2026-10-25T23:27:02-03:00",
+      "lastMatchingGeneration": "2026-10-25T23:27:02-03:00",
+      "uniqueVersionIdentified": true,
+      "matchingSnapshotIds": [
+        "4241309"
+      ],
+      "displayMinusMatchingGenerationSecondsRange": null,
+      "interpretation": "No source clock; article publication time was not used as the data timestamp."
+    },
+    {
+      "observationId": "CNN-f11-MG",
+      "scope": "MG",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwLxIO0zTP8&t=10824s",
+      "source": "CNN Brasil",
+      "visibleClock": "19:22",
+      "candidateVotes": {
+        "lula": 140496,
+        "flavio": 142697
+      },
+      "candidatePercentages": {
+        "lula": 49.61,
+        "flavio": 50.39
+      },
+      "sectionsPercent": 1.87,
+      "eligibleForTemporalMatching": true,
+      "status": "no_exact_match_in_preserved_series",
+      "matchingSnapshots": 0
+    }
+  ],
+  "nationalObservedLeadChanges": [
+    {
+      "lastObservedPreviousLeader": "lula",
+      "newObservedLeader": "flavio",
+      "fromGeneration": "2026-10-25T19:44:21-03:00",
+      "toGeneration": "2026-10-25T19:44:50-03:00",
+      "fromIdg": "3996690",
+      "toIdg": "3997891",
+      "elapsedSeconds": 29.0,
+      "interpretation": "Change in saved totals between observations; exact crossing instant not observed."
+    },
+    {
+      "lastObservedPreviousLeader": "flavio",
+      "newObservedLeader": "lula",
+      "fromGeneration": "2026-10-25T20:23:49-03:00",
+      "toGeneration": "2026-10-25T20:24:19-03:00",
+      "fromIdg": "4076271",
+      "toIdg": "4072907",
+      "elapsedSeconds": 30.0,
+      "interpretation": "Change in saved totals between observations; exact crossing instant not observed."
+    }
+  ],
+  "limits": [
+    "Numbers on multiple broadcasters can derive from the same TSE feed; this is display corroboration, not independent vote tabulation.",
+    "No exact match can mean unpreserved version, different rounding/scope, reading error or source conflict; not automatically false.",
+    "Broadcast HH:mm has minute precision. Player position and live-start metadata do not determine wall-clock time.",
+    "Candidate vote increases measure reported totals, not when individual votes were cast."
+  ]
+}

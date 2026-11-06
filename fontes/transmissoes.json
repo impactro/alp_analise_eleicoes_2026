@@ -1,0 +1,229 @@
+{
+  "schema": "csm.transmission-source-manifest.v1",
+  "updatedAt": "2026-11-06T01:58:19.228654+00:00",
+  "purpose": "private temporal election-count research; no production render/upload",
+  "sources": [
+    {
+      "sourceId": "wwLxIO0zTP8",
+      "label": "CNN",
+      "url": "https://www.youtube.com/watch?v=wwLxIO0zTP8",
+      "title": "APURAÇÃO: LULA É REELEITO PRESIDENTE DA REPÚBLICA NO 2º TURNO DAS ELEIÇÕES 2026 | CNN BRASIL",
+      "channel": "CNN Brasil",
+      "channelId": "UCvdwhh_fDyWccR42-rReZLw",
+      "channelUrl": "https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw",
+      "uploadDate": "20261026",
+      "liveBroadcastDetails": {
+        "isLiveNow": false,
+        "startTimestamp": "2026-10-25T19:20:13+00:00",
+        "endTimestamp": "2026-10-26T01:06:32+00:00"
+      },
+      "vodDurationSeconds": 20619.014,
+      "video": {
+        "sha256": "590d440cbe055ad6fd86a5fa4dfa8815607a044c76c7498d3df67f0380129f8f",
+        "bytes": 4440163647,
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "streams": [
+          {
+            "type": "video",
+            "codec": "vp9",
+            "width": 1920,
+            "height": 1080,
+            "sampleRate": null
+          },
+          {
+            "type": "audio",
+            "codec": "opus",
+            "width": null,
+            "height": null,
+            "sampleRate": "48000"
+          }
+        ],
+        "reencoded": false,
+        "downloadRemux": true
+      },
+      "frames": {
+        "operation": "cvideo.source-unpack",
+        "sampleCount": 20,
+        "sampling": "uniform duration midpoints",
+        "indexLogicalRef": "CNN-wwLxIO0zTP8/20261106T011709Z-b8dd930f/frame-index.json",
+        "indexSha256": "64548bd41c956bc0c5da8aa1a283d2429b142c45e0393e2c59d61df4929a10c7",
+        "selectedVisualEvidenceQa": "Factual legibility and faithful reading by explicitly routed Sol6.1 CDraw specialist; not independent QA or source authentication.",
+        "factualFramesInspected": 20
+      },
+      "asr": {
+        "status": "ready",
+        "runId": "20261106T012633Z-34047c2d",
+        "engine": "faster-whisper/CTranslate2",
+        "model": "Systran/faster-whisper-small",
+        "modelSnapshot": "536b0662742c02347bc0e980a01041f333bce120",
+        "device": "cuda",
+        "computeType": "float16",
+        "fallback": false,
+        "transcriptSha256": "8bc9691a7c1f27afeb949ae4cd0c166654f07aa72e97e5c447eaca6b9323f0f5",
+        "segmentsSha256": "6263776aa55bbc8a1a93331c4c7608f672fe58a1dcdc93949ae309ec971e9f2f",
+        "segmentsLogicalRef": "CNN-wwLxIO0zTP8/20261106T012633Z-34047c2d/transcript.json",
+        "segmentCount": 7355,
+        "language": "pt",
+        "transcriptLogicalRef": "CNN-wwLxIO0zTP8/20261106T012633Z-34047c2d/transcript.txt",
+        "regionalIndexLogicalRef": "CNN-wwLxIO0zTP8/20261106T012633Z-34047c2d/regional-index.json",
+        "regionalIndexSha256": "884459471beda56750633e46219e6291fc41dc4ee18449ffd5dce7684049dddd",
+        "regionalHitCounts": {
+          "bahia": 19,
+          "regional": 500,
+          "candidateNumeric": 198
+        },
+        "framesMatchParentByteForByte": true,
+        "runElapsedSeconds": 1416.635,
+        "secondsAfterAudioLastWrite": 1300.366,
+        "nativeStatus": "ready",
+        "inputProcessedToCompletion": true,
+        "segmentFirstStartSeconds": 0.0,
+        "segmentLastEndSeconds": 20617.57,
+        "handoffLogicalRef": "CNN-wwLxIO0zTP8/20261106T012633Z-34047c2d/asr-handoff.json",
+        "handoffSha256": "cd087efcdb6dca295bb8420883e687d847c481d48197f63a1d84a35bb262d544"
+      },
+      "limits": [
+        "VOD time mapping uses frame clocks; live metadata span alone is insufficient.",
+        "20 visual samples do not mean full visual review.",
+        "ASR indexes speech; numeric evidence requires faithful factual reading of the exact source frame.",
+        "Small local ASR can misrecognize names, percentages and votes; regional index is a locator, not numerical evidence."
+      ]
+    },
+    {
+      "sourceId": "y1DWEywGD2k",
+      "label": "BandNews TV",
+      "url": "https://www.youtube.com/watch?v=y1DWEywGD2k",
+      "title": "Eleições 2026: acompanhe a apuração do 2º turno das eleições | BandNews TV",
+      "channel": "Band Jornalismo",
+      "channelId": "UCoa-D_VfMkFrCYodrOC9-mA",
+      "channelUrl": "https://www.youtube.com/channel/UCoa-D_VfMkFrCYodrOC9-mA",
+      "uploadDate": "20261026",
+      "liveBroadcastDetails": {
+        "isLiveNow": false,
+        "startTimestamp": "2026-10-25T19:29:41+00:00",
+        "endTimestamp": "2026-10-26T00:14:09+00:00"
+      },
+      "vodDurationSeconds": 17105.014,
+      "video": {
+        "sha256": "bf675f4bc2d0a3942e72be4cc506cf254c50e9e78167a3a9f5eb9edb9d442f39",
+        "bytes": 1391368346,
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "streams": [
+          {
+            "type": "video",
+            "codec": "av1",
+            "width": 1280,
+            "height": 720,
+            "sampleRate": null
+          },
+          {
+            "type": "audio",
+            "codec": "opus",
+            "width": null,
+            "height": null,
+            "sampleRate": "48000"
+          }
+        ],
+        "reencoded": false,
+        "downloadRemux": true
+      },
+      "frames": {
+        "operation": "cvideo.source-unpack",
+        "sampleCount": 20,
+        "sampling": "uniform duration midpoints",
+        "indexLogicalRef": "Band-y1DWEywGD2k/20261106T013616Z-93cb109d/frame-index.json",
+        "indexSha256": "28b5febc96e3773581942f35637024d920fe75b698d76c9492dab8c3d7060093",
+        "selectedVisualEvidenceQa": "Factual legibility and faithful reading by explicitly routed Sol6.1 CDraw specialist; not independent QA or source authentication.",
+        "factualFramesInspected": 20
+      },
+      "asr": {
+        "status": "ready",
+        "runId": "20261106T013616Z-93cb109d",
+        "engine": "faster-whisper/CTranslate2",
+        "model": "Systran/faster-whisper-small",
+        "modelSnapshot": "536b0662742c02347bc0e980a01041f333bce120",
+        "device": "cuda",
+        "computeType": "float16",
+        "fallback": false,
+        "transcriptSha256": "4827d3dfc490cd8874a606a69842d2b9016629180f0524f4f24d4d67fa428ca2",
+        "segmentsSha256": "64e44f0e06aac72c0eb5a381991e04964748f98777513130dfcd6181766dff8e",
+        "segmentsLogicalRef": "Band-y1DWEywGD2k/20261106T013616Z-93cb109d/transcript.json",
+        "segmentCount": 5476,
+        "nativeStatus": "ready",
+        "inputProcessedToCompletion": true,
+        "language": "pt",
+        "transcriptLogicalRef": "Band-y1DWEywGD2k/20261106T013616Z-93cb109d/transcript.txt",
+        "segmentFirstStartSeconds": 0.0,
+        "segmentLastEndSeconds": 17106.91,
+        "regionalIndexLogicalRef": "Band-y1DWEywGD2k/20261106T013616Z-93cb109d/regional-index.json",
+        "regionalIndexSha256": "06099b1b389d53e21ffc26b09bdbb4007993aaf9af456c54a792763243d0423d",
+        "regionalHitCounts": {
+          "bahia": 13,
+          "regional": 523,
+          "candidateNumeric": 233
+        },
+        "handoffLogicalRef": "Band-y1DWEywGD2k/20261106T013616Z-93cb109d/asr-handoff.json",
+        "handoffSha256": "ff4d55f42f17f63fda4c0e2a30ef9971df62645e2eb45559eb0dc16c18e21ad8",
+        "runElapsedSeconds": 1179.511,
+        "secondsAfterAudioLastWrite": 1032.947
+      },
+      "limits": [
+        "VOD time mapping uses frame clocks; live metadata span alone is insufficient.",
+        "20 visual samples do not mean full visual review.",
+        "ASR indexes speech; numeric evidence requires faithful factual reading of the exact source frame.",
+        "Small local ASR can misrecognize names, percentages and votes; regional index is a locator, not numerical evidence."
+      ]
+    }
+  ],
+  "runtime": {
+    "cvideoVersion": "26.10.31a2",
+    "fasterWhisperVersion": "1.2.1",
+    "ctranslate2Version": "4.8.2",
+    "downloadEngine": "yt-dlp",
+    "sourceUnpackSamples": 20,
+    "maxDurationSeconds": 43200,
+    "audioExtraction": {
+      "engine": "FFmpeg",
+      "device": "cpu",
+      "format": "PCM16 mono16kHz"
+    },
+    "imageFrameExtraction": {
+      "engine": "FFmpeg",
+      "device": "cpu"
+    },
+    "cudaLibraries": "existing global libraries made visible through process-only environment; no persistent change",
+    "newWeightsDownloaded": false,
+    "codeChanged": false,
+    "externalPaidProviderUsed": false
+  },
+  "officialTokenUsage": null,
+  "asrIncomplete": false,
+  "factualInspectionCoverage": {
+    "model": "gpt-6.1-sol",
+    "operator": "CSM-routed CDraw specialist in execute_existing",
+    "scope": "Factual legibility and faithful reading by explicitly routed Sol6.1 CDraw specialist; not independent QA or source authentication.",
+    "totalSampledFramesInspected": 60,
+    "selectedSourcesFramesInspected": 40,
+    "bySource": [
+      {
+        "sourceId": "wwLxIO0zTP8",
+        "framesInspected": 20,
+        "selected": true
+      },
+      {
+        "sourceId": "y1DWEywGD2k",
+        "framesInspected": 20,
+        "selected": true
+      },
+      {
+        "sourceId": "lO6zooFHVFI",
+        "framesInspected": 20,
+        "selected": false,
+        "exclusionReason": "source frame clocks show07:12–18:31BRT daytimeVOD, outside target night count"
+      }
+    ]
+  },
+  "status": "complete_native_sources_and_asr",
+  "totalSelectedVodDurationSeconds": 37724.028,
+  "totalSegments": 12831
+}

@@ -1,6 +1,6 @@
 # Prompt para reproduzir a análise
 
-Prompt atualizado após a revisão ampliada de05/11/2026. Há8 blocos numéricos
+Prompt atualizado após a revisão ampliada e a reconstrução temporal de 05/11/2026. Há 8 blocos numéricos
 reproduzidos em fontes primárias,5 recalculados nas bases preservadas pelo autor
 e outras parcelas pendentes. Consulte `docs/revisao-ampliada.md` e a matriz R5.
 O vídeo R4 e sua descrição preservam a versão anterior deste prompt no commit
@@ -15,8 +15,9 @@ Quero reproduzir de forma independente a análise eleitoral deste projeto:
 https://github.com/impactro/alp_analise_eleicoes_2026
 
 Comece lendo README.md, docs/metodo.md, fontes/manifesto.json,
-analise/alegacoes.json, docs/estado-inicial.md e
-docs/validacao-primeira-rodada.md. Informe o commit consultado.
+docs/revisao-ampliada.md, analise/grade-validacao-r5.json e
+docs/linha-do-tempo-divulgacao.md. Use estado-inicial e primeira-rodada como
+histórico, não como situação atual. Informe o commit consultado.
 A referência é o vídeo https://www.youtube.com/watch?v=l5aT6mD0Hpo,
 de Gabriel Carvalho, e o projeto original creditado no manifesto.
 Considere suas afirmações como alegações a testar.
@@ -29,8 +30,9 @@ Se faltar ferramenta ou evidência, informe exatamente o que ficou pendente.
 
 Primeiro reproduza os totais nacionais com scripts/conferir_totais.py.
 Depois reproduza H07 com scripts/conferir_secoes.py e docs/reproduzir-secoes.md.
-Examine H01 (horário e fuso) e H13 (cadastro, idade e comparecimento), ainda
-pendentes nesta rodada. Documente as demais alegações
+Confira as parcelas de H01 (horário e fuso) e H13 (cadastro, idade e
+comparecimento) já recalculadas e explicite as parcelas causais pendentes.
+Documente as demais hipóteses
 separadamente; não transforme análise parcial em auditoria completa.
 
 Para cada alegação, registre: enunciado, timestamp, fonte/URL, data de referência,
@@ -68,6 +70,20 @@ técnico: reproduzido, divergente, parcialmente testável ou pendente.
 Distinga fontes primárias, tabelas/capturas do autor e aritmética isolada.
 H02 tem34.393 na tabela e34.424 após revisão textual: reconstituir o ajuste31.
 Use analise/grade-validacao-r5.json como mapa de apresentação, não como prova.
+Para a cronologia, leia também analise/atualizacao-temporal-r6.json.
+Reproduza scripts/reconstruir_serie_temporal.py com o ZIP e manifesto fixados,
+inclusive --targets para os primeiros dez/vinte minutos após19h. Confronte
+fontes/observacoes-divulgacao.json usando scripts/confrontar_observacoes.py.
+Confira os trechos nos localizadores de CNN/Band. Se transcrever as transmissões,
+use segmentos com tempos para localizar Bahia e outras UFs; confirme números
+no quadro e no documento. Não publique filmes nem transcrições integrais.
+Separe hora da votação, encerramento, totalização, geração do JSON, captura,
+relógio da TV, posição do player e publicação/atualização da notícia.
+Calcule Δvotos/Δminutos e participação percentual separadamente. Preserve
+lacunas, atraso, relógios contraditórios e cobertura regional assíncrona.
+Não inferir contagem zero durante a pausa nem hora civil pelo começo da live.
+Concordância entre emissoras pode repetir um mesmo feed. A curva por si só
+não identifica votos dados nas duas horas extras nem o efeito da prorrogação.
 Construa gráficos com unidades,
 fontes e escalas legíveis. Registre correções e lacunas, sem preencher dados inventados.
 

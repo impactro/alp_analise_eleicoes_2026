@@ -1,0 +1,48 @@
+{
+  "schema": "alp.official-temporal-sources.v1",
+  "recordedAt": "2026-11-06T02:13:39.010707+00:00",
+  "officialPanel": {
+    "url": "https://evolucao-totalizacao.tse.jus.br/",
+    "institutionalAnnouncement": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/como-a-totalizacao-dos-votos-evoluiu-ferramenta-do-tse-permite-acompanhar-o-processo",
+    "announcementPublishedAt": "2026-10-28T21:10:00-03:00",
+    "secondRoundHistoryConfirmedByInstitution": true,
+    "exportCollected": false,
+    "granularityVerified": false,
+    "dataUsedInOwnCharts": false,
+    "accessEvidence": {
+      "web": "HTTP403",
+      "iab": "Local browser use is disabled in Work settings",
+      "browserPageOpened": false
+    }
+  },
+  "documents": [
+    {
+      "kind": "ballot_box_bulletin",
+      "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026-boletim-de-urna",
+      "catalogFrequency": "One load after each round",
+      "scope": "Final section totals; not successive national disclosure snapshots"
+    },
+    {
+      "kind": "transmitted_files",
+      "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026-arquivos-transmitidos-para-totalizacao",
+      "catalogScope": "Only files with Totalizado status",
+      "types": [
+        "bu",
+        "log",
+        "rdv",
+        "vota"
+      ]
+    },
+    {
+      "kind": "official_disclosure_documentation",
+      "url": "https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados",
+      "scope": "JSON files refreshed during count; no complete historical export obtained by this task"
+    }
+  ],
+  "limits": [
+    "Official history existence is distinct from our extraction and validation of its data.",
+    "Captured disclosure series and polling timestamps are attributed to the reference study.",
+    "No candidate-by-person/time reconstruction or totalization-completeness certification."
+  ],
+  "rawDataRedistributed": false
+}
