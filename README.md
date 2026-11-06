@@ -73,6 +73,9 @@ Esta versão mantém os números e as lacunas da análise; as publicações ante
 continuam preservadas. Prompt de reprodução, fontes e GitHub estão na descrição.
 Fábio aprovou a versão após a revisão não listada e autorizou a publicação
 pública em 06/11/2026. [Registro da liberação pública](resultados/publicacao-publica-r7.json).
+A capa foi revista como **Edição extra de novembro**, sem calendário, com a
+pergunta sobre IA/fraude e os personagens analisando uma planilha.
+[Registro da capa e do QA](resultados/capa-extra-novembro-r7.json).
 
 ## Prévia temporal R6.2 para avaliação
 

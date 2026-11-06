@@ -68,8 +68,8 @@
   "independentPlatformQa": "approved_independent_read_only_API_and_local_bindings",
   "independentPlatformQaSha256": "6cf889968c78315b3ca1331513d9eee399562cda7bcbc234518829624b0cb0d1",
   "thumbnailApplied": true,
-  "thumbnailSha256": "85f532578847ef71d6b89a03c85d07e9ea8fb92fb4eddd6399d4d77eb33a66e1",
-  "thumbnailPlatformVerification": "set_response_and_official_thumbnail_url_overlap",
+  "thumbnailSha256": "6ddf256bad6a86e90eb3b869aaeac5bfe255e5410bcf90b2acbf87fbdf2cd37e",
+  "thumbnailPlatformVerification": "official thumbnails.set accepted the hash-pinned PNG; public page og:image present; compact status does not expose server image bytes",
   "descriptionFileSha256": "51311f0d8624227d4b73b2777c0d1beab7531b291589163413944b2d04a39c1a",
   "containsSyntheticMediaRequested": true,
   "containsSyntheticMediaPlatformObserved": null,
@@ -130,5 +130,10 @@
   },
   "publicReleaseEvidence": "resultados/publicacao-publica-r7.json",
   "artifactSnapshotCommit": "c3e5055b864be3dae8dd10e156d061830d3453dc",
-  "artifactSnapshotNote": "Os hashes em artifacts preservam o pacote inicial de entrega não listada nesse commit. A liberação pública posterior está no registro indicado."
+  "artifactSnapshotNote": "Os hashes em artifacts preservam o pacote inicial de entrega não listada nesse commit. A liberação pública posterior está no registro indicado.",
+  "initialThumbnailSha256": "85f532578847ef71d6b89a03c85d07e9ea8fb92fb4eddd6399d4d77eb33a66e1",
+  "thumbnailRevision": "extra-novembro-r1",
+  "thumbnailRevisionEvidence": "resultados/capa-extra-novembro-r7.json",
+  "thumbnailLastChangeObservedAt": "2026-11-06T17:03:16Z",
+  "thumbnailVisualQaSha256": "69d1fa22af4ea7663bada65a8c747cad77935f85ad439d59c99caab3771ffdf7"
 }

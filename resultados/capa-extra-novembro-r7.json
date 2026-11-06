@@ -1,0 +1,124 @@
+{
+  "schema": "alp.thumbnail-revision-evidence.v1",
+  "episode": "2026-11-04-B",
+  "revision": "extra-novembro-r1",
+  "status": "applied_to_existing_public_video",
+  "youtubeVideoId": "WZJsq1Vimto",
+  "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
+  "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
+  "privacy": "public",
+  "observedAtUtc": "2026-11-06T17:03:16Z",
+  "videoApiPublishedAtUnchanged": "2026-11-06T15:55:06Z",
+  "copy": {
+    "edition": "EDIÇÃO EXTRA DE NOVEMBRO",
+    "headline": "IA PODE COMPROVAR “FRAUDE NA ELEIÇÃO DE 2026” ???",
+    "subtitle": "VERDADE OU ESPECULAÇÃO?",
+    "support": "ATÉ ONDE DÁ PARA AFIRMAR!"
+  },
+  "noCalendarOrDayDate": true,
+  "themeYear2026Retained": true,
+  "visualDirection": "CrânIA questiona AIstein com planilha física ilustrativa; pessoas genéricas discutem ao fundo.",
+  "spellingCorrected": "especulação",
+  "sourceImage": {
+    "backend": "local-command",
+    "model": "flux",
+    "qualifiedScope": "1280x720",
+    "sha256": "1346296dc3489eb945dc70e1c09ba3d3888ac1fc68bc3e0eb18128e7585a646b",
+    "promptFileSha256": "e439031dce5d966ce396f98cc9c78d051f933c86ddc59b94f320e8ddc67cb8b7",
+    "prompt": "Ilustração editorial integrada horizontal 1280x720. No lado direito, dois robôs canônicos distintos interagem em primeiro plano. O professor AIstem é um robô compacto de face de metal segmentado, olhos circulares laranja, cabelo branco aberto para os lados, bigode e sobrancelhas brancos, jaleco branco e mãos mecânicas. Ao lado dele está uma androide feminina prata e branca, totalmente mecânica, com olhos laranja, cérebro laranja visível dentro de cúpula transparente e lenço verde-amarelo-azul. Os dois são inequivocamente personagens robóticos fictícios; nenhum tem pele humana. O professor não deve parecer homem humano, cientista em terno ou retrato. Composição integrada horizontal 1280x720, sem letras nem logotipos. Em primeiro plano, uma androide feminina madura, elegante e totalmente mecânica, rosto metálico anguloso sem pele humana, cúpula transparente com cérebro laranja luminoso, olhos laranja intensos e lenço verde, amarelo e azul visível no pescoço. Cabeça e mãos preservadas. A personagem questiona um professor robótico em interação face a face, sem contato agressivo. Uma folha física em mãos do professor mostra somente uma grade abstrata vazia, sem texto, números, logotipo ou aparência de boletim oficial. Ao fundo, silhuetas genéricas de pessoas discutem em grupo, sem políticos identificáveis, bandeiras ou violência. Quando um braço da androide estiver visível, exatamente uma serpente de Gadsden, pequena, preta e reconhecível no metal de apenas um braço; nenhuma outra serpente no quadro. Enquadramento simples de meio-corpo: os dois robôs e toda a folha ocupam somente os 55 por cento da direita; reserve os 45 por cento da esquerda como espaço vazio, escuro e sem figuras para títulos nativos posteriores. O professor AIstem segura com as duas mãos mecânicas uma folha retangular em perspectiva natural. Essa folha precisa mostrar claramente linhas finas verticais e horizontais formando uma planilha simples de cinco colunas por cinco fileiras, todas as células vazias e sem qualquer caractere. A androide olha para o professor e aponta com um dedo para uma célula da folha, numa pergunta cética; mãos e dedos tocam ou apoiam a folha de modo fisicamente coerente. Preserve inteiras as cabeças, mãos e folha. Atrás deles, dentro do lado direito, pequenas silhuetas desfocadas de pessoas genéricas discutem acaloradamente com gestos; sem rostos ou marcas. No antebraço metálico da androide existe exatamente um pequeno símbolo Gadsden plano, preto e impresso; não mostrar cobra física, cabo ou corda. Nenhum outro símbolo de serpente. Sem bandeiras, política partidária, violência ou dado factual. Ilustração editorial estilizada com luz de sala de notícias e acentos vermelho-alaranjados moderados. Sem palavras, letras, números, data, calendário, marcas ou interface.",
+    "generatedCandidates": 3,
+    "approvedCandidate": 3,
+    "externalPaidProviderCalls": 0
+  },
+  "thumbnail": {
+    "sha256": "6ddf256bad6a86e90eb3b869aaeac5bfe255e5410bcf90b2acbf87fbdf2cd37e",
+    "bytes": 1280841,
+    "width": 1280,
+    "height": 720,
+    "format": "PNG"
+  },
+  "mobile": {
+    "sha256": "e82c94a2b009f390678fa78aab96a8cabc72ad000463cc255954ba9f460a3507",
+    "width": 320,
+    "height": 180,
+    "method": "native proportional resize of exact approved image"
+  },
+  "previousThumbnailSha256": "85f532578847ef71d6b89a03c85d07e9ea8fb92fb4eddd6399d4d77eb33a66e1",
+  "visualQa": {
+    "result": "approved_with_low_warnings",
+    "model": "gpt-6.1-sol",
+    "finalAndMobileResultSha256": "69d1fa22af4ea7663bada65a8c747cad77935f85ad439d59c99caab3771ffdf7",
+    "technicalRebindSha256": "2f05052724a25af1903698f93928f9075ad09c514a5008788f70df83cfa62904",
+    "warnings": [
+      {
+        "description": "Small Gadsden emblem cannot be attested; main identity recognized",
+        "severity": "LOW",
+        "id": "EMBLEM-NOT-DISTINGUISHABLE"
+      },
+      {
+        "description": "Badge and secondary support type are small; main headline/year/question and duo remain readable",
+        "severity": "LOW",
+        "id": "MOBILE-SECONDARY-TYPE"
+      }
+    ]
+  },
+  "nativeCreatedImageQa": {
+    "status": "approved",
+    "deterministicRerenderMatched": true,
+    "sha256": "65b53732308eaf7ecaf259b20dc1aaf4d1ab1c8cea8c407f960fb030a8daeacd"
+  },
+  "nativeAdoptedQa": {
+    "status": "approved",
+    "sha256": "f3273f8016dafe21f807a28927c284c90cfc2d5cfd4fbb3675f402492f0861c1"
+  },
+  "nativeAdoptionManifestSha256": "001ff779945b136f864a71f2e8b08185c8e62e9029f38219c2b373c3f490afae",
+  "csmEditorialAcceptanceSha256": "54bc5313102f63c7ac33dea2615768f6462ed8323fbee49585993a9f93d3128b",
+  "rootReleaseSha256": "7be8fe0571394710d111dc89eb2aaba06afca4d39864390b27b63b634a81389d",
+  "officialSet": {
+    "accepted": true,
+    "responseSha256": "657c0574c16cc82a1d96a9aa8a6b570eb0437e34d2cf641ef620bd6b7aa84aea",
+    "officialSource": "youtube_api.thumbnails.set",
+    "newUploadPerformed": false
+  },
+  "afterOfficialStatus": {
+    "privacy": "public",
+    "uploadStatus": "processed",
+    "processingStatus": "succeeded",
+    "rootObservationSha256": "129a3fc0a78eb478cba93028b42a22cafadd201f546673c28054313e480e837d"
+  },
+  "publicThumbnailUrl": "https://i.ytimg.com/vi/WZJsq1Vimto/maxresdefault.jpg",
+  "originalVideoEpisodeSha256": "ba2594716833fff098840e34b76b9dcbb4949a1f4e6fa969ce3e80d7951e3121",
+  "thumbnailOnlyEditorialSnapshotSha256": "8b8953a9294d993a0d265622c21896a7b94d44895a21b7a8ba97a816e294f410",
+  "sourceVideoSha256": "4ca1cc19c3195567e951240cb976dc87ca44d443bd5c1908f74c00bf8de7db18",
+  "analysisSnapshotCommit": "a271051b96e80d7500b3572724092fbe44a9fa42",
+  "dataAndAnalysisUnchanged": true,
+  "audioAndVideoUnchanged": true,
+  "titleAndDescriptionUnchanged": true,
+  "oldThumbnailPreserved": true,
+  "rawDataCommitted": false,
+  "mediaCommitted": false,
+  "limits": [
+    "Nova arte é ilustração, não evidência documental de fraude ou de confronto entre pessoas reais. A pergunta da capa não altera as conclusões e lacunas da análise.",
+    "YouTube aceitou a PNG selada; o resumo de status não expõe bytes/hash da imagem servida nem URLs da resposta original de thumbnails.set. Não se afirma igualdade criptográfica com JPEG transcodificada ou sobreposição de URLs não expostas.",
+    "QA visual aprovou a composição full/mobile com advertências cosméticas: microemblema não distinguível e apoio pequeno no celular.",
+    "O rebind técnico corrigiu somente os registros de episódio/template/aceite; o arquivo PNG permaneceu byte-idêntico ao visto pelo Sol."
+  ],
+  "artifactHashScope": "Canonical UTF-8/LF Git text blobs; self excluded.",
+  "artifacts": [
+    {
+      "ref": "README.md",
+      "sha256": "257dbf5c9dae2edad7a8f9d8757ec0681305c0e33cf6f1330104eddf5ee98c5d",
+      "bytes": 10666
+    },
+    {
+      "ref": "resultados/video-r7-final.json",
+      "sha256": "f73c2b8b4edbe9370c8c94c87b268e3065c5b39e72246515f26653bf256dc51b",
+      "bytes": 7387
+    },
+    {
+      "ref": "resultados/publicacao-publica-r7.json",
+      "sha256": "6d8d2a892e98f5c1f39b857999cff98bd1fc4cefc8ab95baa76f6981b6be304a",
+      "bytes": 3184
+    }
+  ]
+}
