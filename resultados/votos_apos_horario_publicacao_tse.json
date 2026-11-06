@@ -1,0 +1,44 @@
+{
+  "schema": "alp.official-published-late-vote-aggregate.v1",
+  "date": "2026-10-25",
+  "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-mais-de-34-mil-votos-foram-registrados-apos-as-17h-no-2o-turno",
+  "publishedAt": "2026-10-27T15:21:00-03:00",
+  "updatedAt": "2026-10-29T20:14:00-03:00",
+  "evidenceLevel": "primary_institutional_published_aggregate_not_own_log_recount",
+  "scope": "Brazil territory, sections whose closing was registered after17h",
+  "sectionCount": 497333,
+  "voteEventsByWindow": {
+    "17h_to_18h": 32399,
+    "18h_to_19h": 1981,
+    "after19h": 13
+  },
+  "totalVoteEventsAfter17h": 34393,
+  "calculated17hTo19h": {
+    "value": 34380,
+    "formula": "34393 - 13 = 32399 + 1981",
+    "kind": "own_arithmetic_from_published_aggregates"
+  },
+  "sectionsByClosing": {
+    "closedBy17h10": 473065,
+    "closedAfter17h10": 24268,
+    "closedAfter19h": 6766
+  },
+  "subsetClosedAfter17h10": {
+    "sectionCount": 24268,
+    "voteEventsAfter17h": 8673
+  },
+  "subsetClosedAfter19h": {
+    "sectionCount": 6766,
+    "voteEventsAfter17h": 4773,
+    "voteEvents17hTo18h": 2837,
+    "voteEvents18hTo19h": 1923,
+    "voteEventsAfter19h": 13
+  },
+  "candidateBreakdownForLateVotes": null,
+  "limits": [
+    "Numbers count recorded vote events and sections separately; section closing time is not the time of all its votes.",
+    "No candidate assignment to a vote-event timestamp was established.",
+    "This publication corroborates34393; the different34424 in the reference study still requires its own explanation.",
+    "No official raw logs were independently recounted for this small transcription."
+  ]
+}

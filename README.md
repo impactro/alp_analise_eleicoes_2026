@@ -60,6 +60,22 @@ As entradas abaixo preservam a construção e a primeira rodada:
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
+## Prévia temporal R6.2 para avaliação
+
+[Assista à prévia R6.2 no YouTube](https://www.youtube.com/watch?v=uTGNBkeMrwk),
+**não listada, 7min19s, 960×540 (50% da resolução por dimensão)**.
+Apresenta a série nacional, taxas por intervalo e gráficos de quatro e seis
+estados. Usa voz técnica Kokoro, sem trilha; não é voz final nem master final.
+O [registro da publicação e dos limites do QA](resultados/video-r6-previa.json)
+acompanha o [roteiro R6.2](docs/roteiro-episodio-r6-previa.md).
+As versões anteriores foram preservadas.
+
+[Horários de votação publicados pelo TSE](resultados/votos_apos_horario_publicacao_tse.json):
+32.399 votos entre 17h e 18h, 1.981 entre 18h e 19h e 13 após 19h.
+São 34.380 entre 17h e 19h e 34.393 após 17h, sem atribuição de candidato nessa
+publicação. Horário de votar, encerramento da seção e divulgação no placar
+são eventos distintos.
+
 ## Vídeo anterior à revisão ampliada
 
 A R4 abaixo registra a primeira reprodução e a direção visual. A revisão

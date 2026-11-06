@@ -1,8 +1,8 @@
 {
   "schema": "alp.temporal-review.v1",
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "basePushSha": "8552ef7b0edb82e2f9b49ed7539aae1dc894af74",
-  "status": "analysis_completed_with_explicit_source_gaps_preview_pending_qa",
+  "status": "analysis_completed_with_explicit_source_gaps_preview_unlisted_processed_qa_approved",
   "officialSourceCaptureCount": 2554,
   "nationalSavedVersions": 346,
   "displayCrosscheck": {
@@ -40,12 +40,16 @@
   "script": "docs/roteiro-episodio-r6-previa.md",
   "analysisUpdate": "analise/atualizacao-temporal-r6.json",
   "preview": {
-    "status": "R6.1_revised_narration_in_production",
+    "status": "R6.2_unlisted_processed_qa_approved",
     "unlistedRequested": true,
+    "privacyConfirmed": "unlisted",
     "replacesExistingVideo": false,
     "notFinalVoice": true,
     "notFinalVideo": true,
-    "episodeSha256": "330d614a4652de37e1f84ff1d0e7183d48ba219c6bf7d17c2383d0d8166ee61a"
+    "musicIncluded": false,
+    "episodeSha256": "1a65f9baf4d9d5ee0b00eeaf59a0237f6819a60f4f7881ce058d7f59074185a2",
+    "evidence": "resultados/video-r6-previa.json",
+    "url": "https://www.youtube.com/watch?v=uTGNBkeMrwk"
   },
   "validation": {
     "testsPassed": 85,
@@ -57,13 +61,13 @@
   "artifacts": [
     {
       "ref": "README.md",
-      "sha256": "ba4e4987826b3f4900ac9e7c006a312ea61ec7ea8238ab5370060d3dab87863b",
-      "bytes": 8659
+      "sha256": "143658047766c1885e4dea88708e6df322df22468c1393ceb2c5494f81094744",
+      "bytes": 9562
     },
     {
       "ref": "analise/atualizacao-temporal-r6.json",
-      "sha256": "91c4e513985ab063ccc4933e578ac3c1bc4343185f9d69cd4a01d99fe84f41a9",
-      "bytes": 1987
+      "sha256": "d3535484eecb1b5ce9af94f8c7eddbd6ff71e7e1d607079635c47f99514af16f",
+      "bytes": 2140
     },
     {
       "ref": "docs/figuras/curva-divulgacao.svg",
@@ -92,8 +96,8 @@
     },
     {
       "ref": "docs/linha-do-tempo-divulgacao.md",
-      "sha256": "97ba7d4d23a35ab4f1695e9d6dcd28d13023d2a20a8d53c28cdf40b07682f23c",
-      "bytes": 16949
+      "sha256": "bfe172e32d3ba53bee209a839060b0a0b1a3764f8bfee66e43bc57be05cb266c",
+      "bytes": 18097
     },
     {
       "ref": "docs/pergunte-ai-handoff.md",
@@ -117,8 +121,8 @@
     },
     {
       "ref": "docs/roteiro-episodio-r6-previa.md",
-      "sha256": "d8e8f109d6908761dae8158fc35fb8afb65a1aa562e90276c3ff63886716b085",
-      "bytes": 13586
+      "sha256": "7b244c4142af755e7a778ef857db959311541cd06172a35c21422e8ba98bb333",
+      "bytes": 13603
     },
     {
       "ref": "fontes/fontes-temporais-oficiais.json",
@@ -179,6 +183,16 @@
       "ref": "tests/test_serie_temporal.py",
       "sha256": "02f8434fc5f26ff6595e86a70cb6be4641d358b3e83a370cef4e13f65919dbf2",
       "bytes": 10053
+    },
+    {
+      "ref": "resultados/video-r6-previa.json",
+      "sha256": "c518ac0b20e6d645a4ca1846aa6a639decab7e17f8626fb3a11eb0c65509c0d1",
+      "bytes": 3605
+    },
+    {
+      "ref": "resultados/votos_apos_horario_publicacao_tse.json",
+      "sha256": "146eae0c39c9e0b5ade40a7facb3a4e83422b1df5c6f1bb04613bdbe470211ed",
+      "bytes": 1662
     }
   ],
   "rawDataAndMediaCommitted": false,

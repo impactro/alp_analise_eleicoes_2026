@@ -4,10 +4,16 @@
   "date": "2026-11-05",
   "baselinePresentation": "analise/grade-validacao-r5.json",
   "report": "docs/linha-do-tempo-divulgacao.md",
-  "newVideoProduced": false,
+  "newVideoProduced": true,
   "previewScript": "docs/roteiro-episodio-r6-previa.md",
   "officialHistory": "Painel oficial do TSE confirmado por apresentação institucional; export não coletado nesta rodada.",
-  "displayCrosscheck": {"nationalMatched": 21, "nationalTimedFrames": 16, "stateReadingUnmatched": 1, "state": "MG", "unmatchedDoesNotMeanFalse": true},
+  "displayCrosscheck": {
+    "nationalMatched": 21,
+    "nationalTimedFrames": 16,
+    "stateReadingUnmatched": 1,
+    "state": "MG",
+    "unmatchedDoesNotMeanFalse": true
+  },
   "items": [
     {
       "id": "H17",
@@ -32,5 +38,7 @@
     }
   ],
   "extraHoursCausalEffect": "not_identified_by_disclosure_curve",
-  "nextTest": "Boletins e logs das seções afetadas, cronologia das decisões/encerramento/envio e comparação adequada; sem inferir causalidade apenas dos agregados."
+  "nextTest": "Boletins e logs das seções afetadas, cronologia das decisões/encerramento/envio e comparação adequada; sem inferir causalidade apenas dos agregados.",
+  "previewEvidence": "resultados/video-r6-previa.json",
+  "previewPublicationUrl": "https://www.youtube.com/watch?v=uTGNBkeMrwk"
 }

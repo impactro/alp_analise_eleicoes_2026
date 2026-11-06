@@ -1,4 +1,4 @@
-# Prévia visual R6.1 — Lula e Flávio: o que os números da apuração mostram
+# Prévia visual R6.2 — Lula e Flávio: o que os números da apuração mostram
 
 Estado: review_required; voz técnica Kokoro pf_dora 1.1; visual 50%; YouTube não listado. Sem trilha nesta prévia técnica.
 
@@ -34,7 +34,7 @@ Direção visual: temporal-br-percentuais.png e cartõesΔvotosL19.530.139/F18.9
 
 ## S06 — Ritmo e mudanças de liderança
 
-Para comparar o ritmo, dividimos os votos acrescentados pelos minutos entre os registros. Nesse trecho, arredondando, foram cerca de seiscentos e cinquenta mil votos por minuto para Lula e seiscentos e quarenta mil para Flávio. É o crescimento dos totais divulgados. A série também delimita duas mudanças de liderança: Flávio passa à frente por volta de dezenove e quarenta e cinco; Lula retoma por volta de vinte e vinte e quatro. Os intervalos exatos estão no projeto.
+Para comparar o ritmo, dividimos os votos acrescentados pelos minutos entre os registros. Nesse trecho, arredondando, foram cerca de seiscentos e cinquenta mil votos por minuto para Lula e seiscentos e quarenta mil votos por minuto para Flávio. É o crescimento dos totais divulgados. A série também delimita duas mudanças de liderança: Flávio passa à frente por volta de dezenove e quarenta e cinco; Lula retoma por volta de vinte e vinte e quatro. Os intervalos exatos estão no projeto.
 
 Direção visual: Blocos votos/min e doisintervalosobservados19:44:21–19:44:50 e20:23:49–20:24:19. Não interpolarinstantecruzamento.
 

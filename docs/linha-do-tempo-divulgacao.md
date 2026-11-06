@@ -36,6 +36,12 @@ O log cronológico registra eventos do equipamento; o boletim traz os totais da 
 
 Os vídeos continuam úteis para confrontar o que foi exibido e localizar falas. A documentação oficial pode ampliar a reconstrução e reduzir o trabalho visual; são camadas complementares. [Registro das fontes oficiais e do acesso](../fontes/fontes-temporais-oficiais.json).
 
+## Votos tardios não são quantidade de seções
+
+A [publicação específica do TSE](https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-mais-de-34-mil-votos-foram-registrados-apos-as-17h-no-2o-turno) informa **32.399 votos entre 17h e 18h, 1.981 entre 18h e 19h e 13 após 19h**: 34.393 após 17h. Entre 17h e 19h, a soma é 34.380. Os 1.981 são votos, não seções, e correspondem só à segunda hora.
+
+O levantamento abrange 497.333 seções. Dentro dele, 24.268 encerraram depois de 17h10 e registraram 8.673 votos após 17h. Das 6.766 encerradas após 19h, somente 13 eventos de voto ocorreram depois de 19h. Assim, seção que encerra depois de um corte não equivale a todos os seus votos terem ocorrido depois dele. A publicação não atribui os eventos tardios a candidatos. [Agregados transcritos e somas conferidas](../resultados/votos_apos_horario_publicacao_tse.json), com nível de evidência explícito: publicação primária, sem novo censo próprio dos logs.
+
 ## As duas horas e os relógios
 
 A [Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h)
@@ -230,7 +236,7 @@ seções já fechadas e comparação com seções equivalentes. Também continua
 pendentes a hipótese de linearidade, seus controles e a estatística específica
 de 99,5% dos passos. Não convertê-las em verdade ou falsidade por inspeção visual.
 
-O [roteiro R5](roteiro-episodio-r5.md) permanece histórico. A nova [prévia visual R6](roteiro-episodio-r6-previa.md) foi solicitada por Fábio para revisão, com voz técnica e qualidade reduzida; seu recibo de publicação será ligado ao arquivo efetivamente aprovado. Nenhum vídeo anterior foi alterado. Os dados pequenos e o método
+O [roteiro R5](roteiro-episodio-r5.md) permanece histórico. A nova [prévia visual R6.2](https://www.youtube.com/watch?v=uTGNBkeMrwk) está não listada para revisão, com voz técnica, sem trilha e qualidade reduzida (960×540, 7min19s). O [recibo de publicação](../resultados/video-r6-previa.json) liga o arquivo aprovado aos QAs e ao status da plataforma; o [roteiro](roteiro-episodio-r6-previa.md) está aberto. Nenhum vídeo anterior foi alterado. Os dados pequenos e o método
 podem compor um [pacote futuro do Pergunte Aí](pergunte-ai-handoff.md), ainda
 sem ingestão automática no agente web ou WhatsApp.
 
