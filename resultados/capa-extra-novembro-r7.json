@@ -2,7 +2,7 @@
   "schema": "alp.thumbnail-revision-evidence.v1",
   "episode": "2026-11-04-B",
   "revision": "extra-novembro-r1",
-  "status": "applied_to_existing_public_video",
+  "status": "superseded_after_owner_style_rejection",
   "youtubeVideoId": "WZJsq1Vimto",
   "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
   "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
@@ -120,5 +120,9 @@
       "sha256": "6d8d2a892e98f5c1f39b857999cff98bd1fc4cefc8ab95baa76f6981b6be304a",
       "bytes": 3184
     }
-  ]
+  ],
+  "initialApplicationStatus": "applied_to_existing_public_video",
+  "artifactSnapshotCommit": "c991d9915826180f592dc7dd8da1374b086edd70",
+  "ownerStyleFeedback": "Proprietário rejeitou a estética ilustrada e pediu imagem realista/dramática e letras de maior impacto.",
+  "supersededBy": "resultados/capa-realista-dramatica-r7.json"
 }

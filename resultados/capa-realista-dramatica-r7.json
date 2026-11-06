@@ -1,0 +1,125 @@
+{
+  "schema": "alp.thumbnail-revision-evidence.v1",
+  "episode": "2026-11-04-B",
+  "revision": "photographic-dramatic-r2",
+  "status": "applied_to_existing_public_video",
+  "youtubeVideoId": "WZJsq1Vimto",
+  "url": "https://www.youtube.com/watch?v=WZJsq1Vimto",
+  "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
+  "privacy": "public",
+  "observedAtUtc": "2026-11-06T18:24:02Z",
+  "apiPublishedAtUnchanged": "2026-11-06T15:55:06Z",
+  "ownerRequestedStyleCorrection": true,
+  "copy": {
+    "headline": "IA PROVA FRAUDE?",
+    "context": "ELEIÇÃO 2026",
+    "edition": "EXTRA NOVEMBRO"
+  },
+  "noCalendarOrDayDate": true,
+  "imageStyle": "Imagem sintética de aparência fotográfica cinematográfica, com luz dramática, profundidade de campo e materiais metálicos/vidro texturizados.",
+  "typographyStyle": "Impact ampliada, sombra preta nativa, pergunta curta integrada à foto; sem coluna lateral ou parágrafos.",
+  "sourceImage": {
+    "model": "flux",
+    "backend": "local-command",
+    "qualifiedScope": "1280x720",
+    "sha256": "d2dfe9867140a537fdf43dccba6bf974eac479dc979fa7fb53223288041c6641",
+    "promptFileSha256": "dc1ce5e0a323c62c346c354a75bc9e59b6ce401c0f24acc90cf192f059e549b1",
+    "prompt": "Cinematic photorealistic live-action movie still, full-bleed 16:9 frame, dramatic election-fraud investigation thriller mood, tactile brushed metal with realistic machining marks, sharp glass reflections, warm practical orange glow visible through transparent cranial dome, moody red-blue rim lighting, shallow depth of field, high contrast, subtle film grain. Two large fictional robots dominate a close face-to-face confrontation on the right half, with large readable faces and expressive mechanical hands; background remains a continuous cinematic photograph with no panel, no frame, no collage, no illustration, no comic, no line art, no 2D drawing, no cel shading. Keep a naturally shadowed, softly defocused area at upper-left for later native headline text, integrated into the photographic lighting, not a separate banner. In the foreground between them, both robots' hands visibly support a single physical spreadsheet sheet, angled naturally toward camera, with a simple empty printed grid, clear rows and columns, no words, no numbers, no logos, no official ballot appearance. Behind them, blurred generic people argue with tense gestures, indistinct faces, no identifiable public figures or flags. The female robot is a mature elegant fully mechanical silver-and-white android, sharply faceted metal face with no human skin, transparent dome containing a luminous orange brain, intense orange eyes, and a visible green-yellow-blue neck scarf. The compact male professor robot has a segmented metallic face with no human skin, circular orange eyes, white swept-out hair, white mustache and eyebrows, white lab coat, and mechanical hands. The android questions him with a firm skeptical gaze and one hand indicating the spreadsheet while he holds it; believable contact, natural joints, clear five-finger mechanical hands. Both are fictional robots with entirely metallic faces and bodies. Preserve both heads, hands, and the full spreadsheet. Integrated horizontal cinematic composition. No text, letters, digits, date, calendar, logos, watermark, flags, party symbols, violence, snakes, cables, ropes, extra limbs, malformed anatomy, human faces, human skin, suits, cartoon, comic-book styling, rendered illustration, flat graphic design.\nComposição integrada horizontal 1280x720, sem letras nem logotipos. Em primeiro plano, uma androide feminina madura, elegante e totalmente mecânica, rosto metálico anguloso sem pele humana, cúpula transparente com cérebro laranja luminoso, olhos laranja intensos e lenço verde, amarelo e azul visível no pescoço. Cabeça e mãos preservadas. A personagem questiona um professor robótico em interação face a face, sem contato agressivo. Uma folha física em mãos do professor mostra somente uma grade abstrata vazia, sem texto, números, logotipo ou aparência de boletim oficial. Ao fundo, silhuetas genéricas de pessoas discutem em grupo, sem políticos identificáveis, bandeiras ou violência. Quando um braço da androide estiver visível, exatamente uma serpente de Gadsden, pequena, preta e reconhecível no metal de apenas um braço; nenhuma outra serpente no quadro. The character is a compact robotic professor with segmented metallic face, circular orange eyes, white swept-out hair, white moustache and eyebrows, and a white lab coat. The robot's face and hands are entirely mechanical metal. The android's arm has only one small flat black Gadsden serpent symbol printed on metal, never a physical snake. No other snake symbol. Photographic realism, cinematic photographic lighting, physically plausible real metal texture and reflections, natural photographic depth of field.",
+    "generations": 1,
+    "reportedEngineMilliseconds": 30092,
+    "observedWallSeconds": 30.28,
+    "paidMediaProviderCalls": 0
+  },
+  "thumbnail": {
+    "sha256": "9cc67f9d8b1a9435b1145e9ccfd0183ba3b19a8d97a0dc3a88a517bcd50f781e",
+    "bytes": 1981733,
+    "width": 1280,
+    "height": 720,
+    "format": "PNG"
+  },
+  "mobile": {
+    "sha256": "2dad40ff3edbba8423744f29eb0b3b33d8ec32d8f43c3ad3142a0c51c7af0a27",
+    "width": 320,
+    "height": 180,
+    "method": "native proportional resize"
+  },
+  "previousThumbnailSha256": "6ddf256bad6a86e90eb3b869aaeac5bfe255e5410bcf90b2acbf87fbdf2cd37e",
+  "previousThumbnailRecord": "resultados/capa-extra-novembro-r7.json",
+  "previousDeliveryCommit": "c991d9915826180f592dc7dd8da1374b086edd70",
+  "visualQa": {
+    "model": "gpt-6.1-sol",
+    "result": "approved_with_low_warnings",
+    "resultSha256": "59030ccde42da0193f484c8d424b1701c5b1bac6180e961cccbaf3f856b31fde",
+    "nativeReviewSha256": "46377d3a8dbe6b044343986e6faec609828e2c45f4523eb85f0d8dfd7bd1cb9a",
+    "photographicRealism": "PASS",
+    "dramaticAtmosphere": "PASS",
+    "headlineMobile": "PASS immediately readable with clear question mark",
+    "warnings": [
+      {
+        "id": "EMBLEM-NOT-DISTINGUISHABLE",
+        "severity": "LOW",
+        "description": "Small Gadsden emblem cannot be attested; main canonical identity recognized"
+      },
+      {
+        "id": "SHEET-MICROGLYPHS",
+        "severity": "LOW",
+        "description": "Tiny generated margin/header microglyphs are not legible electoral result or documentary evidence"
+      },
+      {
+        "id": "SECONDARY-MOBILE-TYPE",
+        "severity": "LOW",
+        "description": "Election context and edition are small in320; headline/question and duo remain immediately readable"
+      }
+    ],
+    "firstCompositionRejectedFor": "Headline too small and insufficient shadow; corrected natively without regenerating approved photographic source."
+  },
+  "nativeCreatedImageQaSha256": "c47967871c811cc2c9629ce9776d3290db1c234aa659cac08048d1490f4b6381",
+  "nativeAdoptionManifestSha256": "ae8581c24c09150b27b2d74c425a56b1495418b7f75a59d026f36e0835e9db6b",
+  "nativeAdoptionQaSha256": "4c4ffd3560a0e33f7f658c2e1ec2dd4c402905d30d5e4a87e8591b3d3380990e",
+  "csmEditorialAcceptanceSha256": "cebc036fc971cdee51ffb7003c13d91be2bd42f779821ee46ca5d7d2ba3ed15c",
+  "rootReleaseSha256": "44c750590b0609e4b2b3376d8c2f9fdcfd847534097bc8214ef8e9c98245e501",
+  "officialSet": {
+    "accepted": true,
+    "source": "youtube_api.thumbnails.set",
+    "responseSha256": "99ed5100ad38b15a53cf440f0784d7868d3aa2c044dfdb59cbb9814943b3dcdd"
+  },
+  "independentStatusSha256": "62206fbc998518c0dcb39e28a9c1bae919365fe97677d07bb3470e9cc60626ed",
+  "sourceVideoSha256": "4ca1cc19c3195567e951240cb976dc87ca44d443bd5c1908f74c00bf8de7db18",
+  "originalVideoEpisodeSha256": "ba2594716833fff098840e34b76b9dcbb4949a1f4e6fa969ce3e80d7951e3121",
+  "thumbnailOnlyEditorialSnapshotSha256": "bd72aafbf67b90ca6362b48c9027c16dc4e3614bfc1d07ef7bcc39f5cf9fb9a2",
+  "analysisCodeAndResultsUnchanged": true,
+  "titleDescriptionAudioVideoPrivacyUnchanged": true,
+  "newVideoUpload": false,
+  "oldFilesPreserved": true,
+  "mediaCommitted": false,
+  "rawDataCommitted": false,
+  "limits": [
+    "Arte sintética e ilustrativa de estilo fotográfico; não é registro documental de confronto nem evidência de fraude. A pergunta não altera as conclusões da análise.",
+    "Set oficial confirma aceitação da PNG selada. A API compactada não expõe os bytes/hash da imagem servida; não se declara igualdade criptográfica com a JPEG transcodificada.",
+    "Critérios materiais de fotografia, drama e hierarquia tipográfica foram conferidos em full e320x180, com advertências cosméticas secundárias registradas.",
+    "Não houve medição de cliques, alcance ou desempenho viral; o registro descreve a direção de arte solicitada."
+  ],
+  "artifactHashScope": "Canonical UTF-8/LF own Git text blobs; self excluded.",
+  "artifacts": [
+    {
+      "ref": "README.md",
+      "sha256": "b69c12f0e6c1b5f8c82d5f759f7524997db55cda8529ca57e002c8ac35b638c8",
+      "bytes": 10699
+    },
+    {
+      "ref": "resultados/video-r7-final.json",
+      "sha256": "4f6deb0feaf3ca7a8e0fb7dc6ac028229108d89ba17b96a046aa15360916192b",
+      "bytes": 7492
+    },
+    {
+      "ref": "resultados/capa-extra-novembro-r7.json",
+      "sha256": "9c5a952204aae85a29cfa793d6efe972c849ff117aff9718281ebb19571cb114",
+      "bytes": 8695
+    },
+    {
+      "ref": "resultados/publicacao-publica-r7.json",
+      "sha256": "fdeb17bb88f4c9c6a5f31f142d027b9be21d2bbaaabe469a8e2328d775598e7a",
+      "bytes": 3188
+    }
+  ]
+}

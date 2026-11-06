@@ -73,9 +73,9 @@ Esta versão mantém os números e as lacunas da análise; as publicações ante
 continuam preservadas. Prompt de reprodução, fontes e GitHub estão na descrição.
 Fábio aprovou a versão após a revisão não listada e autorizou a publicação
 pública em 06/11/2026. [Registro da liberação pública](resultados/publicacao-publica-r7.json).
-A capa foi revista como **Edição extra de novembro**, sem calendário, com a
-pergunta sobre IA/fraude e os personagens analisando uma planilha.
-[Registro da capa e do QA](resultados/capa-extra-novembro-r7.json).
+Capa fotográfica e dramática, sem calendário, com **“IA PROVA FRAUDE?”**,
+“ELEIÇÃO 2026” e “EXTRA NOVEMBRO”. CrânIA e AIstein confrontam uma planilha.
+[Registro da capa atual e do QA](resultados/capa-realista-dramatica-r7.json).
 
 ## Prévia temporal R6.2 para avaliação
 
