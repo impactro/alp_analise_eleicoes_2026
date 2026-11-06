@@ -198,5 +198,7 @@
   "rawDataAndMediaCommitted": false,
   "officialTokenUsage": null,
   "externalPaidMediaProviderUsed": false,
-  "modelSessionCostUSD": null
+  "modelSessionCostUSD": null,
+  "artifactSnapshotCommit": "a271051b96e80d7500b3572724092fbe44a9fa42",
+  "artifactSnapshotNote": "Os 27 hashes históricos desta rodada resolvem nesse commit; documentos posteriores, como README.md, podem ter novas versões."
 }

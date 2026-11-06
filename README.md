@@ -60,6 +60,18 @@ As entradas abaixo preservam a construção e a primeira rodada:
 - [Prompt público de reprodução](docs/prompt-reproducao.md), apresentado no
   encerramento junto do endereço do GitHub.
 
+## Vídeo final R7.1 para avaliação
+
+[Assista à versão final R7.1 no YouTube](https://www.youtube.com/watch?v=WZJsq1Vimto),
+**não listada, 7min14s no YouTube, Full HD, 30 fps**.
+Narração local de CrânIA e AIstem, trilha licenciada, abertura com lápis,
+imagens criativas e gráficos nacionais e estaduais. Sem HeyGen.
+O [roteiro completo](docs/roteiro-episodio-r7-final.md) preserva as 18 falas
+aprovadas da análise temporal. O [registro da versão](resultados/video-r7-final.json)
+reúne hashes, verificações e limites da revisão audiovisual.
+Esta versão mantém os números e as lacunas da análise; as publicações anteriores
+continuam preservadas. Prompt de reprodução, fontes e GitHub estão na descrição.
+
 ## Prévia temporal R6.2 para avaliação
 
 [Assista à prévia R6.2 no YouTube](https://www.youtube.com/watch?v=uTGNBkeMrwk),

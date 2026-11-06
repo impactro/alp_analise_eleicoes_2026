@@ -1,0 +1,125 @@
+{
+  "schema": "alp.video-evidence.v1",
+  "episode": "2026-11-04-B",
+  "revision": "R7.1",
+  "kind": "final_audiovisual_episode",
+  "state": "publicado_nao_listado_processado_qa_aprovado",
+  "title": "Lula e Flávio: o que os números da apuração mostram",
+  "youtubePublicationUrl": "https://www.youtube.com/watch?v=WZJsq1Vimto",
+  "youtubeVideoId": "WZJsq1Vimto",
+  "youtubeChannelId": "UCbvgMmdJLUjn2k-IQvsrE4w",
+  "youtubePrivacy": "unlisted",
+  "youtubeUploadStatus": "processed",
+  "youtubeProcessingStatus": "succeeded",
+  "youtubeStatusObservedAt": "2026-11-06T10:13:44Z",
+  "scheduledPublishAt": null,
+  "publishedPublicAt": null,
+  "notFinalVideo": false,
+  "notFinalVoice": false,
+  "sourceDurationSeconds": 433.333333,
+  "youtubeDurationSeconds": 434,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "hasAudio": true,
+  "audioMasterDurationSeconds": 433.307,
+  "audioContains": "Duas vozes locais finais autorizadas para este episódio e trilha licenciada mixada.",
+  "localFinalVoices": {
+    "engine": "Kokoro local",
+    "authorization": "Sem Heygen, em resposta à escolha explícita de rota local final para este episódio.",
+    "Crania": {
+      "voice": "pf_dora",
+      "speed": 1.1,
+      "segments": 10
+    },
+    "AIstem": {
+      "voice": "pm_santa",
+      "speed": 1.15,
+      "segments": 8
+    },
+    "heygenUsed": false
+  },
+  "sourceVideoSha256": "4ca1cc19c3195567e951240cb976dc87ca44d443bd5c1908f74c00bf8de7db18",
+  "sourceVideoBytes": 25995828,
+  "sourceAudioSha256": "ec33763e84525e0270bf496ae62ad9f0fd35de60122a2a3aee473654df6a0e91",
+  "editorialSourceSha256": "ba2594716833fff098840e34b76b9dcbb4949a1f4e6fa969ce3e80d7951e3121",
+  "sourceScriptSha256": "57949f00361624897285744675fbd0a468a0f1bea5386eb5f0278228b8a1ac4a",
+  "uploadReleaseSha256": "cd2c197c3d585aa02bf7457bd9dc820ab1247b6166c54e13ddbd595080e20a16",
+  "uploadReportSha256": "108639ec0aee3bd3c6dafe61bc2131068162a50898533d18e14ce13485378028",
+  "statusAttestationSha256": "2d215aaf1b10b16da7637e7281edbd440edd02746afd7a7df70252fe6ebb6736",
+  "technicalQa": "approved_full_decode",
+  "technicalQaSha256": "d96b233957e5e5a7b06761b0f254b202321ac71a3a1a2598cd6dce0276d8138a",
+  "independentVisualQa": "approved_with_cosmetic_warnings",
+  "independentVisualQaSha256": "1fc0a6bc25f363a152354d0e8c5e2648a5db5f121b6bef60ad735ce0eb1663dc",
+  "visualQaModel": "gpt-6.1-sol",
+  "visualQaScope": {
+    "newFhdFramesVisuallyInspected": 15,
+    "newFrameHashesAndMappingsChecked": 48,
+    "correctedChartStatesInspected": 8,
+    "previousRoundFhdFramesInspected": 48,
+    "unchangedClipsReused": 14,
+    "audioAndTimelineUnchanged": true,
+    "fullWatch": false
+  },
+  "independentAudioQa": "approved_18_segments_numbers_negations_mix_and_decode",
+  "independentAudioQaSha256": "37bb92bf8eebce79091b3761ef627a8431960b6a02a05a9bb349de02d213f75a",
+  "nativePlatformQa": "approved_require_processed_and_thumbnail",
+  "nativePlatformQaSha256": "4771231fec357ce79dbe5603d5efc4ce6ea2990719b76aaa53f4a370c9e61a10",
+  "independentPlatformQa": "approved_independent_read_only_API_and_local_bindings",
+  "independentPlatformQaSha256": "6cf889968c78315b3ca1331513d9eee399562cda7bcbc234518829624b0cb0d1",
+  "thumbnailApplied": true,
+  "thumbnailSha256": "85f532578847ef71d6b89a03c85d07e9ea8fb92fb4eddd6399d4d77eb33a66e1",
+  "thumbnailPlatformVerification": "set_response_and_official_thumbnail_url_overlap",
+  "descriptionFileSha256": "51311f0d8624227d4b73b2777c0d1beab7531b291589163413944b2d04a39c1a",
+  "containsSyntheticMediaRequested": true,
+  "containsSyntheticMediaPlatformObserved": null,
+  "music": {
+    "title": "Long Note Three",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424",
+    "treatment": "Mixada com narração, com fades e limitação de duração."
+  },
+  "analysisSnapshotCommit": "a271051b96e80d7500b3572724092fbe44a9fa42",
+  "temporalResultsUnchanged": true,
+  "publicNarrative": "docs/roteiro-episodio-r7-final.md",
+  "reproductionPrompt": "docs/prompt-reproducao.md",
+  "temporalReport": "docs/linha-do-tempo-divulgacao.md",
+  "previousVideosPreserved": [
+    "uTGNBkeMrwk",
+    "BjdS7e6yZ3k",
+    "TU1AyhsBvWE",
+    "fOl4hBpaMp0"
+  ],
+  "rawDataCommitted": false,
+  "mediaCommitted": false,
+  "limits": [
+    "Revisão visual amostral, com reuso comprovado de clipes e áudio; sem reprodução contínua integral ou inspeção mobile deste master. Advertências cosméticas preservadas.",
+    "Números e negações dos 18 segmentos passaram no confronto ASR; não houve escuta fonética humana nem atestado de identidade acústica.",
+    "A API confirma canal, título, privacidade, processamento e duração arredondada. Resolução e áudio vêm do QA local; a descrição completa está vinculada ao arquivo enviado, sem confirmação pelo compactador de status.",
+    "YouTube não fornece SHA-256 do vídeo original. O vínculo usa o único recibo de upload, atestação oficial hash-bound e conferência local dos arquivos.",
+    "O sinalizador de mídia sintética foi solicitado; o compactador de status não o expôs. Não declarado como observado.",
+    "21 confrontos nacionais coincidentes e uma leitura estadual sem correspondência não representam uma porcentagem de verdade do estudo original. Contagens reproduzidas não concluem hipóteses causais.",
+    "Crédito a Gabriel Carvalho no encerramento e na descrição; nenhuma mídia de terceiros incorporada. Imagens criativas são ilustrativas, gráficos e placares são próprios.",
+    "Pacote para futura integração no Pergunte Aí; nenhuma ingestão web ou WhatsApp executada nesta revisão."
+  ],
+  "artifactHashScope": "Canonical Git blob UTF-8/LF bytes for these own text artifacts; this record excludes its own hash.",
+  "artifacts": [
+    {
+      "ref": "README.md",
+      "sha256": "25085119c038d2c1d07f865772b08b1208fe3cdeb3cae201970a259d1461f1f7",
+      "bytes": 10292
+    },
+    {
+      "ref": "docs/roteiro-episodio-r7-final.md",
+      "sha256": "59365484a2a5cae60303333d82da87cfea254890679e2e8db494a45bce45b074",
+      "bytes": 14717
+    },
+    {
+      "ref": "resultados/revisao_temporal.json",
+      "sha256": "60cb4dd8af155db2762bc17e1b247fae70c70fc77102a2851875399d06b5472f",
+      "bytes": 7203
+    }
+  ]
+}
